@@ -1,0 +1,38 @@
+/*9.0 Icon Styling -------------------------------------------*/
+.whiteIcon{
+	color: $white;
+	transition: .3s ease all;
+	font-size: 16px;
+}
+.greyIcon{
+	color: $lightGrey;
+}
+.primaryIcon{
+	color: $primaryColor;
+}
+.iconBlock{
+	display: flex;
+	flex-direction: column;
+}
+.greenSocialIcon{
+	color: $primaryColor;
+	margin: 10px;
+	transition: .3s ease all;
+		&:hover{
+			color: $primaryColorLight;
+			transition: .3s ease all;
+		}
+		@include breakpoint(smallScreen){
+			font-size: 40px;
+		}
+		@include breakpoint(largeMobileScreen){
+			font-size: 40px;
+		}
+		@include breakpoint(laptopScreen){
+			font-size: 60px;
+		}
+}
+.arrowIcon{
+	margin-left: 20px;
+	transition: .2s ease all;
+}
