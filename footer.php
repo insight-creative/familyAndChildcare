@@ -16,19 +16,32 @@
 
 		<div class="site-info pageWidth">
 
-			<div class="logoWrapper">
+			<div class="col30">
 
-				<a href="https://wordpress-154794-719978.cloudwaysapps.com"><img src="/assets/scss/wp-content/uploads/2019/01/ChangeCatalystLogoTransparent.png" class="footerLogo" ></a>
+				<h4 class="centerText">MISSION</h4>
+
+				<p>We are dedicated to supporting healthy child development by providing high quality education, support and programs to families and early childhood professionals.</p>
 
 			</div>
 
-			<div class="socialWrapper">
+			<div class="col30">
 
-				<i class="greenSocialIcon fab fa-facebook-square"></i>
+				<h4 class="centerText">SUPPORT FCRNEW</h4>
 
-				<i class="greenSocialIcon fab fa-linkedin"></i>
+				<p>With support through donations and caring volunteers, we are able to help impact adults who work directly with more than 6,000 children every year to improve early
+					childhood experiences in our Northeast Wisconsin service delivery area.</p>
 
-				<i class="greenSocialIcon fab fa-twitter-square"></i>
+			</div>
+
+			<div class="col30">
+
+				<h4 class="centerText">CONTACT</h4>
+
+				<p>Family & Childcare Resources of N.E.W.<br>
+				201 W. Walnut Street, Suite 100<br>
+				Green Bay, WI 54303<br>
+				<a href="mailto:fcrnew@fcrnew.org">fcrnew@fcrnew.org</a><br>
+				<a href="tel:(920) 432-8899">(920) 432-8899</a></p>
 
 			</div>
 
@@ -36,23 +49,63 @@
 
 		<div class="footerContact pageWidth flex-container">
 
-			<div class="footerBlock footerCTA">
+			<div class="col20">
 
-				<h3 class="">Is Your Organization Ready for <span class="primaryText">Change</span>?</h3>
+				<h4>ABOUT</h4>
 
-				<p class="strongText">The Change Catalyst Group assists our clients in embracing change to make them create a better, achievable future.</p>
+				<h6>STAFF</h6>
 
-				<a href="/contact/"><button class="primaryButton">Contact <i class="fas fa-arrow-right arrowIcon"></i></button></a>
+				<h6>BOARD OF DIRECTORS</h6>
+
+				<h6>EMPLOYMENT</h6>
 
 			</div>
 
-			<div class="footerBlock">
+			<div class="col20">
 
-				<h3 class="primaryText">Contact</h3>
+				<h4>ABOUT</h4>
 
-				<p class="strongText">23233 N Pima Road, Suite 113-261<br>Scottsdale, Arizona</p>
+				<h6>STAFF</h6>
 
-				<p class="strongText">(480) 695-1959</p>
+				<h6>BOARD OF DIRECTORS</h6>
+
+				<h6>EMPLOYMENT</h6>
+
+			</div>
+
+			<div class="col20">
+
+				<h4>ABOUT</h4>
+
+				<h6>STAFF</h6>
+
+				<h6>BOARD OF DIRECTORS</h6>
+
+				<h6>EMPLOYMENT</h6>
+
+			</div>
+
+			<div class="col20">
+
+				<h4>ABOUT</h4>
+
+				<h6>STAFF</h6>
+
+				<h6>BOARD OF DIRECTORS</h6>
+
+				<h6>EMPLOYMENT</h6>
+
+			</div>
+
+			<div class="col20">
+
+				<h4>ABOUT</h4>
+
+				<h6>STAFF</h6>
+
+				<h6>BOARD OF DIRECTORS</h6>
+
+				<h6>EMPLOYMENT</h6>
 
 			</div>
 
@@ -66,7 +119,7 @@
 
 						<div id="copyrightContent">
 
-							<i id="footerIcon" class="far fa-copyright"></i><p>&nbsp;<script>document.write(new Date().getFullYear());</script> Change Catalyst Group</p>
+							<i id="footerIcon" class="far fa-copyright"></i><p>&nbsp;<script>document.write(new Date().getFullYear());</script> FCRNEW</p>
 
 						</div>
 
@@ -74,23 +127,21 @@
 
 							<a href="/privacy-policy/" class="borderRight">Privacy Policy</a> |
 
-							<span>Web Design by</span><a target="_blank" href="https://insightcreative.com">Insight Creative</a>
+							<a href="/sitemap/" class="borderRight">Sitemap</a> |
+
+							<a href="/contact/" class="borderRight">Contact Us</a>
 
 						</div>
 
 					</div>
 
-					<div class="footerNav">
+					<div class="socialWrapper">
 
-						<a href="/about/">ABOUT</a>
+						<i class="footerSocialIcon fab fa-facebook-square"></i>
 
-						<a href="/services/">SERVICES</a>
+						<i class="footerSocialIcon fab fa-instagram"></i>
 
-						<a href="/projects/">PROJECTS</a>
-
-						<a href="/blog/">BLOG</a>
-
-						<a href="/contact/">CONTACT</a>
+						<i class="footerSocialIcon fab fa-twitter-square"></i>
 
 					</div>
 
@@ -105,8 +156,6 @@
 			<!-- Script for barba.js-->
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js" type="text/javascript"></script>
 
-			<!--Script for rellax-->
-			<script src="/ardens/assets/scss/wp-content/themes/ardensAutoResponsiveChild/JS/rellax.min.js" type="text/javascript"></script>
 	</footer><!-- #colophon -->
 
 </div><!-- #page -->

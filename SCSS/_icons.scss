@@ -8,28 +8,20 @@
 	color: $lightGrey;
 }
 .primaryIcon{
-	color: $primaryColor;
+	color: $primaryBlue;
 }
 .iconBlock{
 	display: flex;
 	flex-direction: column;
 }
-.greenSocialIcon{
-	color: $primaryColor;
+.footerSocialIcon{
+	color: $secondaryYellow;
 	margin: 10px;
 	transition: .3s ease all;
+	font-size: 30px;
 		&:hover{
-			color: $primaryColorLight;
+			color: $primaryYellow;
 			transition: .3s ease all;
-		}
-		@include breakpoint(smallScreen){
-			font-size: 40px;
-		}
-		@include breakpoint(largeMobileScreen){
-			font-size: 40px;
-		}
-		@include breakpoint(laptopScreen){
-			font-size: 60px;
 		}
 }
 .arrowIcon{

@@ -8,10 +8,10 @@ textarea {
 	color: $black;
 	font-family: "Open Sans", "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
 	font-size: 20px;
-	line-height: 1.5;
+	line-height: 1.6;
 }
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Roboto', "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
+	font-family: 'Oswald', "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
 	line-height: 1.2em;
 	font-weight: 700;
 }
@@ -24,42 +24,28 @@ p{
 	margin-block-end: 20px;
 }
 h1{
-	@include breakpoint(smallScreen){
-		font-size: 1.3em;
-	}
-	@include breakpoint(largeMobileScreen){
-		font-size: 2em;
-	}
-	@include breakpoint(laptopScreen){
-		font-size: 2em;
-	}
-	@include breakpoint(extraLargeScreen){
-		font-size: 3em;
-	}
+	font-size: 1.9em;
 }
 h2{
-	font-size: 1.5em;
+	font-size: 1.7em;
 }
 h3{
-	font-size: 1.4em;
+	font-size: 1.6em;
 }
 h4{
-	font-size: 1.3em;
+	font-size: 1.4em;
 }
 h5{
-	font-size: 1.2em;
+	font-size: 1.3em;
 }
 h6{
-	font-size: 1.1em;
+	font-size: .7em;
 }
 .whiteText{
 	color: $white;
 }
 .primaryText{
-	color: $primaryColor;
-}
-.lightPrimaryText{
-	color: $primaryColorLight;
+	color: $primaryBlue;
 }
 .centerText{
 	text-align: center;
@@ -85,7 +71,7 @@ h6{
 	position: relative;
     &:after{
       position: absolute;
-    	background: $primaryColor;
+    	background: $primaryBlue;
     	height: 2px;
     	width: 200px;
     	content: "";

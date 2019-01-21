@@ -1,7 +1,4 @@
 /* 12.0 Service Page stylings -------------------------------------------*/
-.serviceHero{
-  background-image: url('/assets/scss/wp-content/uploads/2019/01/transmissionWorkCroppedLarge.jpg');
-}
 #servicesIntro{
 	@include breakpoint(smallScreen){
 		margin-top: 300px;
@@ -26,17 +23,6 @@
 	@include breakpoint(laptopScreen){
 		display: none;
 	}
-}
-.serviceSectionTitle{
-  padding: 25px 0 0 10px;
-}
-#serviceBlock1{
-  margin-top: 100px;
-  background-image: url('/assets/scss/wp-content/uploads/2019/01/underHoodServices.jpg');
-}
-#serviceBlock2{
-  margin-top: 100px;
-  background-image: url('/assets/scss/wp-content/uploads/2019/01/underCarServices.jpg');
 }
 .serviceBlock{
   background-size: cover;

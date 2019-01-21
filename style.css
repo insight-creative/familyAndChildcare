@@ -459,8 +459,7 @@ template {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  background-color: #009863; }
+  justify-content: center; }
   @media (max-width: 600px) {
     .blockTextSecondary {
       padding: 20px;
@@ -587,10 +586,10 @@ template {
 
 .greyBlock {
   padding: 100px 0 100px 0;
-  background: #eff2ef; }
+  background: #f6f6f6; }
 
 .blackBlock {
-  background: #4e4e4e; }
+  background: #333333; }
 
 .whiteBlock {
   background: #FFFFFF; }
@@ -634,7 +633,7 @@ template {
   height: 100px;
   width: 100%;
   margin: 0 auto;
-  background: #eff2ef;
+  background: #f6f6f6;
   display: flex;
   align-items: center;
   box-shadow: 0 0 28px 0 rgba(0, 0, 0, 0.25); }
@@ -646,7 +645,7 @@ template {
   height: 30px;
   margin: 0 auto;
   width: 100%;
-  background: #8ebe58;
+  background: #005797;
   display: flex;
   align-items: center; }
 
@@ -661,13 +660,14 @@ template {
   align-items: center; }
 
 .secondaryLink {
+  font-family: 'Oswald', "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
   color: #FFFFFF;
   padding: 4px 15px 5px 15px;
   text-decoration: none;
   transition: .3s ease all;
   font-size: 14px; }
   .secondaryLink:hover {
-    color: #eff2ef;
+    color: #f6f6f6;
     transition: .3s ease all; }
   @media (max-width: 600px) {
     .secondaryLink {
@@ -682,7 +682,7 @@ template {
 .siteLogo {
   margin-top: 8px;
   height: auto;
-  width: 150px; }
+  width: 300px; }
   @media (max-width: 600px) {
     .siteLogo {
       width: 125px; } }
@@ -699,7 +699,7 @@ nav {
   font-size: 26px;
   font-weight: 700;
   padding-right: 10px;
-  color: #4e4e4e;
+  color: #333333;
   text-decoration: none;
   transition: .3s ease-out all; }
 
@@ -716,7 +716,7 @@ nav {
   .menuBars span {
     display: block;
     position: relative;
-    background-color: #8ebe58;
+    background-color: #005797;
     height: 3px;
     width: 100%;
     margin-top: 4px; }
@@ -727,7 +727,7 @@ nav {
   z-index: 99999;
   height: 70vh;
   width: 100vw;
-  background-color: #eff2ef;
+  background-color: #f6f6f6;
   transform: translateX(-100%);
   transition: .2s ease-out all; }
 
@@ -746,7 +746,7 @@ nav {
   padding: 0;
   margin: 0; }
   .linkWrap a {
-    color: #4e4e4e;
+    color: #333333;
     font-weight: 700;
     text-decoration: none; }
   .linkWrap li {
@@ -761,6 +761,7 @@ nav {
     justify-content: space-between; }
 
 .menuLink {
+  font-family: 'Oswald', "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
   position: relative;
   display: block;
   padding: 10px 30px 10px 30px;
@@ -769,47 +770,31 @@ nav {
     .menuLink {
       padding: 10px 50px 10px 50px; } }
 
-.menuLink:before {
-  position: absolute;
-  content: "";
-  bottom: 18px;
-  right: 0;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: #8ebe58;
-  transition: .3s ease all; }
-  @media (max-width: 600px) {
-    .menuLink:before {
-      visibility: hidden; } }
-  @media (min-width: 600px) {
-    .menuLink:before {
-      visibility: hidden; } }
-  @media (min-width: 768px) {
-    .menuLink:before {
-      visibility: hidden; } }
-  @media (min-width: 992px) {
-    .menuLink:before {
-      visibility: visible; } }
 .menuLink:after {
   position: absolute;
   content: "";
   top: 75%;
-  left: 20%;
-  width: 60%;
+  left: 0;
+  width: 100%;
   height: 3px;
   opacity: 0;
-  background-color: #8ebe58;
+  background-image: url("/assets/scss/wp-content/uploads/2019/01/handDrawnUnderline.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   transition: .3s ease all; }
 .menuLink:hover:after {
   position: absolute;
   content: "";
   top: 100%;
-  left: 20%;
-  width: 60%;
+  left: 0;
+  width: 100%;
   height: 3px;
   opacity: 1;
-  background-color: #8ebe58;
+  background-image: url("/assets/scss/wp-content/uploads/2019/01/handDrawnUnderline.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   transition: .3s ease all;
   transition: opacity .3s ease all; }
 
@@ -829,7 +814,7 @@ nav {
     width: 60%;
     height: 3px;
     opacity: 0;
-    background-color: #8ebe58;
+    background-color: #005797;
     transition: .3s ease all; }
   .contactLink:hover:after {
     position: absolute;
@@ -839,19 +824,19 @@ nav {
     width: 60%;
     height: 3px;
     opacity: 1;
-    background-color: #8ebe58;
+    background-color: #005797;
     transition: .3s ease all;
     transition: opacity .3s ease all; }
 
 .menu .active a {
-  border-bottom: 2px solid #8ebe58 !important;
+  border-bottom: 2px solid #005797 !important;
   color: #FFFFFF;
   width: 100%;
   text-align: initial; }
 
 .linkList2 .active a {
   margin-bottom: -1px;
-  border-bottom: 3px solid #8ebe58 !important;
+  border-bottom: 3px solid #005797 !important;
   transition: .2s ease all; }
 
 .closeMenu {
@@ -866,11 +851,11 @@ nav {
   bottom: 0;
   left: 0;
   height: 60px;
-  background-color: #8ebe58; }
+  background-color: #005797; }
 
 #closeMenuTitle {
   margin: 0 auto;
-  color: #4e4e4e; }
+  color: #333333; }
 
 .linkList2 {
   display: none; }
@@ -880,14 +865,15 @@ nav {
       height: 70px;
       align-items: center;
       list-style-type: none;
-      font-size: 20px; } }
+      font-size: 18px;
+      letter-spacing: 1px; } }
   .linkList2 a {
-    color: #4e4e4e;
+    color: #333333;
     font-weight: 700;
     text-decoration: none;
     transition: .3s ease all; }
     .linkList2 a:hover {
-      color: #8ebe58 !important;
+      color: #005797 !important;
       transition: .3s ease all; }
 
 .menuButtonWrap {
@@ -977,26 +963,21 @@ nav {
   flex-direction: column;
   height: auto;
   padding: 20px 0 20px 0;
-  text-align: center;
-  background: #009863;
+  background: #6997a9;
   list-style-type: none;
-  border-bottom: 1px solid #FFFFFF;
-  background-color: #eff2ef;
-  background-image: url("/ardens/assets/scss/wp-content/uploads/2019/01/blizzard.png"); }
+  border-bottom: 1px solid #333333;
+  background-color: #f6f6f6; }
   @media (min-width: 992px) {
     .site-info {
-      flex-direction: row;
-      height: 75px; } }
+      flex-direction: row; } }
 
 .site-footer {
   position: relative;
   z-index: 2;
-  background-color: #009863;
   width: 100%;
   padding: 0 0 50px 0;
   margin: 0 auto;
-  background-color: #eff2ef;
-  background-image: url("/ardens/assets/scss/wp-content/uploads/2019/01/blizzard.png"); }
+  background-color: #f6f6f6; }
 
 .footerLogo {
   margin-top: 10px;
@@ -1010,16 +991,16 @@ nav {
   margin-top: 25px; }
   .footerContact a {
     text-decoration: none;
-    color: #8ebe58;
+    color: #005797;
     transition: .3s ease all;
     font-weight: 700; }
     .footerContact a:hover {
-      color: #4e4e4e;
+      color: #333333;
       transition: .3s ease all; }
 
 .footerLink {
   position: relative;
-  color: #8ebe58;
+  color: #005797;
   text-decoration: none;
   padding: 10px 20px 10px 20px;
   margin: 10px 0 10px 0;
@@ -1030,7 +1011,7 @@ nav {
     position: absolute;
     height: 0;
     width: 3px;
-    background: #8ebe58;
+    background: #005797;
     content: "";
     transition: .3s ease all;
     bottom: 12px;
@@ -1073,8 +1054,8 @@ nav {
       flex-direction: column; } }
 
 #copyright {
-  background: #eff2ef;
-  color: #4e4e4e;
+  background: #005797;
+  color: #FFFFFF;
   margin-bottom: -50px;
   font-size: 12px; }
   #copyright p {
@@ -1098,9 +1079,9 @@ nav {
       font-size: 16px; } }
   #copyright a {
     text-decoration: none;
-    color: #8ebe58; }
+    color: #FFFFFF; }
     #copyright a:hover {
-      color: #a1d291; }
+      color: #efbb50; }
 
 #footerIcon {
   font-size: 12px; }
@@ -1109,9 +1090,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
-  border-top: 1px solid #FFFFFF;
-  padding: 20px 0; }
+  flex-direction: row; }
   @media (max-width: 600px) {
     .copyrightContentWrap {
       justify-content: center;
@@ -1163,18 +1142,18 @@ nav {
     color: #FFFFFF;
     text-decoration: none; }
   .siteAuthor:hover {
-    color: #eff2ef; }
+    color: #f6f6f6; }
   @media (max-width: 600px) {
     .siteAuthor {
       margin-bottom: 25px; } }
 
 .footerNav a {
   padding: 5px 10px;
-  color: #4e4e4e !important;
+  color: #333333 !important;
   font-weight: 700;
   transition: .3s ease all; }
   .footerNav a:hover {
-    color: #8ebe58 !important;
+    color: #005797 !important;
     transition: .3s ease all; }
   @media (max-width: 600px) {
     .footerNav a {
@@ -1187,13 +1166,13 @@ input,
 select,
 optgroup,
 textarea {
-  color: #4e4e4e;
+  color: #333333;
   font-family: "Open Sans", "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
   font-size: 20px;
-  line-height: 1.5; }
+  line-height: 1.6; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto', "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-family: 'Oswald', "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
   line-height: 1.2em;
   font-weight: 700; }
 
@@ -1205,42 +1184,29 @@ p {
   margin-block-start: 0;
   margin-block-end: 20px; }
 
-@media (max-width: 600px) {
-  h1 {
-    font-size: 1.3em; } }
-@media (min-width: 600px) {
-  h1 {
-    font-size: 2em; } }
-@media (min-width: 992px) {
-  h1 {
-    font-size: 2em; } }
-@media (min-width: 1600px) {
-  h1 {
-    font-size: 3em; } }
+h1 {
+  font-size: 1.9em; }
 
 h2 {
-  font-size: 1.5em; }
+  font-size: 1.7em; }
 
 h3 {
-  font-size: 1.4em; }
+  font-size: 1.6em; }
 
 h4 {
-  font-size: 1.3em; }
+  font-size: 1.4em; }
 
 h5 {
-  font-size: 1.2em; }
+  font-size: 1.3em; }
 
 h6 {
-  font-size: 1.1em; }
+  font-size: .7em; }
 
 .whiteText {
   color: #FFFFFF; }
 
 .primaryText {
-  color: #8ebe58; }
-
-.lightPrimaryText {
-  color: #a1d291; }
+  color: #005797; }
 
 .centerText {
   text-align: center; }
@@ -1265,7 +1231,7 @@ h6 {
   position: relative; }
   .underlinedHeading:after {
     position: absolute;
-    background: #8ebe58;
+    background: #005797;
     height: 2px;
     width: 200px;
     content: "";
@@ -1274,25 +1240,25 @@ h6 {
 
 /* 7.0 Button Stylings ---------------------------------------*/
 .primaryLink {
-  color: #be8858 !important;
+  color: #efbb50 !important;
   transition: .3s ease all; }
   .primaryLink:hover {
     transition: .3s ease all;
-    color: #916238 !important; }
+    color: #e5b12b !important; }
 
 .primaryButton {
   position: relative;
   z-index: 1;
-  border: 2px solid #8ebe58;
+  border: 2px solid #005797;
   border-radius: 10px;
-  background: #8ebe58;
+  background: #005797;
   color: #FFFFFF !important;
   margin-bottom: 10px;
   transition: .2s ease all;
   cursor: pointer; }
   .primaryButton:hover {
-    background: #a1d291 !important;
-    border: 2px solid #a1d291 !important;
+    background: #6997a9 !important;
+    border: 2px solid #6997a9 !important;
     transition: .2s ease all; }
   .primaryButton:hover .arrowIcon {
     margin-left: 25px;
@@ -1310,23 +1276,23 @@ h6 {
 .primaryButtonReverse {
   position: relative;
   z-index: 1;
-  border: 2px solid #8ebe58;
+  border: 2px solid #005797;
   border-radius: 30px;
   padding: 10px 50px 10px 50px;
-  color: #8ebe58;
+  color: #005797;
   margin-bottom: 10px;
   transition: .3s ease all;
   cursor: pointer; }
   .primaryButtonReverse:hover {
-    background: #8ebe58;
+    background: #005797;
     transition: .3s ease all;
     color: #FFFFFF; }
 
 .plainRedButton {
   position: relative;
   z-index: 1;
-  border: 2px solid #8ebe58;
-  background: #8ebe58;
+  border: 2px solid #005797;
+  background: #005797;
   padding: 10px 50px 10px 50px;
   color: #FFFFFF;
   margin-bottom: 10px;
@@ -1340,7 +1306,7 @@ h6 {
   border-radius: 10px;
   background: #FFFFFF;
   padding: 10px 50px 10px 50px;
-  color: #8ebe58;
+  color: #005797;
   transition: .3s ease all;
   cursor: pointer; }
   .whiteButton:hover {
@@ -1355,7 +1321,7 @@ h6 {
   border-radius: 10px;
   background: #FFFFFF;
   padding: 10px 20px 10px 20px;
-  color: #8ebe58;
+  color: #005797;
   transition: .3s ease all;
   cursor: pointer;
   font-size: 14px !important; }
@@ -1381,17 +1347,20 @@ body {
   margin: 0; }
 
 ::selection {
-  background: rgba(142, 190, 88, 0.5); }
+  background: rgba(0, 87, 151, 0.5); }
 
 ::-moz-selection {
-  background: rgba(142, 190, 88, 0.5); }
+  background: rgba(0, 87, 151, 0.5); }
+
+::-ms-selection {
+  background: rgba(0, 87, 151, 0.5); }
 
 .plainLink {
   text-decoration: none;
-  color: #be8858;
+  color: #efbb50;
   transition: .3s ease all; }
   .plainLink:hover {
-    color: #916238;
+    color: #e5b12b;
     transition: .3s ease all; }
 
 /*9.0 Icon Styling -------------------------------------------*/
@@ -1401,31 +1370,23 @@ body {
   font-size: 16px; }
 
 .greyIcon {
-  color: #eff2ef; }
+  color: #f6f6f6; }
 
 .primaryIcon {
-  color: #8ebe58; }
+  color: #005797; }
 
 .iconBlock {
   display: flex;
   flex-direction: column; }
 
-.greenSocialIcon {
-  color: #8ebe58;
+.footerSocialIcon {
+  color: #efbb50;
   margin: 10px;
-  transition: .3s ease all; }
-  .greenSocialIcon:hover {
-    color: #a1d291;
+  transition: .3s ease all;
+  font-size: 30px; }
+  .footerSocialIcon:hover {
+    color: #e5b12b;
     transition: .3s ease all; }
-  @media (max-width: 600px) {
-    .greenSocialIcon {
-      font-size: 40px; } }
-  @media (min-width: 600px) {
-    .greenSocialIcon {
-      font-size: 40px; } }
-  @media (min-width: 992px) {
-    .greenSocialIcon {
-      font-size: 60px; } }
 
 .arrowIcon {
   margin-left: 20px;
@@ -1487,10 +1448,10 @@ body {
       padding: 25px; } }
 
 .greenShadow {
-  box-shadow: 20px 20px #8ebe58; }
+  box-shadow: 20px 20px #005797; }
 
 .greenShadowReverse {
-  box-shadow: -20px 20px #8ebe58; }
+  box-shadow: -20px 20px #005797; }
 
 @media (min-width: 1600px) {
   #pageContent {
@@ -1535,7 +1496,7 @@ body {
   margin-block-end: 0 !important; }
 
 .greenBorder {
-  border: 5px solid #8ebe58;
+  border: 5px solid #005797;
   border-radius: 10px; }
 
 #feedback {
@@ -1552,7 +1513,7 @@ body {
   padding: 10px 20px !important; }
 
 .surveyWrapper {
-  background-color: #8ebe58;
+  background-color: #005797;
   border-radius: 10px;
   position: fixed;
   bottom: 0;
@@ -1584,9 +1545,6 @@ body {
   color: #FFFFFF !important; }
 
 /* 12.0 Service Page stylings -------------------------------------------*/
-.serviceHero {
-  background-image: url("/assets/scss/wp-content/uploads/2019/01/transmissionWorkCroppedLarge.jpg"); }
-
 @media (max-width: 600px) {
   #servicesIntro {
     margin-top: 300px; } }
@@ -1609,17 +1567,6 @@ body {
 @media (min-width: 992px) {
   .tabletRow {
     display: none; } }
-
-.serviceSectionTitle {
-  padding: 25px 0 0 10px; }
-
-#serviceBlock1 {
-  margin-top: 100px;
-  background-image: url("/assets/scss/wp-content/uploads/2019/01/underHoodServices.jpg"); }
-
-#serviceBlock2 {
-  margin-top: 100px;
-  background-image: url("/assets/scss/wp-content/uploads/2019/01/underCarServices.jpg"); }
 
 .serviceBlock {
   background-size: cover;
@@ -1651,10 +1598,10 @@ body {
   padding: 20px; }
 
 .caldera-grid label {
-  color: #4e4e4e !important; }
+  color: #333333 !important; }
 
 .field_required {
-  color: #8ebe58 !important; }
+  color: #005797 !important; }
 
 .CF5c3c73e0407dd input[type=text], .CF5c3c73e0407dd input[type=email], #fld_7683514_1 {
   margin-top: 10px;

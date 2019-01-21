@@ -4,17 +4,20 @@ body{
 	margin: 0;
 }
 ::selection{
-		background: rgba(142, 190, 88, .5);
+		background: rgba(0, 87, 151, .5);
 }
 ::-moz-selection{
-	background: rgba(142, 190, 88, .5);
+	background: rgba(0, 87, 151, .5);
+}
+::-ms-selection{
+	background: rgba(0, 87, 151, .5);
 }
 .plainLink{
 	text-decoration: none;
-	color: $orangeAccent;
+	color: $secondaryYellow;
 	transition: .3s ease all;
     &:hover{
-    color: $orangeAccentDark;
+    color: $primaryYellow;
     transition: .3s ease all;
     }
 }

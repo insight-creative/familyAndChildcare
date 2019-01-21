@@ -1,25 +1,25 @@
 /* 7.0 Button Stylings ---------------------------------------*/
 .primaryLink{
-  color: $orangeAccent !important;
+  color: $secondaryYellow !important;
 	transition: .3s ease all;
     &:hover{
       transition: .3s ease all;
-    	color: $orangeAccentDark !important;
+    	color: $primaryYellow !important;
     }
 }
 .primaryButton{
 	position: relative;
 	z-index:1;
-	border: 2px solid $primaryColor;
+	border: 2px solid $primaryBlue;
 	border-radius: 10px;
-	background: $primaryColor;
+	background: $primaryBlue;
 	color: $white !important;
 	margin-bottom: 10px;
 	transition: .2s ease all;
 	cursor: pointer;
     &:hover{
-      background: $primaryColorLight !important;
-      border: 2px solid $primaryColorLight !important;
+      background: $secondaryBlue !important;
+      border: 2px solid $secondaryBlue !important;
     	transition: .2s ease all;
     }
     &:hover .arrowIcon{
@@ -39,15 +39,15 @@
 .primaryButtonReverse{
 	position: relative;
 	z-index:1;
-	border: 2px solid $primaryColor;
+	border: 2px solid $primaryBlue;
 	border-radius: 30px;
 	padding: 10px 50px 10px 50px;
-	color: $primaryColor;
+	color: $primaryBlue;
 	margin-bottom: 10px;
 	transition: .3s ease all;
 	cursor: pointer;
     &:hover{
-      background: $primaryColor;
+      background: $primaryBlue;
     	transition: .3s ease all;
     	color: $white;
     }
@@ -55,8 +55,8 @@
 .plainRedButton{
 	position: relative;
 	z-index:1;
-	border: 2px solid $primaryColor;
-	background: $primaryColor;
+	border: 2px solid $primaryBlue;
+	background: $primaryBlue;
 	padding: 10px 50px 10px 50px;
 	color: $white;
 	margin-bottom: 10px;
@@ -70,7 +70,7 @@
 	border-radius: 10px;
 	background: $white;
 	padding: 10px 50px 10px 50px;
-	color: $primaryColor;
+	color: $primaryBlue;
 	transition: .3s ease all;
 	cursor: pointer;
     &:hover{
@@ -86,7 +86,7 @@
 	border-radius: 10px;
 	background: $white;
 	padding: 10px 20px 10px 20px;
-	color: $primaryColor;
+	color: $primaryBlue;
 	transition: .3s ease all;
 	cursor: pointer;
   font-size: 14px !important;

@@ -145,7 +145,6 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	background-color: $secondaryColor;
     @include breakpoint(smallScreen){
       padding: 20px;
 			left: 0;

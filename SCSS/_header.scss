@@ -23,7 +23,7 @@
 	height: 30px;
 	margin: 0 auto;
 	width: 100%;
-	background: $primaryColor;
+	background: $primaryBlue;
 	display: flex;
 	align-items: center;
 }
@@ -38,6 +38,7 @@
 	align-items: center;
 }
 .secondaryLink{
+	font-family: 'Oswald', "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
 	color: $white;
 	padding: 4px 15px 5px 15px;
 	text-decoration: none;
@@ -60,7 +61,7 @@
 .siteLogo{
 	margin-top: 8px;
 	height: auto;
-	width: 150px;
+	width: 300px;
 		@include breakpoint(smallScreen){
 			width: 125px;
 		}
@@ -94,7 +95,7 @@
 		span{
 			display: block;
 			position: relative;
-			background-color: $primaryColor;
+			background-color: $primaryBlue;
 			height: 3px;
 			width: 100%;
 			margin-top: 4px;
@@ -142,6 +143,7 @@
 		}
 }
 .menuLink{
+	font-family: 'Oswald', "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
 	position: relative;
 	display: block;
 	padding: 10px 30px 10px 30px;
@@ -151,38 +153,18 @@
 		}
 }
 .menuLink{
-		&:before{
-			position: absolute;
-			content: "";
-			bottom: 18px;
-			right: 0;
-			width: 10px;
-			height: 10px;
-			border-radius: 50%;
-			background-color: $primaryColor;
-			transition: .3s ease all;
-				@include breakpoint(smallScreen){
-					visibility: hidden;
-				}
-				@include breakpoint(largeMobileScreen){
-					visibility: hidden;
-				}
-				@include breakpoint(tabletScreen){
-					visibility: hidden;
-				}
-				@include breakpoint(laptopScreen){
-					visibility: visible;
-				}
-		}
 		&:after{
 			position: absolute;
 			content: "";
 			top: 75%;
-			left: 20%;
-			width: 60%;
+			left: 0;
+			width: 100%;
 			height: 3px;
 			opacity: 0;
-			background-color: $primaryColor;
+			background-image: url("/assets/scss/wp-content/uploads/2019/01/handDrawnUnderline.svg");
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
 			transition: .3s ease all;
 		}
 		&:hover{
@@ -190,11 +172,14 @@
 				position: absolute;
 				content: "";
 				top: 100%;
-				left: 20%;
-				width: 60%;
+				left: 0;
+				width: 100%;
 				height: 3px;
 				opacity: 1;
-				background-color: $primaryColor;
+				background-image: url("/assets/scss/wp-content/uploads/2019/01/handDrawnUnderline.svg");
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
 				transition: .3s ease all;
 				transition: opacity .3s ease all;
 		}
@@ -216,7 +201,7 @@
 		width: 60%;
 		height: 3px;
 		opacity: 0;
-		background-color: $primaryColor;
+		background-color: $primaryBlue;
 		transition: .3s ease all;
 	}
 	&:hover{
@@ -228,7 +213,7 @@
 			width: 60%;
 			height: 3px;
 			opacity: 1;
-			background-color: $primaryColor;
+			background-color: $primaryBlue;
 			transition: .3s ease all;
 			transition: opacity .3s ease all;
 		}
@@ -237,7 +222,7 @@
 .menu{
 	.active{
 		a{
-				border-bottom: 2px solid $primaryColor !important;
+				border-bottom: 2px solid $primaryBlue !important;
 				color: $white;
 				width: 100%;
 				text-align: initial;
@@ -248,7 +233,7 @@
 	.active{
 		a{
 			margin-bottom: -1px;
-			border-bottom: 3px solid $primaryColor !important;
+			border-bottom: 3px solid $primaryBlue !important;
 			transition: .2s ease all;
 		}
 	}
@@ -265,7 +250,7 @@
 	bottom: 0;
 	left: 0;
 	height: 60px;
-	background-color: $primaryColor;
+	background-color: $primaryBlue;
 }
 #closeMenuTitle{
 	margin: 0 auto;
@@ -278,7 +263,8 @@
 			height: 70px;
 			align-items:center;
 			list-style-type: none;
-			font-size: 20px;
+			font-size: 18px;
+			letter-spacing: 1px;
 		}
 		a{
 			color:$black;
@@ -286,7 +272,7 @@
 			text-decoration: none;
 			transition: .3s ease all;
 			&:hover{
-				color: $primaryColor !important;
+				color: $primaryBlue !important;
 				transition: .3s ease all;
 			}
 		}

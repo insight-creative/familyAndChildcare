@@ -14,13 +14,13 @@
  	 * supported by Libre Franklin and Open Sans, translate this to 'off'. Do not translate
  	 * into your own language.
  	 */
- 	$Roboto = _x( 'on', 'Roboto font: on or off', 'familyAndChildcareResponsiveChild' );
+ 	$Oswald = _x( 'on', 'Oswald font: on or off', 'familyAndChildcareResponsiveChild' );
  	$OpenSans = _x( 'on', 'Open Sans font: on or off', 'familyAndChildcareResponsiveChild' );
 
  	$font_families = array();
 
- 	if ( 'off' !== $Roboto ) {
- 		$font_families[] = 'Roboto:400,700,900';
+ 	if ( 'off' !== $Oswald ) {
+ 		$font_families[] = 'Oswald:400,700,900';
  	}
 
  	if ( 'off' !== 	$OpenSans ) {
@@ -28,7 +28,7 @@
  	}
 
 
- 	if ( in_array( 'on', array($Roboto, 	$OpenSans) ) ) {
+ 	if ( in_array( 'on', array($Oswald, 	$OpenSans) ) ) {
 
  		$query_args = array(
  			'family' => urlencode( implode( '|', $font_families ) ),
@@ -62,10 +62,11 @@
  }
  add_filter( 'wp_resource_hints', 'familyAndChildcareResponsiveChild_resource_hints', 10, 2 );
 
-function familyAndChildcareSripts(){
+function familyAndChildcareResponsiveChildScripts(){
 	wp_enqueue_script('customJS', get_stylesheet_directory_uri() . '/JS/customJS.js');
+  wp_enqueue_script('rellaxJS', get_stylesheet_directory_uri() . '/JS/rellax.min.js');
 	// Enqueue Google Fonts for our site
 	wp_enqueue_script('familyAndChildcareFonts', familyAndChildcareResponsiveChild_fonts_url());
 }
-add_action('wp_enqueue_scripts', 'familyAndChildcareScripts');
+add_action('wp_enqueue_scripts', 'familyAndChildcareResponsiveChildScripts');
 ?>

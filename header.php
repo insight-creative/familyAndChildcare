@@ -21,12 +21,9 @@
 
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 
-	<link href="/assets/scss/wp-content/themes/changeCatalystResponsiveChild/Assets/webfonts/fontawesome-all.css" rel="stylesheet">
+	<link href="/assets/scss/wp-content/themes/familyAndChildcareResponsiveChild/Assets/webfonts/fontawesome-all.css" rel="stylesheet">
 
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="  crossorigin="anonymous"></script>
-
-	<!--Script for rellax-->
-	<script src="/assets/scss/wp-content/themes/changeCatalystResponsiveChild/JS/rellax.min.js" type="text/javascript"></script>
 
 	<?php wp_head(); ?>
 
@@ -63,31 +60,43 @@
 
 				<li>
 
-					<a class="menuLink" href = "/about/">ABOUT</a><i class=" redIcon fas fa-chevron-right"></i>
+					<a class="menuLink" href = "/about/">ABOUT</a><i class="fas fa-chevron-right"></i>
 
 				</li>
 
 				<li>
 
-					<a class="menuLink" href = "/services/">SERVICES</a><i class=" redIcon fas fa-chevron-right"></i>
+					<a class="menuLink" href = "/services/">OUR PROGRAMS</a><i class="fas fa-chevron-right"></i>
 
 				</li>
 
 				<li>
 
-					<a class="menuLink" href = "/projects/">PROJECTS</a><i class=" redIcon fas fa-chevron-right"></i>
+					<a class="menuLink" href = "/projects/">RESOURCES</a><i class="fas fa-chevron-right"></i>
 
 				</li>
 
 				<li>
 
-					<a class="menuLink" href = "/blog/">BLOG</a><i class=" redIcon fas fa-chevron-right"></i>
+					<a class="menuLink" href = "/blog/">EVENTS</a><i class="fas fa-chevron-right"></i>
 
 				</li>
 
 				<li>
 
-					<a class="menuLink" href = "/contact/">CONTACT</a><i class=" redIcon fas fa-chevron-right"></i>
+					<a class="menuLink" href = "/blog/">SUPPORT CHILDREN</a><i class="fas fa-chevron-right"></i>
+
+				</li>
+
+				<li>
+
+					<a class="menuLink" href = "/blog/">BLOG</a><i class="fas fa-chevron-right"></i>
+
+				</li>
+
+				<li>
+
+					<a class="menuLink" href = "/contact/">CONTACT</a><i class="fas fa-chevron-right"></i>
 
 				</li>
 
@@ -111,31 +120,47 @@
 
 	<header id="masthead" class="site-header" role="navigation">
 
+		<div class="secondaryNavigation">
+
+			<div class="navWidth secondaryMenuWrap">
+
+				<a class="secondaryLink" href="/about/">ABOUT</a>
+
+				<a class="secondaryLink" href="/events/">EVENTS</a>
+
+				<i class="fas fa-phone whiteIcon"></i>
+
+				<a class="secondaryLink" href="tel:(920)432-8899">(920) 432-8899</a>
+
+			</div>
+
+		</div>
+
 		<div id="site-navigation" class="main-navigation">
 
 			<nav>
 
-				<div class="pageWidth menuLinkWrap">
+				<div class="navWidth menuLinkWrap">
 
-						<a href="https://wordpress-154794-719978.cloudwaysapps.com"><img src="/assets/scss/wp-content/uploads/2019/01/ChangeCatalystLogoTransparent.png" class="siteLogo" ></a>
+						<a href="https://wordpress-154794-719987.cloudwaysapps.com"><img src="/assets/scss/wp-content/uploads/2019/01/N.E.WLogoCroppedColorHorizMedium.png" class="siteLogo" ></a>
 
 						<ul class="linkList2">
 
 							<li>
 
-								<a class="menuLink" href = "/about/">ABOUT</a>
+								<a class="menuLink" href = "/about/">OUR PROGRAMS</a>
 
 							</li>
 
 							<li>
 
-								<a class="menuLink" href = "/services/">SERVICES</a>
+								<a class="menuLink" href = "/services/">RESOURCES</a>
 
 							</li>
 
 							<li>
 
-								<a class="menuLink" href = "/projects/">PROJECTS</a>
+								<a class="menuLink" href = "/projects/">SUPPORT CHILDREN</a>
 
 							</li>
 
@@ -147,7 +172,7 @@
 
 							<li>
 
-								<a class="contactLink" href = "/contact/">CONTACT</a>
+								<a class="menuLink" href = "/contact/">CONTACT</a>
 
 							</li>
 
