@@ -104,9 +104,17 @@
   width: 100%;
 }
 .navWidth{
-	width: 90%;
 	height: 100%;
 	margin: 0 auto;
+	@include breakpoint(smallScreen){
+		width: 95%;
+	}
+	@include breakpoint(largeMobileScreen){
+		width: 95%;
+	}
+	@include breakpoint(largeScreen){
+		width: 90%;
+	}
 }
 .contentBlock{
   	width: 70%;
@@ -180,7 +188,7 @@
       height: 60vh
     }
     @include breakpoint(laptopScreen){
-      height: 70vh;
+      height: 100vh;
     }
 	}
 .heroOverlay{

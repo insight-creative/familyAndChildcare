@@ -27,6 +27,32 @@
 	display: flex;
 	align-items: center;
 }
+.dropDown{
+	padding: 25px;
+	transition: .3s ease all;
+}
+.dropDownNav{
+	display: none;
+	background: $white;
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,.25);
+	position: absolute;
+	z-index: 9998;
+	top: 130px;
+	left: 0;
+	transition: .3s ease all;
+}
+.dropDown{
+		&:hover .dropDownNav{
+			display: flex !important;
+		}
+}
+.dropDownNavWrapper{
+	padding: 15px 10px 10px 10px;
+}
+.dropNavImage{
+	width: 100%;
+	height: 300px;
+}
 .menuLinkWrap{
 	display: flex;
 	justify-content: space-between;
@@ -63,7 +89,16 @@
 	height: auto;
 	width: 300px;
 		@include breakpoint(smallScreen){
-			width: 125px;
+			width: 200px;
+		}
+		@include breakpoint(largeMobileScreen){
+			width: 300px;
+		}
+		@include breakpoint(tabletScreen){
+			width: 200px;
+		}
+		@include breakpoint(largeScreen){
+			width: 300px;
 		}
 }
 	nav{
@@ -105,7 +140,7 @@
 	position: absolute;
 	top: 0;
 	z-index: 99999;
-	height: 70vh;
+	height: 90vh;
 	width: 100vw;
 	background-color: $lightGrey;
 	transform: translateX(-100%);
@@ -146,10 +181,10 @@
 	font-family: 'Oswald', "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
 	position: relative;
 	display: block;
-	padding: 10px 30px 10px 30px;
+	padding: 10px;
 	transition: .2s ease all;
-		@include breakpoint(largeScreen){
-			padding: 10px 50px 10px 50px;
+		@include breakpoint(extraLargeScreen){
+			padding: 10px 25px;
 		}
 }
 .menuLink{
@@ -257,14 +292,25 @@
 	color: $black;
 }
 .linkList2{
-	display:none;
+	height: 70px;
+	align-items:center;
+	list-style-type: none;
+	letter-spacing: 1px;
+		@include breakpoint(smallScreen){
+			display:none;
+		}
+		@include breakpoint(largeMobileScreen){
+			display:none;
+		}
 		@include breakpoint(laptopScreen){
 			display: flex;
-			height: 70px;
-			align-items:center;
-			list-style-type: none;
+			font-size: 14px;
+		}
+		@include breakpoint(largeScreen){
+			font-size: 16px;
+		}
+		@include breakpoint(extraLargeScreen){
 			font-size: 18px;
-			letter-spacing: 1px;
 		}
 		a{
 			color:$black;
@@ -276,6 +322,33 @@
 				transition: .3s ease all;
 			}
 		}
+}
+.linkList3{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	font-size: 18px;
+	list-style-type: none;
+	letter-spacing: 1px;
+	@include breakpoint(smallScreen){
+		display:none;
+	}
+	@include breakpoint(largeMobileScreen){
+		display:none;
+	}
+	@include breakpoint(laptopScreen){
+		display: flex;
+	}
+	a{
+		color:$black;
+		font-weight: 700;
+		text-decoration: none;
+		transition: .3s ease all;
+		&:hover{
+			color: $primaryBlue !important;
+			transition: .3s ease all;
+		}
+	}
 }
 .menuButtonWrap{
 	display:flex;

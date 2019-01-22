@@ -124,7 +124,7 @@
 
 			<div class="navWidth secondaryMenuWrap">
 
-				<a class="secondaryLink" href="/about/">ABOUT</a>
+				<a class="secondaryLink" href="/blog/">BLOG</a>
 
 				<a class="secondaryLink" href="/events/">EVENTS</a>
 
@@ -146,27 +146,225 @@
 
 						<ul class="linkList2">
 
+							<!--<li>
+
+								<a class="menuLink" href = "/about/">CHILD CARE TRAINING</a>
+
+							</li>-->
+
 							<li>
 
-								<a class="menuLink" href = "/about/">OUR PROGRAMS</a>
+								<div class="dropDown">
+
+									<a id="programsLink" class="menuLink" href = "/about/">OUR PROGRAMS</a>
+
+									<div id="programsDropNav" class="dropDownNav flex-container fullWidth">
+
+										<div class="pageWidth flex-container dropDownNavWrapper">
+
+											<div class="col50">
+
+												<img src="/assets/scss/wp-content/uploads/2019/01/triplePPresentationMedium-1.jpg" class="dropNavImage"/>
+
+											</div>
+
+											<div class="col50">
+
+												<div class="navWidth menuLinkWrap">
+
+														<ul class="linkList3">
+
+															<li>
+
+																<a class="menuLink" href = "/about/">Positive parenting program - Triple P</a>
+
+															</li>
+
+															<li>
+
+																<a class="menuLink" href = "/services/">In need of local help?</a>
+
+															</li>
+
+															<li>
+
+																<a class="menuLink" href = "/projects/">Looking for child care?</a>
+
+															</li>
+
+															<li>
+
+																<a class="menuLink" href = "/about/">Training</a>
+
+															</li>
+
+														</ul>
+
+												</div>
+
+											</div>
+
+										</div>
+
+									</div>
+
+								</div>
 
 							</li>
 
 							<li>
 
-								<a class="menuLink" href = "/services/">RESOURCES</a>
+								<div class="dropDown">
+
+									<a id="programsLink" class="menuLink" href = "/about/">RESOURCES</a>
+
+									<div id="programsDropNav" class="dropDownNav flex-container fullWidth">
+
+										<div class="pageWidth flex-container dropDownNavWrapper">
+
+											<div class="col50">
+
+												<img src="/assets/scss/wp-content/uploads/2019/01/parentingToolBoxCropped.jpg" class="dropNavImage"/>
+
+											</div>
+
+											<div class="col50">
+
+												<div class="navWidth menuLinkWrap">
+
+														<ul class="linkList3">
+
+															<li>
+
+																<a class="menuLink" href = "/about/">FAMILY AND PARENTING</a>
+
+															</li>
+
+															<li>
+
+																<a class="menuLink" href = "/services/">EARLY CHILDHOOD</a>
+
+															</li>
+
+															<li>
+
+																<a class="menuLink" href = "/projects/">COMMUNITY RESOURCES</a>
+
+															</li>
+
+														</ul>
+
+												</div>
+
+											</div>
+
+										</div>
+
+									</div>
+
+								</div>
 
 							</li>
 
 							<li>
 
-								<a class="menuLink" href = "/projects/">SUPPORT CHILDREN</a>
+								<div class="dropDown">
+
+									<a id="programsLink" class="menuLink" href = "/about/">SUPPORT CHILDREN</a>
+
+									<div id="programsDropNav" class="dropDownNav flex-container fullWidth">
+
+										<div class="pageWidth flex-container dropDownNavWrapper">
+
+											<div class="col50">
+
+												<img src="/assets/scss/wp-content/uploads/2019/01/african-american-father-reading-a-fairy-tale-fable-story-for-kids-at-home-happy-gm969740436-264284754Cropped.png" class="dropNavImage"/>
+
+											</div>
+
+											<div class="col50">
+
+												<div class="navWidth menuLinkWrap">
+
+														<ul class="linkList3">
+
+															<li>
+
+																<a class="menuLink" href = "/about/">DONORS</a>
+
+															</li>
+
+															<li>
+
+																<a class="menuLink" href = "/services/">VOLUNTEERS</a>
+
+															</li>
+
+														</ul>
+
+												</div>
+
+											</div>
+
+										</div>
+
+									</div>
+
+								</div>
 
 							</li>
 
 							<li>
 
-								<a class="menuLink" href = "/blog/">BLOG</a>
+								<div class="dropDown">
+
+									<a id="programsLink" class="menuLink" href = "/about/">ABOUT</a>
+
+									<div id="programsDropNav" class="fullWidth dropDownNav">
+
+										<div class="pageWidth flex-container dropDownNavWrapper">
+
+											<div class="col50">
+
+												<img src="/assets/scss/wp-content/uploads/2019/01/271mEDIUM-1.jpg" class="dropNavImage"/>
+
+											</div>
+
+											<div class="col50">
+
+												<div class="navWidth menuLinkWrap">
+
+														<ul class="linkList3">
+
+															<li>
+
+																<a class="menuLink" href = "/about/">STAFF</a>
+
+															</li>
+
+															<li>
+
+																<a class="menuLink" href = "/services/">BOARD OF DIRECTORS</a>
+
+															</li>
+
+															<li>
+
+																<a class="menuLink" href = "/projects/">EMPLOYMENT</a>
+
+															</li>
+
+														</ul>
+
+												</div>
+
+											</div>
+
+										</div>
+
+									</div>
+
+								</div>
 
 							</li>
 
@@ -204,5 +402,45 @@
 		</div><!-- #site-navigation -->
 
 	</header><!-- #masthead -->
+
+	<!--<div id="resourcesDropNav" class="dropDownNav flex-container">
+
+		<div class="col50">
+
+			<img src="/assets/scss/wp-content/uploads/2019/01/african-american-father-reading-a-fairy-tale-fable-story-for-kids-at-home-happy-gm969740436-264284754.png" class="dropNavImage"/>
+
+		</div>
+
+		<div class="col50">
+
+			<div class="navWidth menuLinkWrap">
+
+					<ul class="linkList3">
+
+						<li>
+
+							<a class="menuLink" href = "/about/">FAMILY AND PARENTING</a>
+
+						</li>
+
+						<li>
+
+							<a class="menuLink" href = "/services/">EARLY CHILDHOOD</a>
+
+						</li>
+
+						<li>
+
+							<a class="menuLink" href = "/projects/">COMMUNITY RESOURCES</a>
+
+						</li>
+
+					</ul>
+
+			</div>
+
+		</div>
+
+	</div>-->
 
 	<div id="content" class="site-content">

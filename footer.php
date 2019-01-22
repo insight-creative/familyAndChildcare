@@ -47,7 +47,7 @@
 
 		</div><!-- .site-info -->
 
-		<div class="footerContact pageWidth flex-container">
+		<div class="footerContact navWidth flex-container">
 
 			<div class="col20">
 
@@ -113,7 +113,7 @@
 
 			<div id="copyright">
 
-				<div class="copyrightContentWrap pageWidth">
+				<div class="copyrightContentWrap navWidth">
 
 					<div id="copyrightWrap">
 

@@ -14,31 +14,38 @@
 get_header();
 
 ?>
+
+<div id="barba-wrapper">
+
+	<div class="barba-container">
+
 		<div id="primary" class="content-area">
 
 			<main id="main" class="site-main">
 
 				<section id="hero" class="smallPaddedSection">
 
-					<div class="pageWidth">
+					<div class="hero">
 
-						<div class="homeHeading flex-container">
+						<div class="pageWidth">
 
-							<div class="col50">
+							<div class="homeHeading flex-container">
 
-								<div class="heroHeading">
+								<div class="col40">
 
-									<h1 id="mainHeader">Developing <span class="primaryText">Organization Resilience</span> Through Proven <span class="primaryText">Sustainability Practices</span></h1>
+									<div class="heroHeading">
 
-									<p>In these fast-moving times, continuous change is part of organizational life. Innovation is one of the few things that keeps your organization competitive.</p>
+										<h1 id="mainHeader">Early Childhood Experiences Matter</h1>
+
+									</div>
 
 								</div>
 
-							</div>
+								<div class="col60 heroImageWrapper">
 
-							<div class="col50 heroImageWrapper">
+									<img src="/assets/scss/wp-content/uploads/2019/01/interesting-story-gm927656288-254467050Cropped.png" id="heroImage">
 
-								<img src="/assets/scss/wp-content/uploads/2019/01/iStock-sustainable-world.png" id="heroImage">
+								</div>
 
 							</div>
 
@@ -304,6 +311,10 @@ get_header();
 		</div>
 
 	</main>
+
+</div>
+
+</div>
 
 </div>
 
