@@ -23,27 +23,21 @@ get_header();
 
 			<main id="main" class="site-main">
 
-				<section id="hero" class="smallPaddedSection">
+				<section id="hero" class="">
 
-					<div class="hero">
+					<div class="hero homeHero">
 
-						<div class="pageWidth">
+						<div class="navWidth heroHeadingContainer">
 
 							<div class="homeHeading flex-container">
 
-								<div class="col40">
+								<div>
 
 									<div class="heroHeading">
 
 										<h1 id="mainHeader">Early Childhood Experiences Matter</h1>
 
 									</div>
-
-								</div>
-
-								<div class="col60 heroImageWrapper">
-
-									<img src="/assets/scss/wp-content/uploads/2019/01/interesting-story-gm927656288-254467050Cropped.png" id="heroImage">
 
 								</div>
 
@@ -59,84 +53,170 @@ get_header();
 
 				<div>
 
-				<section id ="changeCatalystIntro" class="smallPaddedSection">
+				<section id ="familyAndChildcareIntro" class="marginContainer">
 
-					<div class="pageWidth flex-container centerAlignedContainer">
+					<div class="fullWidth flex-container-reverse centerAlignedContainer">
+
+						<div id="introImage" class="col50">
+
+							<img src="/assets/scss/wp-content/uploads/2019/01/043Cropped.jpg" class="image">
+
+						</div>
+
+						<div id="introCopy" class="col50">
+
+							<div class="blockText">
+
+								<h2 id="whatWeHeader"><span class="underlinedHeading">WHAT WE DO</span></h2>
+
+								<p>
+									Our agency is a nonprofit that provides education, support, information referral and evidence-based home visitation programs and early
+									childhood consultation (quality improvement for early childhood providers) throughout Northeast Wisconsin. We provide services for two
+									primary segments, one is families and guardians and the second is child care providers and professionals.
+								</p>
+
+								<p>
+									On our family side, we provide in-home visitation programs as well as seminars and group training through our Triple P. Program.  Our
+									service delivery area is Brown County and Oconto County. On the child care side, we provide technical consulting to child care providers,
+									continuing education to providers and professionals as well as on-site custom training. We also pride ourselves on providing unbiased child
+									care referrals that are customized to the clients need at no cost.</p>
+								</p>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</section>
+
+				<section id="services" class="smallPaddedSection">
+
+					<div class="fullWidth centerText">
+
+						<h2 id="whatWeHeader"><span class="underlinedHeading">OUR SERVICES</span></h2>
+
+					</div>
+
+					<div class="fullWidth blueBlock smallPaddedSection">
+
+						<div class="pageWidth flex-container centerAlignedContainer">
+
+							<div class="col30 centerText">
+
+								<img src="/assets/scss/wp-content/uploads/2019/01/MotherColoringWithDaughter.png" class="serviceImage">
+
+							</div>
+
+							<div class="col70">
+
+								<h3 class="whiteText">PROGRAMS</h3>
+
+								<p class="whiteText">
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+									enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
+									in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+									blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+								</p>
+
+									<a href="/programs/"><button class="primaryButton"><span class="marginRight">View Our Programs </span><i class="whiteIcon fas fa-chevron-right"></i></button></a>
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="fullWidth smallPaddedSection">
+
+						<div class="pageWidth flex-container-reverse centerAlignedContainer">
+
+							<div class="col70">
+
+								<h3 class="primaryText">RESOURCES</h3>
+
+								<p class="primaryText">
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+									enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
+									in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+									blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+								</p>
+
+									<a href="/programs/"><button class="primaryButtonReverse"><span class="marginRight">View Our Resources </span><i class="primaryIcon fas fa-chevron-right"></i></button></a>
+
+							</div>
+
+							<div class="col30 centerText">
+
+								<img src="/assets/scss/wp-content/uploads/2019/01/dadReadingToDaughter.png" class="serviceImage">
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="fullWidth blueBlock smallPaddedSection">
+
+						<div class="pageWidth flex-container centerAlignedContainer">
+
+							<div class="col30 centerText">
+
+								<img src="/assets/scss/wp-content/uploads/2019/01/eventPhotoCircle.png" class="serviceImage">
+
+							</div>
+
+							<div class="col70">
+
+								<h3 class="whiteText">EVENTS</h3>
+
+								<p class="whiteText">
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+									enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
+									in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+									blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+								</p>
+
+									<a href="/programs/"><button class="primaryButton"><span class="marginRight">View Our Events </span><i class="whiteIcon fas fa-chevron-right"></i></button></a>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</section>
+
+				<section id="stories" class="smallPaddedSection marginContainer">
+
+					<div class="fullWidth centerText">
+
+						<h2><span class="underlinedHeading">SUCCESS STORIES</span></h2>
+
+					</div>
+
+					<div class="fullWidth flex-container-reverse centerAlignedContainer greyBlock">
+
+						<div class="col50">
+
+							<img src="/assets/scss/wp-content/uploads/2019/01/DSC_0149.jpg" class="image">
+
+						</div>
 
 						<div class="col50">
 
 							<div class="blockText">
 
-								<h2>Assisting Clients with <span class="primaryText">Change</span></h2>
+								<h3 class="primaryText">STORY TITLE</h3>
 
-								<h3>The Change Catalyst Group assists our clients in embracing change to make them create a better, achievable future.</h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+									enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
+									in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+									blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+								</p>
 
-								<p>By utilizing unique methods, we address change throughout the organization, beginning at the individual level.</p>
-
-								<p>We guide all of your team members (including leaders, management and staff) toward the understanding and alignment of your organization’s vision
-									for the future.</p>
-
-							</div>
-
-						</div>
-
-						<div class="col50">
-
-							<img src="/assets/scss/wp-content/uploads/2019/01/organizationalChange.jpg" class="image greenShadow">
-
-						</div>
-
-					</div>
-
-				</section>
-
-				<section id="uniqueProcess" class="smallPaddedSection">
-
-					<div class="pageWidth">
-
-						<h2 class="centerText">Our <span class="primaryText">Unique Process</span></h2>
-
-					</div>
-
-					<div class="pageWidth flex-container">
-
-						<div class="col30 centerText">
-
-							<div class="smallPaddedWrapper">
-
-								<img src="/assets/scss/wp-content/uploads/2019/01/iStock-sustainable-world.png" class="smallIconPlaceholder">
-
-								<h4 class="processHeader">Research</h4>
-
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-							</div>
-
-						</div>
-
-						<div class="col30 centerText">
-
-							<div class="smallPaddedWrapper">
-
-								<img src="/assets/scss/wp-content/uploads/2019/01/iStock-sustainable-world.png" class="smallIconPlaceholder">
-
-								<h4 class="processHeader">Planning</h4>
-
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-							</div>
-
-						</div>
-
-						<div class="col30 centerText">
-
-							<div class="smallPaddedWrapper">
-
-								<img src="/assets/scss/wp-content/uploads/2019/01/iStock-sustainable-world.png" class="smallIconPlaceholder">
-
-								<h4 class="processHeader">Development</h4>
-
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<a href="/programs/"><button class="primaryButtonReverse"><span class="marginRight">Read The Full Story </span><i class="blueIcon fas fa-chevron-right"></i></button></a>
 
 							</div>
 
@@ -144,131 +224,30 @@ get_header();
 
 					</div>
 
-				</section>
-
-				<section id ="whoWeService" class="smallPaddedSection">
-
-					<div class="pageWidth flex-container centerAlignedContainer">
-
-						<div class="col50">
-
-							<img src="/assets/scss/wp-content/uploads/2019/01/ScottsdaleWaterfrontMedium.jpg" class="image greenShadowReverse">
-
-						</div>
+					<div class="fullWidth flex-container-reverse centerAlignedContainer greyBlock">
 
 						<div class="col50">
 
 							<div class="blockText">
 
-								<h2 class="centerTextMobile">Who We <span class="primaryText">Service</span></h2>
+								<h3 class="primaryText">STORY TITLE</h3>
 
-								<div class="industryWrapper">
+								<p>
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+									enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
+									in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+									blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+								</p>
 
-									<div class="col30 centerText">
-
-										<div class="smallPaddedWrapper">
-
-											<img src="/assets/scss/wp-content/uploads/2019/01/iStock-sustainable-world.png" class="smallIconPlaceholder">
-
-											<h5>Sustainable Housing</h5>
-
-										</div>
-
-									</div>
-
-									<div class="col30 centerText">
-
-										<div class="smallPaddedWrapper">
-
-											<img src="/assets/scss/wp-content/uploads/2019/01/iStock-sustainable-world.png" class="smallIconPlaceholder">
-
-											<h5>Energy</h5>
-
-										</div>
-
-									</div>
-
-									<div class="col30 centerText hiddenMobile">
-
-										<div class="smallPaddedWrapper">
-
-											<img src="/assets/scss/wp-content/uploads/2019/01/iStock-sustainable-world.png" class="smallIconPlaceholder">
-
-											<h5>Technology</h5>
-
-										</div>
-
-									</div>
-
-								</div>
-
-								<div class="industryWrapper">
-
-									<div class="col30 centerText">
-
-										<div class="smallPaddedWrapper">
-
-											<img src="/assets/scss/wp-content/uploads/2019/01/iStock-sustainable-world.png" class="smallIconPlaceholder">
-
-											<h5>Academia</h5>
-
-										</div>
-
-									</div>
-
-									<div class="col30 centerText">
-
-										<div class="smallPaddedWrapper">
-
-											<img src="/assets/scss/wp-content/uploads/2019/01/iStock-sustainable-world.png" class="smallIconPlaceholder">
-
-											<h5>Utilities</h5>
-
-										</div>
-
-									</div>
-
-									<div class="col30 centerText hiddenMobile">
-
-										<div class="smallPaddedWrapper">
-
-											<img src="/assets/scss/wp-content/uploads/2019/01/iStock-sustainable-world.png" class="smallIconPlaceholder">
-
-											<h5>City Governments</h5>
-
-										</div>
-
-									</div>
-
-								</div>
-
-								<div class="centerTextMobile">
-
-										<a href="/services/"><button class="primaryButton">View Our Services <i class="fas fa-arrow-right arrowIcon"></i></button></a>
-
-								</div>
+								<a href="/programs/"><button class="primaryButtonReverse"><span class="marginRight">Read The Full Story </span><i class="blueIcon fas fa-chevron-right"></i></button></a>
 
 							</div>
 
 						</div>
 
-					</div>
+						<div class="col50">
 
-				</section>
-
-				<section id="recommendation" class="smallPaddedSection">
-
-					<div class="pageWidth">
-
-						<div class="blockText greenBorder centerText">
-
-							<p><span class="primaryText">" </span>Jean and I have been working together on Fielding Graduate University's sustainability efforts. Even as an alumna in a volunteer role, she has been
-								exemplary. I have found her knowledge to be on target, her approach to be effective and engaging, her deliverables to be highly professional, and her
-								efforts demonstrate commitment and passion. She has been consistently present and her participation has been invaluable.<span class="primaryText">" </span></p>
-
-							<h5 class="recommendationAuthor">Kerul Kassel</h5>
-
-							<h6 class="primaryText">Sustainability Author, Graduate Faculty, Researcher, Executive Coach, Consultant </h6>
+							<img src="/assets/scss/wp-content/uploads/2019/01/DSC_0149.jpg" class="image">
 
 						</div>
 
@@ -276,29 +255,24 @@ get_header();
 
 				</section>
 
-				<section id ="humanCatalysts" class="smallPaddedSection">
+				<section id="newsletterSignup" class="marginContainer yellowBlock smallPaddedSection">
 
 					<div class="pageWidth flex-container centerAlignedContainer">
 
-						<div class="col50">
+						<div class="col30">
 
-							<div class="blockText">
-
-								<h2>Human <span class="primaryText">Catalysts</span></h2>
-
-								<p>Once your team members reach a designated level of commitment, they must take the appropriate actions, moving themselves and the organization toward
-									greater success.  As human catalysts, the Change Catalyst Group accelerates the process of moving organizations through the change they face with better
-									results and more positive outcomes than on their own.</p>
-
-								<a href="/about/"><button class="primaryButton">Learn More About Us <i class="fas fa-arrow-right arrowIcon"></i></button></a>
-
-							</div>
+							<img src="/assets/scss/wp-content/uploads/2019/01/N.E.W-Logo-cropped-white-medium.png" class="image opaqueLogo">
 
 						</div>
 
-						<div class="col50">
+						<div class="col70 newsletterContent">
 
-							<img src="/assets/scss/wp-content/uploads/2019/01/humanCatalysts.jpg" class="image greenShadow">
+							<h4>FAMILY & CHILDCARE RESOURCES OF N.E.W. NEWSLETTER</h4>
+
+							<p>
+							Interested in learning more about our programs and services? Join our email list to stay up to date on the latest child care provider trainings,
+							family services and programs as well as volunteer opportunities.
+							</p>
 
 						</div>
 

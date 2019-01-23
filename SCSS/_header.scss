@@ -11,7 +11,7 @@
 	height: 100px;
 	width: 100%;
 	margin: 0 auto;
-	background: $lightGrey;
+	background: $white;
 	display: flex;
 	align-items: center;
 	box-shadow: 0 0 28px 0 rgba(0,0,0,.25);
@@ -192,11 +192,11 @@
 			position: absolute;
 			content: "";
 			top: 75%;
-			left: 0;
-			width: 100%;
-			height: 3px;
+			left: 5%;
+			width: 90%;
+			height: 5px;
 			opacity: 0;
-			background-image: url("/assets/scss/wp-content/uploads/2019/01/handDrawnUnderline.svg");
+			background-image: url("/assets/scss/wp-content/uploads/2019/01/handDrawnUnderlineLarge.png");
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
@@ -207,11 +207,11 @@
 				position: absolute;
 				content: "";
 				top: 100%;
-				left: 0;
-				width: 100%;
-				height: 3px;
+				left: 5%;
+				width: 90%;
+				height: 5px;
 				opacity: 1;
-				background-image: url("/assets/scss/wp-content/uploads/2019/01/handDrawnUnderline.svg");
+				background-image: url("/assets/scss/wp-content/uploads/2019/01/handDrawnUnderlineLarge.png");
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
@@ -287,9 +287,14 @@
 	height: 60px;
 	background-color: $primaryBlue;
 }
+#closeMenuButtonWrapper{
+	margin: 7px 25px;
+}
 #closeMenuTitle{
 	margin: 0 auto;
-	color: $black;
+	color: $white;
+	padding: 5px;
+	border: 1px solid $white;
 }
 .linkList2{
 	height: 70px;

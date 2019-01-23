@@ -106,7 +106,7 @@
 
 		<div class="closeMenuButton fullWidth centeredContainer">
 
-			<div>
+			<div id="closeMenuButtonWrapper">
 
 				<h4 id="closeMenuTitle">CLOSE MENU</h4>
 

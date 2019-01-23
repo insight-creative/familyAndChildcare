@@ -10,58 +10,130 @@
 .primaryButton{
 	position: relative;
 	z-index:1;
-	border: 2px solid $primaryBlue;
-	border-radius: 10px;
-	background: $primaryBlue;
+	background: $transparent;
 	color: $white !important;
 	margin-bottom: 10px;
-	transition: .2s ease all;
+	transition: .1s ease all;
+  border-width: 0;
+  border-bottom: 2px solid $white;
+  border-top: 2px solid $transparent;
+  padding: 10px 20px 10px 20px;
 	cursor: pointer;
-    &:hover{
-      background: $secondaryBlue !important;
-      border: 2px solid $secondaryBlue !important;
-    	transition: .2s ease all;
-    }
-    &:hover .arrowIcon{
-      margin-left: 25px;
+    &:after{
+      position: absolute;
+      z-index:2;
+      right: 0;
+      bottom: 0;
+      content: "";
+      width: 2px;
+      opacity: 0;
+      background-color: $white;
+      height: 0%;
       transition: .2s ease all;
     }
-    @include breakpoint(smallScreen){
-      padding: 10px 20px 10px 20px;
+    &:before{
+      position: absolute;
+      z-index:2;
+      left: 0;
+      bottom: 0;
+      content: "";
+      width: 2px;
+      opacity: 0;
+      background-color: $white;
+      height: 0%;
+      transition: .2s ease all;
     }
-    @include breakpoint(largeMobileScreen){
-      padding: 10px 20px 10px 20px;
-    }
-    @include breakpoint(tabletScreen){
-      padding: 10px 50px 10px 50px;
+    &:hover{
+      border-top: 2px solid $white;
+      transition: .1s .18s ease all;
+        &:after{
+          position: absolute;
+          z-index:2;
+          right: 0;
+          top: 0;
+          content: "";
+          width: 2px;
+          opacity: 1;
+          background-color: $white;
+          height: 100%;
+          transition: .2s .15s ease all;
+        }
+        &:before{
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          content: "";
+          width: 2px;
+          opacity: 1;
+          background-color: $white;
+          height: 100%;
+          transition: .2s ease all;
+        }
     }
 }
 .primaryButtonReverse{
 	position: relative;
 	z-index:1;
-	border: 2px solid $primaryBlue;
-	border-radius: 30px;
-	padding: 10px 50px 10px 50px;
-	color: $primaryBlue;
+	background: $transparent;
+	color: $primaryBlue !important;
 	margin-bottom: 10px;
-	transition: .3s ease all;
+	transition: .1s ease all;
+  border-width: 0;
+  border-bottom: 2px solid $primaryBlue;
+  border-top: 2px solid $transparent;
+  padding: 10px 20px 10px 20px;
 	cursor: pointer;
-    &:hover{
-      background: $primaryBlue;
-    	transition: .3s ease all;
-    	color: $white;
+    &:after{
+      position: absolute;
+      z-index:2;
+      right: 0;
+      bottom: 0;
+      content: "";
+      width: 2px;
+      opacity: 0;
+      background-color: $primaryBlue;
+      height: 0%;
+      transition: .2s ease all;
     }
-}
-.plainRedButton{
-	position: relative;
-	z-index:1;
-	border: 2px solid $primaryBlue;
-	background: $primaryBlue;
-	padding: 10px 50px 10px 50px;
-	color: $white;
-	margin-bottom: 10px;
-	transition: .3s ease all;
-	cursor: pointer;
+    &:before{
+      position: absolute;
+      z-index:2;
+      left: 0;
+      bottom: 0;
+      content: "";
+      width: 2px;
+      opacity: 0;
+      background-color: $primaryBlue;
+      height: 0%;
+      transition: .2s ease all;
+    }
+    &:hover{
+      border-top: 2px solid $primaryBlue;
+      transition: .1s .18s ease all;
+        &:after{
+          position: absolute;
+          z-index:2;
+          right: 0;
+          top: 0;
+          content: "";
+          width: 2px;
+          opacity: 1;
+          background-color: $primaryBlue;
+          height: 100%;
+          transition: .2s .15s ease all;
+        }
+        &:before{
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          content: "";
+          width: 2px;
+          opacity: 1;
+          background-color: $primaryBlue;
+          height: 100%;
+          transition: .2s ease all;
+        }
+    }
 }
 .whiteButton{
 	position: relative;
