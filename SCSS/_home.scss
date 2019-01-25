@@ -103,6 +103,12 @@
 	}
 }
 #familyAndChildcareIntro{
+	@include breakpoint(laptopScreen){
+		margin-bottom: -50px;
+	}
+	@include breakpoint(largeScreen){
+		margin-bottom: 0;
+	}
 	@include breakpoint(extraLargeScreen){
 			background-color: $lightGrey;
 	}
@@ -141,17 +147,37 @@
 		width: 40%;
 	}
 	@include breakpoint(tabletScreen){
+		width: 50%;
+	}
+	@include breakpoint(laptopScreen){
 		width: 80%;
 	}
 }
 .marginRight{
 	margin-right: 30px;
 }
+.opaqueLogoWrap{
+	text-align: center;
+}
 .opaqueLogo{
 	opacity: .3;
 	position: relative;
-	left: 200px;
 	z-index: 1;
+	@include breakpoint(smallScreen){
+    left: 0;
+    width: 60%;
+	}
+	@include breakpoint(largeMobileScreen){
+    left: 0;
+    width: 50%;
+	}
+	@include breakpoint(laptopScreen){
+    left: 150px;
+    width: 100%;
+	}
+	@include breakpoint(extraLargeScreen){
+    left: 200px;
+	}
 }
 .newsletterContent{
 	position: relative;

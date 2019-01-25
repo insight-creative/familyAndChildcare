@@ -641,6 +641,9 @@ template {
   .smallPaddedSection {
     padding: 50px 0 50px 0; } }
 
+.smallTextBlock {
+  padding: 10px; }
+
 /*4.0 Header Styling -------------------------------------------*/
 .site-header {
   position: fixed;
@@ -766,7 +769,7 @@ nav {
   cursor: pointer;
   display: inline-block;
   width: 30px;
-  padding-top: 7px; }
+  padding-top: 9px; }
   .menuBars span {
     display: block;
     position: relative;
@@ -1083,7 +1086,8 @@ nav {
       width: 150px; } }
 
 .footerContact {
-  margin-top: 25px; }
+  margin-top: 25px;
+  margin-bottom: 25px; }
   .footerContact a {
     text-decoration: none;
     color: #005797;
@@ -1156,18 +1160,12 @@ nav {
   #copyright p {
     margin-block-start: 1em;
     margin-block-end: 1em; }
-  @media (max-width: 320px) {
-    #copyright {
-      font-size: 10px; } }
   @media (max-width: 600px) {
     #copyright {
-      font-size: 12px; } }
+      font-size: 14px; } }
   @media (min-width: 600px) {
     #copyright {
       font-size: 14px; } }
-  @media (min-width: 992px) {
-    #copyright {
-      font-size: 12px; } }
   @media (min-width: 1250px) {
     #copyright {
       flex-direction: row;
@@ -1254,6 +1252,20 @@ nav {
     .footerNav a {
       font-size: 10px; } }
 
+.footerNavWrapper h4 {
+  margin-block-end: 20px; }
+
+.footerNavWrapper h6 {
+  margin-block-end: 10px; }
+  @media (max-width: 600px) {
+    .footerNavWrapper h6 {
+      padding: 10px 0;
+      margin-block-end: 0; } }
+  @media (min-width: 600px) {
+    .footerNavWrapper h6 {
+      padding: 10px 0;
+      margin-block-end: 0; } }
+
 /* 6.0 Site Typography -------------------------------------------*/
 body,
 button,
@@ -1296,7 +1308,7 @@ h5 {
   font-size: 1.3em; }
 
 h6 {
-  font-size: .7em; }
+  font-size: .9em; }
 
 .whiteText {
   color: #FFFFFF; }
@@ -1528,6 +1540,9 @@ body {
     color: #e5b12b;
     transition: .3s ease all; }
 
+.removeBottomMargin {
+  margin-bottom: -7px; }
+
 /*9.0 Icon Styling -------------------------------------------*/
 .whiteIcon {
   color: #FFFFFF;
@@ -1659,6 +1674,12 @@ body {
   #pageContent {
     margin-top: 20px; } }
 
+@media (min-width: 992px) {
+  #familyAndChildcareIntro {
+    margin-bottom: -50px; } }
+@media (min-width: 1250px) {
+  #familyAndChildcareIntro {
+    margin-bottom: 0; } }
 @media (min-width: 1600px) {
   #familyAndChildcareIntro {
     background-color: #f6f6f6; } }
@@ -1698,16 +1719,36 @@ body {
       width: 40%; } }
   @media (min-width: 768px) {
     .serviceImage {
+      width: 50%; } }
+  @media (min-width: 992px) {
+    .serviceImage {
       width: 80%; } }
 
 .marginRight {
   margin-right: 30px; }
 
+.opaqueLogoWrap {
+  text-align: center; }
+
 .opaqueLogo {
   opacity: .3;
   position: relative;
-  left: 200px;
   z-index: 1; }
+  @media (max-width: 600px) {
+    .opaqueLogo {
+      left: 0;
+      width: 60%; } }
+  @media (min-width: 600px) {
+    .opaqueLogo {
+      left: 0;
+      width: 50%; } }
+  @media (min-width: 992px) {
+    .opaqueLogo {
+      left: 150px;
+      width: 100%; } }
+  @media (min-width: 1600px) {
+    .opaqueLogo {
+      left: 200px; } }
 
 .newsletterContent {
   position: relative;

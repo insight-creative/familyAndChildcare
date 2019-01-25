@@ -151,7 +151,7 @@
 								<a class="menuLink" href = "/about/">CHILD CARE TRAINING</a>
 
 							</li>-->
-
+							<!--
 							<li>
 
 								<div class="dropDown">
@@ -365,6 +365,36 @@
 									</div>
 
 								</div>
+
+							</li>
+
+							<li>
+
+								<a class="menuLink" href = "/contact/">CONTACT</a>
+
+							</li>-->
+
+							<li>
+
+								<a id="programsLink" class="menuLink" href = "/about/">OUR PROGRAMS</a>
+
+							</li>
+
+							<li>
+
+								<a id="programsLink" class="menuLink" href = "/about/">RESOURCES</a>
+
+							</li>
+
+							<li>
+
+								<a id="programsLink" class="menuLink" href = "/about/">SUPPORT CHILDREN</a>
+
+							</li>
+
+							<li>
+
+								<a id="programsLink" class="menuLink" href = "/about/">ABOUT</a>
 
 							</li>
 

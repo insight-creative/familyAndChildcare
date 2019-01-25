@@ -37,6 +37,7 @@
 }
 .footerContact{
 	margin-top: 25px;
+	margin-bottom: 25px;
   a{
   	text-decoration: none;
   	color: $primaryBlue;
@@ -118,17 +119,11 @@
 			margin-block-start: 1em;
 			margin-block-end: 1em;
 		}
-		@include breakpoint(tinyScreen){
-			font-size: 10px;
-		}
 		@include breakpoint(smallScreen){
-			font-size: 12px;
+			font-size: 14px;
 		}
 		@include breakpoint(largeMobileScreen){
 			font-size: 14px;
-		}
-		@include breakpoint(laptopScreen){
-			font-size: 12px;
 		}
     @include breakpoint(largeScreen){
       flex-direction: row;
@@ -222,5 +217,19 @@
 		@include breakpoint(smallScreen){
 			font-size: 10px;
 		}
+	}
+}
+.footerNavWrapper h4{
+	margin-block-end: 20px;
+}
+.footerNavWrapper h6{
+	margin-block-end: 10px;
+	@include breakpoint(smallScreen){
+		padding: 10px 0;
+		margin-block-end: 0;
+	}
+	@include breakpoint(largeMobileScreen){
+		padding: 10px 0;
+		margin-block-end: 0;
 	}
 }

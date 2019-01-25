@@ -18,30 +18,46 @@
 
 			<div class="col30">
 
-				<h4 class="centerText">MISSION</h4>
+				<div class="smallTextBlock">
 
-				<p>We are dedicated to supporting healthy child development by providing high quality education, support and programs to families and early childhood professionals.</p>
+					<h4 class="centerText">MISSION</h4>
 
-			</div>
+					<p>We are dedicated to supporting healthy child development by providing high quality education, support and programs to families and early childhood professionals.</p>
 
-			<div class="col30">
-
-				<h4 class="centerText">SUPPORT FCRNEW</h4>
-
-				<p>With support through donations and caring volunteers, we are able to help impact adults who work directly with more than 6,000 children every year to improve early
-					childhood experiences in our Northeast Wisconsin service delivery area.</p>
+				</div>
 
 			</div>
 
 			<div class="col30">
 
-				<h4 class="centerText">CONTACT</h4>
+				<div class="smallTextBlock">
 
-				<p>Family & Childcare Resources of N.E.W.<br>
-				201 W. Walnut Street, Suite 100<br>
-				Green Bay, WI 54303<br>
-				<a href="mailto:fcrnew@fcrnew.org">fcrnew@fcrnew.org</a><br>
-				<a href="tel:(920) 432-8899">(920) 432-8899</a></p>
+					<h4 class="centerText">SUPPORT FCRNEW</h4>
+
+					<p>
+						With support through donations and caring volunteers, we are able to help impact adults who work directly with more than 6,000 children every year to improve early
+						childhood experiences in our Northeast Wisconsin service delivery area.
+					</p>
+
+					<a href="/donate/"><button class="primaryButtonReverse"><span class="marginRight">Donate </span><i class="blueIcon fas fa-chevron-right"></i></button></a>
+
+				</div>
+
+			</div>
+
+			<div class="col30">
+
+				<div class="smallTextBlock">
+
+					<h4 class="centerText">CONTACT</h4>
+
+					<p>Family & Childcare Resources of N.E.W.<br>
+					201 W. Walnut Street, Suite 100<br>
+					Green Bay, WI 54303<br>
+					<a href="mailto:fcrnew@fcrnew.org">fcrnew@fcrnew.org</a><br>
+					<a href="tel:(920) 432-8899">(920) 432-8899</a></p>
+
+				</div>
 
 			</div>
 
@@ -51,61 +67,83 @@
 
 			<div class="col20">
 
-				<h4>ABOUT</h4>
+				<div class="footerNavWrapper">
 
-				<h6>STAFF</h6>
+					<h4 class="uppercase">Our Programs</h4>
 
-				<h6>BOARD OF DIRECTORS</h6>
+					<h6 class="uppercase">Positive parenting program - Triple P</h6>
 
-				<h6>EMPLOYMENT</h6>
+					<h6 class="uppercase">In need of local help?</h6>
 
-			</div>
+					<h6 class="uppercase">Looking for child care?</h6>
 
-			<div class="col20">
+					<h6 class="uppercase">Training</h6>
 
-				<h4>ABOUT</h4>
-
-				<h6>STAFF</h6>
-
-				<h6>BOARD OF DIRECTORS</h6>
-
-				<h6>EMPLOYMENT</h6>
+				</div>
 
 			</div>
 
 			<div class="col20">
 
-				<h4>ABOUT</h4>
+				<div class="footerNavWrapper">
 
-				<h6>STAFF</h6>
+					<h4 class="uppercase">Resources</h4>
 
-				<h6>BOARD OF DIRECTORS</h6>
+					<h6 class="uppercase">Family & Parenting</h6>
 
-				<h6>EMPLOYMENT</h6>
+					<h6 class="uppercase">Early Childhood</h6>
+
+					<h6 class="uppercase">Community Resources</h6>
+
+			</div>
 
 			</div>
 
 			<div class="col20">
 
-				<h4>ABOUT</h4>
+				<div class="footerNavWrapper">
 
-				<h6>STAFF</h6>
+					<h4 class="uppercase">Events</h4>
 
-				<h6>BOARD OF DIRECTORS</h6>
+					<h6 class="uppercase">Calendar of Events</h6>
 
-				<h6>EMPLOYMENT</h6>
+					<h6 class="uppercase">Child Care Provider Appreciation Day</h6>
+
+					<h6 class="uppercase">Blue Kit Campaign</h6>
+
+					<h6 class="uppercase">Fly a Kite Fest</h6>
+
+				</div>
 
 			</div>
 
 			<div class="col20">
 
-				<h4>ABOUT</h4>
+				<div class="footerNavWrapper">
 
-				<h6>STAFF</h6>
+					<h4 class="uppercase">Support Children</h4>
 
-				<h6>BOARD OF DIRECTORS</h6>
+					<h6 class="uppercase">Donors</h6>
 
-				<h6>EMPLOYMENT</h6>
+					<h6 class="uppercase">Volunteers</h6>
+
+				</div>
+
+			</div>
+
+			<div class="col20">
+
+				<div class="footerNavWrapper">
+
+					<h4 class="uppercase">About</h4>
+
+					<h6 class="uppercase">Staff</h6>
+
+					<h6 class="uppercase">Board of Directors</h6>
+
+					<h6 class="uppercase">Employment</h6>
+
+				</div>
 
 			</div>
 

@@ -57,9 +57,9 @@ get_header();
 
 					<div class="fullWidth flex-container-reverse centerAlignedContainer">
 
-						<div id="introImage" class="col50">
+						<div id="introImage" class="col50 removeBottomMargin">
 
-							<img src="/assets/scss/wp-content/uploads/2019/01/043Cropped.jpg" class="image">
+							<img src="/assets/scss/wp-content/uploads/2019/01/043Cropped-2-1.jpg" class="image">
 
 						</div>
 
@@ -197,7 +197,7 @@ get_header();
 
 					<div class="fullWidth flex-container-reverse centerAlignedContainer greyBlock">
 
-						<div class="col50">
+						<div class="col50 removeBottomMargin">
 
 							<img src="/assets/scss/wp-content/uploads/2019/01/DSC_0149.jpg" class="image">
 
@@ -224,7 +224,7 @@ get_header();
 
 					</div>
 
-					<div class="fullWidth flex-container-reverse centerAlignedContainer greyBlock">
+					<div class="fullWidth flex-container centerAlignedContainer greyBlock">
 
 						<div class="col50">
 
@@ -245,9 +245,9 @@ get_header();
 
 						</div>
 
-						<div class="col50">
+						<div class="col50 removeBottomMargin">
 
-							<img src="/assets/scss/wp-content/uploads/2019/01/DSC_0149.jpg" class="image">
+							<img src="/assets/scss/wp-content/uploads/2019/01/DAWN-042.jpg" class="image">
 
 						</div>
 
@@ -261,11 +261,15 @@ get_header();
 
 						<div class="col30">
 
-							<img src="/assets/scss/wp-content/uploads/2019/01/N.E.W-Logo-cropped-white-medium.png" class="image opaqueLogo">
+							<div class="opaqueLogoWrap">
+
+								<img src="/assets/scss/wp-content/uploads/2019/01/N.E.W-Logo-cropped-white-medium.png" class="image opaqueLogo">
+
+							</div>
 
 						</div>
 
-						<div class="col70 newsletterContent">
+						<div class="col50 newsletterContent">
 
 							<h4>FAMILY & CHILDCARE RESOURCES OF N.E.W. NEWSLETTER</h4>
 
@@ -273,6 +277,12 @@ get_header();
 							Interested in learning more about our programs and services? Join our email list to stay up to date on the latest child care provider trainings,
 							family services and programs as well as volunteer opportunities.
 							</p>
+
+						</div>
+
+						<div class="col20">
+
+							<a href="/programs/"><button class="primaryButtonReverse"><span class="marginRight">Sign Up </span><i class="blueIcon fas fa-chevron-right"></i></button></a>
 
 						</div>
 
