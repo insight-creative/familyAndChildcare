@@ -199,6 +199,22 @@
 			background-position: left;
     }
 	}
+	.smallHero{
+		position: relative;
+		z-index: 1;
+		width: 100%;
+		background-size: cover;
+		background-repeat: no-repeat;
+	  height: 30vh;
+	}
+	.mediumHero{
+		position: relative;
+		z-index: 1;
+		width: 100%;
+		background-size: cover;
+		background-repeat: no-repeat;
+	  height: 50vh;  
+	}
 .heroOverlay{
   position: absolute;
   top: 0;

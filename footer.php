@@ -14,7 +14,7 @@
 
 	<footer id="colophon" class="site-footer">
 
-		<div class="site-info pageWidth">
+		<div class="site-info navWidth">
 
 			<div class="col30">
 
@@ -45,17 +45,17 @@
 
 			</div>
 
-			<div class="col30">
+			<div id="contactInfo" class="col30">
 
 				<div class="smallTextBlock">
 
 					<h4 class="centerText">CONTACT</h4>
 
 					<p>Family & Childcare Resources of N.E.W.<br>
-					201 W. Walnut Street, Suite 100<br>
-					Green Bay, WI 54303<br>
-					<a href="mailto:fcrnew@fcrnew.org">fcrnew@fcrnew.org</a><br>
-					<a href="tel:(920) 432-8899">(920) 432-8899</a></p>
+					<a href="http://bit.ly/2sXZA1Y" target="_blank" class="plainLink">201 W. Walnut Street, Suite 100<br>
+					Green Bay, WI 54303</a><br>
+					<a href="mailto:fcrnew@fcrnew.org" clas="plainLink">fcrnew@fcrnew.org</a><br>
+					<a href="tel:(920)432-8899" class="plainLink">(920) 432-8899</a></p>
 
 				</div>
 
@@ -175,11 +175,11 @@
 
 					<div class="socialWrapper">
 
-						<i class="footerSocialIcon fab fa-facebook-square"></i>
+						<a href="https://www.facebook.com/fcrnew/" target="_blank"><i class="footerSocialIcon fab fa-facebook-square"></i></a>
 
-						<i class="footerSocialIcon fab fa-instagram"></i>
+						<a href="https://www.instagram.com/fcrnew/" target="_blank"><i class="footerSocialIcon fab fa-instagram"></i></a>
 
-						<i class="footerSocialIcon fab fa-twitter-square"></i>
+						<a href="https://twitter.com/fcrnew" target="_blank"><i class="footerSocialIcon fab fa-twitter-square"></i></a>
 
 					</div>
 

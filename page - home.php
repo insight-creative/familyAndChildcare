@@ -35,7 +35,7 @@ get_header();
 
 									<div class="heroHeading">
 
-										<h1 id="mainHeader">Early Childhood Experiences Matter Test</h1>
+										<h1 id="mainHeader">Early Childhood Experiences Matter</h1>
 
 									</div>
 

@@ -24,9 +24,7 @@ get_header();
 
 				<section>
 
-					<div class="hero shopHero">
-
-						<div class="heroOverlay">
+					<div class="smallHero">
 
 							<div class="heroHeadingWrap fullWidth">
 
@@ -46,8 +44,6 @@ get_header();
 
 							</div>
 
-						</div>
-
 					</div>
 
 				</section>
@@ -60,13 +56,13 @@ get_header();
 
 							<div id="formWrap" class="col60">
 
-								<h4 class="redText">Contact Arden's Automotive Hospital</h4>
+								<h4 class="redText">Contact Family & Childcare Resources of N.E.W.</h4>
 
 								<p>
 								Have some questions that you still need help with? We're here to help.
 								</p>
 
-								<h3 class="redText">Call us at <a class="plainLink" href="tel:(920)203-3694">(920)203-3694</a></h3>
+								<h3 class="redText">Call us at <a class="plainLink" href="tel:(920)432-8899">(920) 432-8899</a></h3>
 
 								<p>Or fill out the form below and we'll get back to you as soon as we can!</p>
 
@@ -78,7 +74,7 @@ get_header();
 
 								<div class="smallMapWrapper">
 
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2869.495470991913!2d-88.55277408449062!3d44.01115477911062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8803ebf8a244848f%3A0xab246929a6800b92!2sArden&#39;s+Automotive+Hospital+LLC!5e0!3m2!1sen!2sus!4v1547465257974" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d364875.7839881406!2d-88.52319203995803!3d44.40049514337188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8802fab7ec509b89%3A0x33d2e3312b97fd9a!2sFamily+%26+Childcare+Resources+of+N.E.W.!5e0!3m2!1sen!2sus!4v1548888903310" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 								</div>
 
@@ -86,15 +82,15 @@ get_header();
 
 									<div class="locationContent">
 
-										<h5>Arden's Automotive Hospital</h5>
+										<h5>Family & Childcare Resources of N.E.W.</h5>
 
-										<a class="plainLink" target="_blank" href="https://www.google.com/maps/place/Arden's+Automotive+Hospital+LLC/@44.0111548,-88.5527741,17z/data=!3m1!4b1!4m5!3m4!1s0x8803ebf8a244848f:0xab246929a6800b92!8m2!3d44.0111548!4d-88.5505854">
+										<a class="plainLink" target="_blank" href="http://bit.ly/2sXZA1Y">
 
-										<p>510 W 8th Ave<br>
+										<p>201 W. Walnut Street, Suite 100<br>
 
-										Oshkosh, WI 54902</p></a>
+										Green Bay, WI 54303</p></a>
 
-										<a class="plainLink" href="tel:(920)203-3694">(920)203-3694</a>
+										<a class="plainLink" href="tel:(920)432-8899">(920) 432-8899</a>
 
 										<br>
 
