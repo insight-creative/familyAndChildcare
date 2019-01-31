@@ -514,13 +514,20 @@ template {
       height: 90vh;
       background-position: left; } }
 
+@media (max-width: 600px) {
+  .marginedHero {
+    margin: 10px; } }
+@media (min-width: 600px) {
+  .marginedHero {
+    margin: 20px; } }
+
 .smallHero {
   position: relative;
   z-index: 1;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 30vh; }
+  height: 40vh; }
 
 .mediumHero {
   position: relative;
@@ -778,6 +785,7 @@ nav {
 
 .menuTextWrap {
   display: flex;
+  align-items: baseline;
   margin-left: 10px;
   right: 100px; }
 
@@ -1321,7 +1329,7 @@ textarea {
   color: #333333;
   font-family: "Open Sans", "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
   font-size: 18px;
-  line-height: 1.6; }
+  line-height: 1.6em; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
@@ -1330,11 +1338,11 @@ h1, h2, h3, h4, h5, h6 {
 
 h1, h2, h3, h4, h5, h6 {
   margin-block-start: 0;
-  margin-block-end: 40px; }
+  margin-block-end: 1.5em; }
 
 p {
   margin-block-start: 0;
-  margin-block-end: 20px; }
+  margin-block-end: 1em; }
 
 h1 {
   font-size: 1.9em;
@@ -1648,13 +1656,6 @@ body {
   transition: .2s ease all; }
 
 /* 10.0 Homepage stylings -------------------------------------------*/
-@media (max-width: 600px) {
-  #hero {
-    margin: 10px; } }
-@media (min-width: 600px) {
-  #hero {
-    margin: 20px; } }
-
 .heroHeadingWrap {
   display: flex;
   flex-direction: row;
@@ -1960,6 +1961,25 @@ body {
 /* 13.0 Contact Page stylings -------------------------------------------*/
 .contactContent {
   margin-top: 150px !important; }
+
+.contactHero {
+  background-image: url("/assets/scss/wp-content/uploads/2019/01/kidSearchingOnMap.jpg"); }
+
+#largeHeading {
+  font-size: 4em; }
+
+#contactContent {
+  margin-top: 25px;
+  margin-bottom: 25px; }
+
+#formWrap {
+  background-color: #f6f6f6; }
+
+#formWrapInner {
+  padding: 25px; }
+
+.locationContent {
+  padding: 20px; }
 
 .smallMapWrapper {
   padding: 20px; }

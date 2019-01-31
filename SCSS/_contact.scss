@@ -2,6 +2,25 @@
 .contactContent{
   margin-top: 150px !important;
 }
+.contactHero{
+  background-image: url("/assets/scss/wp-content/uploads/2019/01/kidSearchingOnMap.jpg");
+}
+#largeHeading{
+  font-size: 4em;
+}
+#contactContent{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+#formWrap{
+  background-color: $lightGrey;
+}
+#formWrapInner{
+  padding: 25px;
+}
+.locationContent{
+  padding: 20px;
+}
 .smallMapWrapper{
   padding: 20px;
 }

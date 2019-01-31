@@ -8,7 +8,7 @@ textarea {
 	color: $black;
 	font-family: "Open Sans", "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
 	font-size: 18px;
-	line-height: 1.6;
+	line-height: 1.6em;
 }
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Oswald', "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
@@ -17,11 +17,11 @@ h1,h2,h3,h4,h5,h6{
 }
 h1,h2,h3,h4,h5,h6{
 	margin-block-start: 0;
-	margin-block-end: 40px;
+	margin-block-end: 1.5em;
 }
 p{
 	margin-block-start: 0;
-	margin-block-end: 20px;
+	margin-block-end: 1em;
 }
 h1{
 	font-size: 1.9em;

@@ -1,12 +1,4 @@
 /* 10.0 Homepage stylings -------------------------------------------*/
-#hero{
-	@include breakpoint(smallScreen){
-		margin: 10px;
-	}
-	@include breakpoint(largeMobileScreen){
-		margin: 20px;
-	}
-}
 .heroHeadingWrap{
 	display: flex;
 	flex-direction: row;

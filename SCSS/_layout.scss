@@ -199,13 +199,21 @@
 			background-position: left;
     }
 	}
+.marginedHero{
+	@include breakpoint(smallScreen){
+		margin: 10px;
+	}
+	@include breakpoint(largeMobileScreen){
+		margin: 20px;
+	}
+}
 	.smallHero{
 		position: relative;
 		z-index: 1;
 		width: 100%;
 		background-size: cover;
 		background-repeat: no-repeat;
-	  height: 30vh;
+	  height: 40vh;
 	}
 	.mediumHero{
 		position: relative;
@@ -213,7 +221,7 @@
 		width: 100%;
 		background-size: cover;
 		background-repeat: no-repeat;
-	  height: 50vh;  
+	  height: 50vh;
 	}
 .heroOverlay{
   position: absolute;

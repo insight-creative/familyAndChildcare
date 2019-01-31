@@ -22,9 +22,9 @@ get_header();
 
 			<main id="main" class="site-main">
 
-				<section>
+				<section class="marginedHero">
 
-					<div class="smallHero">
+					<div class="smallHero contactHero">
 
 							<div class="heroHeadingWrap fullWidth">
 
@@ -32,9 +32,9 @@ get_header();
 
 									<div class="homeHeading">
 
-										<div class="heroHeading">
+										<div class="">
 
-											<h1 class="whiteText">Contact Us</h1>
+											<h1 id="largeHeading" class="whiteText">Contact Us</h1>
 
 										</div>
 
@@ -56,17 +56,21 @@ get_header();
 
 							<div id="formWrap" class="col60">
 
-								<h4 class="redText">Contact Family & Childcare Resources of N.E.W.</h4>
+								<div id="formWrapInner">
 
-								<p>
-								Have some questions that you still need help with? We're here to help.
-								</p>
+									<h4 class="redText">Contact Family & Childcare Resources of N.E.W.</h4>
 
-								<h3 class="redText">Call us at <a class="plainLink" href="tel:(920)432-8899">(920) 432-8899</a></h3>
+									<p>
+									Have some questions that you still need help with? We're here to help.
+									</p>
 
-								<p>Or fill out the form below and we'll get back to you as soon as we can!</p>
+									<h3 class="redText">Call us at <a class="plainLink" href="tel:(920)432-8899">(920) 432-8899</a></h3>
 
-								<?php echo do_shortcode('[caldera_form id="CF5c3c73e0407dd"]'); ?>
+									<p>Or fill out the form below and we'll get back to you as soon as we can!</p>
+
+									<?php echo do_shortcode('[caldera_form id="CF5c536b3a57ba3"]'); ?>
+
+								</div>
 
 							</div>
 

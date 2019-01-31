@@ -23,7 +23,7 @@ get_header();
 
 			<main id="main" class="site-main">
 
-				<section id="hero" class="">
+				<section id="hero" class="marginedHero">
 
 					<div class="hero homeHero">
 
@@ -35,7 +35,7 @@ get_header();
 
 									<div class="heroHeading">
 
-										<h1 id="mainHeader">Early Childhood Experiences Matter</h1>
+										<h1 id="mainHeader">Every Childhood Matters</h1>
 
 									</div>
 
@@ -70,16 +70,14 @@ get_header();
 								<h2 id="whatWeHeader"><span class="underlinedHeading">WHAT WE DO</span></h2>
 
 								<p>
-									Our agency is a nonprofit that provides education, support, information referral and evidence-based home visitation programs and early
-									childhood consultation (quality improvement for early childhood providers) throughout Northeast Wisconsin. We provide services for two
-									primary segments, one is families and guardians and the second is child care providers and professionals.
+									Family & Childcare Resources helps shape our community’s at-risk families in a positive manner. We work with those who impact early
+									childhood experiences; parents, child care providers and more to help educate and support them through services and programs we offer.
 								</p>
 
 								<p>
-									On our family side, we provide in-home visitation programs as well as seminars and group training through our Triple P. Program.  Our
-									service delivery area is Brown County and Oconto County. On the child care side, we provide technical consulting to child care providers,
-									continuing education to providers and professionals as well as on-site custom training. We also pride ourselves on providing unbiased child
-									care referrals that are customized to the clients need at no cost.</p>
+									We help provide brighter and more positive experiences for families. We do this by empowering and supporting families and teaching
+									them a variety of strategies that can help their family. We are dedicated to supporting healthy child development by providing
+									high-quality education, support, and programs to both families and early childhood professionals.
 								</p>
 
 							</div>
