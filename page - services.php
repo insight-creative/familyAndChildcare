@@ -61,7 +61,7 @@ get_header();
 							<div class="blockText">
 
 								<p>
-									At Arden's Automotive Hospital we offer you a complete range of auto repair services to help you keep your vehicle in top running condition. We pride
+									At Family & Childcare Resources of N.E.W. we offer you a complete range of auto repair services to help you keep your vehicle in top running condition. We pride
 									ourselves in taking the extra time to properly diagnose your car's issues. Saving you money and getting you back on the road faster.
 								</p>
 
@@ -473,7 +473,7 @@ get_header();
 
 										<p class="whiteText">
 
-											Don't put it off any longer. Stop in or contact Arden's Automotive Hospital to set up an appointment for your vehicle today.
+											Don't put it off any longer. Stop in or contact Family & Childcare Resources of N.E.W. to set up an appointment for your vehicle today.
 
 										</p>
 
@@ -506,7 +506,7 @@ get_header();
 
 								<div class="locationContent">
 
-									<h5>Arden's Automotive Hospital</h5>
+									<h5>Family & Childcare Resources of N.E.W.</h5>
 
 									<a class="plainLink" target="_blank" href="https://www.google.com/maps/place/Arden's+Automotive+Hospital+LLC/@44.0111548,-88.5527741,17z/data=!3m1!4b1!4m5!3m4!1s0x8803ebf8a244848f:0xab246929a6800b92!8m2!3d44.0111548!4d-88.5505854">
 

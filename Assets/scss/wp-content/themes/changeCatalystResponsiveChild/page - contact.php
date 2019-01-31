@@ -60,7 +60,7 @@ get_header();
 
 							<div id="formWrap" class="col60">
 
-								<h4 class="redText">Contact Arden's Automotive Hospital</h4>
+								<h4 class="redText">Contact Family & Childcare Resources of N.E.W.</h4>
 
 								<p>
 								Have some questions that you still need help with? We're here to help.
@@ -86,7 +86,7 @@ get_header();
 
 									<div class="locationContent">
 
-										<h5>Arden's Automotive Hospital</h5>
+										<h5>Family & Childcare Resources of N.E.W.</h5>
 
 										<a class="plainLink" target="_blank" href="https://www.google.com/maps/place/Arden's+Automotive+Hospital+LLC/@44.0111548,-88.5527741,17z/data=!3m1!4b1!4m5!3m4!1s0x8803ebf8a244848f:0xab246929a6800b92!8m2!3d44.0111548!4d-88.5505854">
 

@@ -14,13 +14,45 @@ body{
 }
 .plainLink{
 	text-decoration: none;
-	color: $secondaryYellow;
+	color: $primaryBlue !important;
+	transition: .3s ease all;
+	position: relative;
 	transition: .3s ease all;
     &:hover{
-    color: $primaryYellow;
+    color: $secondaryBlue;
     transition: .3s ease all;
+			&:after{
+				position: absolute;
+				height: 2px;
+				width: 100%;
+				background: $primaryBlue;
+				content: "";
+				bottom: 0;
+				left: 0;
+				opacity: 1;
+				transition: .3s ease all;
+			}
     }
+		&:after{
+			position: absolute;
+			height: 2px;
+			width: 100%;
+			background: $primaryBlue;
+			content: "";
+			bottom: 25%;
+			left: 0;
+			opacity: 0;
+			transition: .3s ease all;
+		}
 }
 .removeBottomMargin{
 	margin-bottom: -7px;
+}
+#privacyPolicy{
+	@include breakpoint(smallScreen){
+			margin-top: 75px;
+	}
+	@include breakpoint(largeMobileScreen){
+			margin-top: 125px;
+	}
 }

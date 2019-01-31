@@ -514,6 +514,22 @@ template {
       height: 90vh;
       background-position: left; } }
 
+.smallHero {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30vh; }
+
+.mediumHero {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh; }
+
 .heroOverlay {
   position: absolute;
   top: 0;
@@ -808,7 +824,7 @@ nav {
     text-decoration: none; }
   .linkWrap li {
     list-style-type: none;
-    margin-top: 25px;
+    margin-top: 10px;
     font-size: 20px;
     line-height: 5px;
     padding-bottom: 10px;
@@ -1052,7 +1068,6 @@ nav {
 /* 5.0 Footer Stylings -------------------------------------------*/
 .site-info {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   -moz-justify-content: space-between;
   -webkit-justify-content: space-between;
@@ -1068,6 +1083,36 @@ nav {
   @media (min-width: 992px) {
     .site-info {
       flex-direction: row; } }
+
+#contactInfo a {
+  text-decoration: none;
+  color: #005797 !important;
+  transition: .3s ease all;
+  position: relative;
+  transition: .3s ease all; }
+  #contactInfo a:hover {
+    color: #6997a9;
+    transition: .3s ease all; }
+    #contactInfo a:hover:after {
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      background: #005797;
+      content: "";
+      bottom: 0;
+      left: 0;
+      opacity: 1;
+      transition: .3s ease all; }
+  #contactInfo a:after {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #005797;
+    content: "";
+    bottom: 25%;
+    left: 0;
+    opacity: 0;
+    transition: .3s ease all; }
 
 .site-footer {
   position: relative;
@@ -1534,14 +1579,43 @@ body {
 
 .plainLink {
   text-decoration: none;
-  color: #efbb50;
+  color: #005797 !important;
+  transition: .3s ease all;
+  position: relative;
   transition: .3s ease all; }
   .plainLink:hover {
-    color: #e5b12b;
+    color: #6997a9;
+    transition: .3s ease all; }
+    .plainLink:hover:after {
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      background: #005797;
+      content: "";
+      bottom: 0;
+      left: 0;
+      opacity: 1;
+      transition: .3s ease all; }
+  .plainLink:after {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #005797;
+    content: "";
+    bottom: 25%;
+    left: 0;
+    opacity: 0;
     transition: .3s ease all; }
 
 .removeBottomMargin {
   margin-bottom: -7px; }
+
+@media (max-width: 600px) {
+  #privacyPolicy {
+    margin-top: 75px; } }
+@media (min-width: 600px) {
+  #privacyPolicy {
+    margin-top: 125px; } }
 
 /*9.0 Icon Styling -------------------------------------------*/
 .whiteIcon {
