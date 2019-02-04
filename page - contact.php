@@ -24,7 +24,7 @@ get_header();
 
 				<section class="marginedHero">
 
-					<div class="smallHero contactHero">
+					<div class="mediumHero contactHero">
 
 							<div class="heroHeadingWrap fullWidth">
 
@@ -32,9 +32,9 @@ get_header();
 
 									<div class="homeHeading">
 
-										<div class="">
+										<div>
 
-											<h1 id="largeHeading" class="whiteText">Contact Us</h1>
+											<h1 class="whiteText largeHeading">Contact Us</h1>
 
 										</div>
 

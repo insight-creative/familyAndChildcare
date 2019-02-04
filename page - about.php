@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Home
+ * Template Name: About
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -15,31 +15,23 @@ get_header();
 
 ?>
 
-<div id="barba-wrapper">
+<div id="primary" class="content-area">
 
-	<div class="barba-container">
+	<main id="main" class="site-main">
 
-		<div id="primary" class="content-area">
+		<section class="marginedHero">
 
-			<main id="main" class="site-main">
+			<div class="mediumHero aboutHero">
 
-				<section id="hero" class="marginedHero">
+				<div class="navWidth heroHeadingContainer">
 
-					<div class="hero homeHero">
+					<div class="homeHeading flex-container">
 
-						<div class="navWidth heroHeadingContainer">
+						<div>
 
-							<div class="homeHeading flex-container">
+							<div class="heroHeading">
 
-								<div>
-
-									<div class="heroHeading">
-
-										<h1 id="mainHeader"><?php the_field('homepage_hero_heading'); ?></h1>
-
-									</div>
-
-								</div>
+								<h1 class="largeHeading">Dedicated to supporting healthy child development</h1>
 
 							</div>
 
@@ -47,11 +39,39 @@ get_header();
 
 					</div>
 
-				</section>
+				</div>
+
+			</div>
+
+		</section>
+
+		<section class="sectionNav">
+
+			<div class="fullWidth blueBlock">
+
+				<div class="pageWidth flexListWrapper">
+
+					<ul class="flexList">
+
+						<li><a href="/about/staff/" class="flexListLink">Staff</a></li>
+
+						<li><a href="/about/board-of-directors/" class="flexListLink">Board of Directors</a></li>
+
+						<li><a href="/about/employment/" class="flexListLink">Employment</a></li>
+
+					</ul>
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<div id="barba-wrapper">
+
+			<div class="barba-container">
 
 				<section id="pageContent">
-
-				<div>
 
 				<section id ="familyAndChildcareIntro" class="marginContainer">
 
@@ -59,7 +79,7 @@ get_header();
 
 						<div id="introImage" class="col50 removeBottomMargin">
 
-							<img src="<?php the_field('what_we_do_image'); ?>" class="image">
+							<img src="/assets/scss/wp-content/uploads/2019/01/043Cropped-2-1.jpg" class="image">
 
 						</div>
 
@@ -67,9 +87,18 @@ get_header();
 
 							<div class="blockText">
 
-								<h2 id="whatWeHeader"><span class="underlinedHeading"><?php the_field('what_we_do_heading'); ?></span></h2>
+								<h2 id="whatWeHeader"><span class="underlinedHeading">WHAT WE DO</span></h2>
 
-								<p><?php the_field('what_we_do_copy'); ?></p>
+								<p>
+									Family & Childcare Resources helps shape our community’s at-risk families in a positive manner. We work with those who impact early
+									childhood experiences; parents, child care providers and more to help educate and support them through services and programs we offer.
+								</p>
+
+								<p>
+									We help provide brighter and more positive experiences for families. We do this by empowering and supporting families and teaching
+									them a variety of strategies that can help their family. We are dedicated to supporting healthy child development by providing
+									high-quality education, support, and programs to both families and early childhood professionals.
+								</p>
 
 							</div>
 
@@ -83,7 +112,7 @@ get_header();
 
 					<div class="fullWidth centerText">
 
-						<h2 id="whatWeHeader"><span class="underlinedHeading"><?php the_field('service_heading'); ?></span></h2>
+						<h2 id="whatWeHeader"><span class="underlinedHeading">OUR SERVICES</span></h2>
 
 					</div>
 
@@ -93,7 +122,7 @@ get_header();
 
 							<div class="col30 centerText">
 
-								<img src="<?php the_field('programs_image'); ?>" class="serviceImage">
+								<img src="/assets/scss/wp-content/uploads/2019/01/MotherColoringWithDaughter.png" class="serviceImage">
 
 							</div>
 
@@ -101,7 +130,12 @@ get_header();
 
 								<h3 class="whiteText">PROGRAMS</h3>
 
-								<p class="whiteText"><?php the_field('programs_copy'); ?></p>
+								<p class="whiteText">
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+									enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
+									in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+									blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+								</p>
 
 									<a href="/programs/"><button class="primaryButton"><span class="marginRight">View Our Programs </span><i class="whiteIcon fas fa-chevron-right"></i></button></a>
 
@@ -119,7 +153,12 @@ get_header();
 
 								<h3 class="primaryText">RESOURCES</h3>
 
-								<p class="primaryText"><?php the_field('resources_copy'); ?></p>
+								<p class="primaryText">
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+									enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
+									in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+									blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+								</p>
 
 									<a href="/programs/"><button class="primaryButtonReverse"><span class="marginRight">View Our Resources </span><i class="primaryIcon fas fa-chevron-right"></i></button></a>
 
@@ -127,7 +166,7 @@ get_header();
 
 							<div class="col30 centerText">
 
-								<img src="<?php the_field('resources_image'); ?>" class="serviceImage">
+								<img src="/assets/scss/wp-content/uploads/2019/01/dadReadingToDaughter.png" class="serviceImage">
 
 							</div>
 
@@ -141,7 +180,7 @@ get_header();
 
 							<div class="col30 centerText">
 
-								<img src="<?php the_field('events_image'); ?>" class="serviceImage">
+								<img src="/assets/scss/wp-content/uploads/2019/01/eventPhotoCircle.png" class="serviceImage">
 
 							</div>
 
@@ -149,7 +188,12 @@ get_header();
 
 								<h3 class="whiteText">EVENTS</h3>
 
-								<p class="whiteText"><?php the_field('events_copy'); ?></p>
+								<p class="whiteText">
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+									enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
+									in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+									blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+								</p>
 
 									<a href="/programs/"><button class="primaryButton"><span class="marginRight">View Our Events </span><i class="whiteIcon fas fa-chevron-right"></i></button></a>
 
@@ -165,7 +209,7 @@ get_header();
 
 					<div class="fullWidth centerText">
 
-						<h2><span class="underlinedHeading"><?php the_field('success_stories_heading'); ?></span></h2>
+						<h2><span class="underlinedHeading">SUCCESS STORIES</span></h2>
 
 					</div>
 
@@ -173,7 +217,7 @@ get_header();
 
 						<div class="col50 removeBottomMargin">
 
-							<img src="<?php the_field('success_story_1_image'); ?>" class="image">
+							<img src="/assets/scss/wp-content/uploads/2019/01/DSC_0149.jpg" class="image">
 
 						</div>
 
@@ -221,7 +265,7 @@ get_header();
 
 						<div class="col50 removeBottomMargin">
 
-							<img src="<?php the_field('success_story_2_image'); ?>" class="image">
+							<img src="/assets/scss/wp-content/uploads/2019/01/DAWN-042.jpg" class="image">
 
 						</div>
 
@@ -237,7 +281,7 @@ get_header();
 
 							<div class="opaqueLogoWrap">
 
-								<img src="/wp-content/uploads/2019/02/N.E.W-Logo-cropped-white-medium.png" class="image opaqueLogo">
+								<img src="/assets/scss/wp-content/uploads/2019/01/N.E.W-Logo-cropped-white-medium.png" class="image opaqueLogo">
 
 							</div>
 
@@ -266,13 +310,11 @@ get_header();
 
 			</section>
 
+			</div>
+
 		</div>
 
 	</main>
-
-</div>
-
-</div>
 
 </div>
 

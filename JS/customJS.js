@@ -141,20 +141,6 @@ $(function() {
     });
 });
 
-//highlight the current link so it shows users where they are on site
-
-$(function(){
-    var url = window.location.href;
-    var activePage = url;
-    $(".menuLink").each(function() {
-        var linkPage = this.href;
-        if (activePage == linkPage) {
-            $(this).closest("li").addClass("active");
-
-        }
-    });
-
-});
 //smooth scroll to elements in inner services nav
 
 $(document).on('click', 'a[href^="#aluminum"]', function (event) {

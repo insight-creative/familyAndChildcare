@@ -667,6 +667,23 @@ template {
 .smallTextBlock {
   padding: 10px; }
 
+.flexListWrapper {
+  display: flex;
+  justify-content: center; }
+
+.flexList {
+  display: flex;
+  color: #FFFFFF;
+  list-style-type: none;
+  font-size: 1.6em;
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0; }
+  .flexList li {
+    padding: 20px; }
+    .flexList li:active {
+      background-color: #002c47; }
+
 /*4.0 Header Styling -------------------------------------------*/
 .site-header {
   position: fixed;
@@ -859,7 +876,7 @@ nav {
   width: 90%;
   height: 5px;
   opacity: 0;
-  background-image: url("/assets/scss/wp-content/uploads/2019/01/handDrawnUnderlineLarge.png");
+  background-image: url("/wp-content/uploads/2019/02/handDrawnUnderlineLarge.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -872,7 +889,7 @@ nav {
   width: 90%;
   height: 5px;
   opacity: 1;
-  background-image: url("/assets/scss/wp-content/uploads/2019/01/handDrawnUnderlineLarge.png");
+  background-image: url("/wp-content/uploads/2019/02/handDrawnUnderlineLarge.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1397,16 +1414,21 @@ h6 {
     left: 0;
     width: 100%;
     height: 10px;
-    background-image: url("/assets/scss/wp-content/uploads/2019/01/handDrawnUnderlineLarge.png");
+    background-image: url("/wp-content/uploads/2019/02/handDrawnUnderlineLarge.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     transition: .3s ease all; }
 
+.largeHeading {
+  font-size: 4em;
+  margin-bottom: 0; }
+
 /* 7.0 Button Stylings ---------------------------------------*/
 .primaryLink {
   color: #efbb50 !important;
-  transition: .3s ease all; }
+  transition: .3s ease all;
+  text-decoration: none; }
   .primaryLink:hover {
     transition: .3s ease all;
     color: #e5b12b !important; }
@@ -1571,6 +1593,14 @@ h6 {
   margin: 50px auto;
   text-align: center; }
 
+.flexListLink {
+  color: #efbb50 !important;
+  transition: .3s ease all;
+  text-decoration: none; }
+  .flexListLink:hover {
+    transition: .3s ease all;
+    color: #e5b12b !important; }
+
 /* 8.0 General Body Styles -------------------------------------------*/
 body {
   background: #FFFFFF;
@@ -1665,7 +1695,7 @@ body {
   justify-content: center; }
 
 .homeHero {
-  background-image: url("/assets/scss/wp-content/uploads/2019/01/interesting-story-gm927656288-254467050Cropped.png"); }
+  background-image: url("/wp-content/uploads/2019/02/interesting-story-gm927656288-254467050Cropped.png"); }
 
 #heroHeading {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); }
@@ -1963,10 +1993,7 @@ body {
   margin-top: 150px !important; }
 
 .contactHero {
-  background-image: url("/assets/scss/wp-content/uploads/2019/01/kidSearchingOnMap.jpg"); }
-
-#largeHeading {
-  font-size: 4em; }
+  background-image: url("/wp-content/uploads/2019/02/kidSearchingOnMap.jpg"); }
 
 #contactContent {
   margin-top: 25px;
@@ -2003,5 +2030,9 @@ body {
 
 #fld_7683514_1 {
   height: 100px; }
+
+/* 14.0 About Page stylings -------------------------------------------*/
+.aboutHero {
+  background-image: url("/wp-content/uploads/2019/02/parentReadingToChild.jpg"); }
 
 /*# sourceMappingURL=style.css.map */
