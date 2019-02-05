@@ -1,4 +1,30 @@
 /* 14.0 About Page stylings -------------------------------------------*/
 .aboutHero{
-  background-image: url("/wp-content/uploads/2019/02/parentReadingToChild.jpg");
+  background-image: url("/wp-content/uploads/2019/02/ladyHoldingBabyFlipped.jpg");
+}
+.aboutFCR{
+  position: relative;
+  margin-bottom: 15px;
+    &:after{
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      content: "";
+      width: 50px;
+      height: 3px;
+      background-color: $secondaryYellow;
+    }
+}
+.imageWrapper{
+  padding: 20px;
+}
+.employeeName{
+  margin-bottom: 15px;
+}
+.jobPostWrapper{
+  margin: 10px;
+  background: $lightGrey;
+}
+.jobPostContent{
+  padding: 20px;
 }

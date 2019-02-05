@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: About
+ * Template Name: Employment
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -37,7 +37,7 @@ get_header();
 
 										<h2 id="aboutFCR" class="smallHeading aboutFCR">About Family and Childcare<br>Resources of N.E.W.</h2>
 
-										<h1 class="mediumHeading">Dedicated to supporting healthy child development</h1>
+										<h1 class="mediumHeading">Employment</h1>
 
 									</div>
 
@@ -83,29 +83,71 @@ get_header();
 
 						<section id ="aboutfamilyAndChildcare" class="marginContainer">
 
-							<div class="fullWidth centerAlignedContainer flex-container paddedContainer">
+							<div class="fullWidth blueBlock paddedContainer">
 
-								<div class="col70">
+								<div class="centerText">
 
-									<h2 id="missionHeader" class="centerText"><span class="underlinedHeading"><?php the_field('mission_header'); ?></span></h2>
-
-									<p class="limitWidth"><?php the_field('mission_copy'); ?></p>
+									<h2 class="whiteText">Current Openings</h2>
 
 								</div>
 
-							</div>
+								<div class="pageWidth flex-container">
 
-						</section>
+									<div class="col50">
 
-						<section id ="FCRAgency" class="marginContainer">
+										<div class="jobPostWrapper">
 
-							<div class="fullWidth centerAlignedContainer flex-container paddedContainer">
+											<div class="jobPostContent">
 
-								<div class="col70">
+												<p>Full time exempt/Half time</p>
 
-									<h2 id="agencyHeader" class="centerText"><span class="underlinedHeading"><?php the_field('agency_header'); ?></span></h2>
+												<h4>Parent Educator</h4>
 
-									<p class="limitWidth"><?php the_field('agency_copy'); ?></p>
+											</div>
+
+										</div>
+
+									</div>
+
+									<div class="col50">
+
+										<div class="jobPostWrapper">
+
+											<div class="jobPostContent">
+
+												<p>Unpaid Internship</p>
+
+												<h4>Event Coordinator Intern</h4>
+
+											</div>
+
+										</div>
+
+									</div>
+
+								</div>
+
+								<div class="pageWidth flex-container">
+
+									<div class="col50">
+
+										<div class="jobPostWrapper">
+
+											<div class="jobPostContent">
+
+												<p>Hourly/Part-time</p>
+
+												<h4>Childcare Provider</h4>
+
+											</div>
+
+										</div>
+
+									</div>
+
+									<div class="col50">
+
+									</div>
 
 								</div>
 
@@ -117,7 +159,7 @@ get_header();
 
 							<div class="fullWidth centerText">
 
-								<h2><span class="underlinedHeading"><?php the_field('values_header'); ?></span></h2>
+								<h2><span class="underlinedHeading">OUR VALUES</span></h2>
 
 							</div>
 

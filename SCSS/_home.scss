@@ -13,22 +13,6 @@
 #heroHeading{
 	text-shadow: 1px 1px 1px rgba(0,0,0,.5);
 }
-.heroHeadingContainer{
-	display: flex;
-	@include breakpoint(smallScreen){
-		align-items: flex-end;
-		position: relative;
-		bottom: 10px;
-	}
-	@include breakpoint(largeMobileScreen){
-		align-items: flex-end;
-		position: relative;
-		bottom: 20px;
-	}
-	@include breakpoint(tabletScreen){
-		align-items: center;
-	}
-}
 .homeHeading{
   align-items: center;
 	position: relative;

@@ -21,7 +21,7 @@
 
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 
-	<link href="/assets/scss/wp-content/themes/familyAndChildcareResponsiveChild/Assets/webfonts/fontawesome-all.css" rel="stylesheet">
+	<link href="/wp-content/themes/familyAndChildcareResponsiveChild/Assets/webfonts/fontawesome-all.css" rel="stylesheet">
 
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="  crossorigin="anonymous"></script>
 
@@ -52,361 +52,143 @@
 
 <body <?php body_class(); ?>>
 
-<div class = "menu">
+<nav role="navigation" aria-label="mobile navigation">
 
-		<div class = "linkWrap">
+	<div class = "menu">
 
-			<ul class="linkList">
+			<div class = "linkWrap">
 
-				<li>
+				<ul class="linkList">
 
-					<a class="menuLink" href = "/about/">ABOUT</a><i class="fas fa-chevron-right"></i>
+					<li>
 
-				</li>
+						<a class="menuLink" href = "/about/" role="link">ABOUT</a><i class="fas fa-chevron-right"></i>
 
-				<li>
+					</li>
 
-					<a class="menuLink" href = "/services/">OUR PROGRAMS</a><i class="fas fa-chevron-right"></i>
+					<li>
 
-				</li>
+						<a class="menuLink" href = "/services/" role="link">OUR PROGRAMS</a><i class="fas fa-chevron-right"></i>
 
-				<li>
+					</li>
 
-					<a class="menuLink" href = "/projects/">RESOURCES</a><i class="fas fa-chevron-right"></i>
+					<li>
 
-				</li>
+						<a class="menuLink" href = "/projects/" role="link">RESOURCES</a><i class="fas fa-chevron-right"></i>
 
-				<li>
+					</li>
 
-					<a class="menuLink" href = "/blog/">EVENTS</a><i class="fas fa-chevron-right"></i>
+					<li>
 
-				</li>
+						<a class="menuLink" href = "/blog/" role="link">EVENTS</a><i class="fas fa-chevron-right"></i>
 
-				<li>
+					</li>
 
-					<a class="menuLink" href = "/blog/">SUPPORT CHILDREN</a><i class="fas fa-chevron-right"></i>
+					<li>
 
-				</li>
+						<a class="menuLink" href = "/blog/" role="link">SUPPORT CHILDREN</a><i class="fas fa-chevron-right"></i>
 
-				<li>
+					</li>
 
-					<a class="menuLink" href = "/blog/">BLOG</a><i class="fas fa-chevron-right"></i>
+					<li>
 
-				</li>
+						<a class="menuLink" href = "/blog/" role="link">BLOG</a><i class="fas fa-chevron-right"></i>
 
-				<li>
+					</li>
 
-					<a class="menuLink" href = "/contact/">CONTACT</a><i class="fas fa-chevron-right"></i>
+					<li>
 
-				</li>
+						<a class="menuLink" href = "/contact/" role="link">CONTACT</a><i class="fas fa-chevron-right"></i>
 
-			</ul>
+					</li>
 
-		</div>
-
-		<div class="closeMenuButton fullWidth centeredContainer">
-
-			<div id="closeMenuButtonWrapper">
-
-				<h4 id="closeMenuTitle">CLOSE MENU</h4>
+				</ul>
 
 			</div>
 
-		</div>
+			<div class="closeMenuButton fullWidth centeredContainer" aria-label="close mobile menu" tabindex="0">
 
-</div>
+				<div id="closeMenuButtonWrapper">
+
+					<h4 id="closeMenuTitle">CLOSE MENU</h4>
+
+				</div>
+
+			</div>
+
+	</div>
+
+</nav>
 
 <div id="page" class="site">
 
-	<header id="masthead" class="site-header" role="navigation">
+	<header id="masthead" class="site-header" role="banner">
 
-		<div class="secondaryNavigation">
+		<nav role="navigation" aria-label="desktop sub navigation">
 
-			<div class="navWidth secondaryMenuWrap">
+			<div class="secondaryNavigation">
 
-				<a class="secondaryLink" href="/blog/">BLOG</a>
+				<div class="navWidth secondaryMenuWrap">
 
-				<a class="secondaryLink" href="/events/">EVENTS</a>
+					<a class="secondaryLink" href="/blog/" role="link">BLOG</a>
 
-				<i class="fas fa-phone whiteIcon"></i>
+					<a class="secondaryLink" href="/events/" role="link">EVENTS</a>
 
-				<a class="secondaryLink" href="tel:(920)432-8899">(920) 432-8899</a>
+					<i class="fas fa-phone whiteIcon"></i>
+
+					<a class="secondaryLink" href="tel:(920)432-8899" role="link">(920) 432-8899</a>
+
+				</div>
 
 			</div>
 
-		</div>
+		</nav>
 
 		<div id="site-navigation" class="main-navigation">
 
-			<nav>
+			<nav role="navigation" aria-label="primary navigation">
 
 				<div class="navWidth menuLinkWrap">
 
-						<a href="https://wordpress-154794-719987.cloudwaysapps.com"><img src="/assets/scss/wp-content/uploads/2019/01/N.E.WLogoCroppedColorHorizMedium.png" class="siteLogo" ></a>
+						<a href="https://wordpress-154794-741207.cloudwaysapps.com/" role="link">
+
+							<img src="/wp-content/uploads/2019/02/N.E.WLogoCroppedColorHorizMedium.png" class="siteLogo" alt="Family and Childcare Resources of N.E.W. Logo"></a>
 
 						<ul class="linkList2">
 
-							<!--<li>
-
-								<a class="menuLink" href = "/about/">CHILD CARE TRAINING</a>
-
-							</li>-->
-							<!--
 							<li>
 
-								<div class="dropDown">
-
-									<a id="programsLink" class="menuLink" href = "/about/">OUR PROGRAMS</a>
-
-									<div id="programsDropNav" class="dropDownNav flex-container fullWidth">
-
-										<div class="pageWidth flex-container dropDownNavWrapper">
-
-											<div class="col50">
-
-												<img src="/assets/scss/wp-content/uploads/2019/01/triplePPresentationMedium-1.jpg" class="dropNavImage"/>
-
-											</div>
-
-											<div class="col50">
-
-												<div class="navWidth menuLinkWrap">
-
-														<ul class="linkList3">
-
-															<li>
-
-																<a class="menuLink" href = "/about/">Positive parenting program - Triple P</a>
-
-															</li>
-
-															<li>
-
-																<a class="menuLink" href = "/services/">In need of local help?</a>
-
-															</li>
-
-															<li>
-
-																<a class="menuLink" href = "/projects/">Looking for child care?</a>
-
-															</li>
-
-															<li>
-
-																<a class="menuLink" href = "/about/">Training</a>
-
-															</li>
-
-														</ul>
-
-												</div>
-
-											</div>
-
-										</div>
-
-									</div>
-
-								</div>
+								<a class="menuLink" href="/about/" role="link">OUR PROGRAMS</a>
 
 							</li>
 
 							<li>
 
-								<div class="dropDown">
-
-									<a id="programsLink" class="menuLink" href = "/about/">RESOURCES</a>
-
-									<div id="programsDropNav" class="dropDownNav flex-container fullWidth">
-
-										<div class="pageWidth flex-container dropDownNavWrapper">
-
-											<div class="col50">
-
-												<img src="/assets/scss/wp-content/uploads/2019/01/parentingToolBoxCropped.jpg" class="dropNavImage"/>
-
-											</div>
-
-											<div class="col50">
-
-												<div class="navWidth menuLinkWrap">
-
-														<ul class="linkList3">
-
-															<li>
-
-																<a class="menuLink" href = "/about/">FAMILY AND PARENTING</a>
-
-															</li>
-
-															<li>
-
-																<a class="menuLink" href = "/services/">EARLY CHILDHOOD</a>
-
-															</li>
-
-															<li>
-
-																<a class="menuLink" href = "/projects/">COMMUNITY RESOURCES</a>
-
-															</li>
-
-														</ul>
-
-												</div>
-
-											</div>
-
-										</div>
-
-									</div>
-
-								</div>
+								<a class="menuLink" href="/about/" role="link">RESOURCES</a>
 
 							</li>
 
 							<li>
 
-								<div class="dropDown">
-
-									<a id="programsLink" class="menuLink" href = "/about/">SUPPORT CHILDREN</a>
-
-									<div id="programsDropNav" class="dropDownNav flex-container fullWidth">
-
-										<div class="pageWidth flex-container dropDownNavWrapper">
-
-											<div class="col50">
-
-												<img src="/assets/scss/wp-content/uploads/2019/01/african-american-father-reading-a-fairy-tale-fable-story-for-kids-at-home-happy-gm969740436-264284754Cropped.png" class="dropNavImage"/>
-
-											</div>
-
-											<div class="col50">
-
-												<div class="navWidth menuLinkWrap">
-
-														<ul class="linkList3">
-
-															<li>
-
-																<a class="menuLink" href = "/about/">DONORS</a>
-
-															</li>
-
-															<li>
-
-																<a class="menuLink" href = "/services/">VOLUNTEERS</a>
-
-															</li>
-
-														</ul>
-
-												</div>
-
-											</div>
-
-										</div>
-
-									</div>
-
-								</div>
+								<a class="menuLink" href="/about/" role="link">SUPPORT CHILDREN</a>
 
 							</li>
 
 							<li>
 
-								<div class="dropDown">
-
-									<a id="programsLink" class="menuLink" href = "/about/">ABOUT</a>
-
-									<div id="programsDropNav" class="fullWidth dropDownNav">
-
-										<div class="pageWidth flex-container dropDownNavWrapper">
-
-											<div class="col50">
-
-												<img src="/assets/scss/wp-content/uploads/2019/01/271mEDIUM-1.jpg" class="dropNavImage"/>
-
-											</div>
-
-											<div class="col50">
-
-												<div class="navWidth menuLinkWrap">
-
-														<ul class="linkList3">
-
-															<li>
-
-																<a class="menuLink" href = "/about/">STAFF</a>
-
-															</li>
-
-															<li>
-
-																<a class="menuLink" href = "/services/">BOARD OF DIRECTORS</a>
-
-															</li>
-
-															<li>
-
-																<a class="menuLink" href = "/projects/">EMPLOYMENT</a>
-
-															</li>
-
-														</ul>
-
-												</div>
-
-											</div>
-
-										</div>
-
-									</div>
-
-								</div>
+								<a class="menuLink" href="/about/" role="link">ABOUT</a>
 
 							</li>
 
 							<li>
 
-								<a class="menuLink" href = "/contact/">CONTACT</a>
-
-							</li>-->
-
-							<li>
-
-								<a id="programsLink" class="menuLink" href = "/about/">OUR PROGRAMS</a>
-
-							</li>
-
-							<li>
-
-								<a id="programsLink" class="menuLink" href = "/about/">RESOURCES</a>
-
-							</li>
-
-							<li>
-
-								<a id="programsLink" class="menuLink" href = "/about/">SUPPORT CHILDREN</a>
-
-							</li>
-
-							<li>
-
-								<a id="programsLink" class="menuLink" href = "/about/">ABOUT</a>
-
-							</li>
-
-							<li>
-
-								<a class="menuLink" href = "/contact/">CONTACT</a>
+								<a class="menuLink" href="/contact/" role="link">CONTACT</a>
 
 							</li>
 
 						</ul>
 
-						<div class = "menuButtonWrap">
+						<div class = "menuButtonWrap" aria-label="mobile menu toggle button" tabindex="0">
 
 							<div class = "menuTextWrap">
 
@@ -419,6 +201,7 @@
 									<span></span>
 
 									<span></span>
+
 								</span>
 
 							</div>
@@ -432,45 +215,5 @@
 		</div><!-- #site-navigation -->
 
 	</header><!-- #masthead -->
-
-	<!--<div id="resourcesDropNav" class="dropDownNav flex-container">
-
-		<div class="col50">
-
-			<img src="/assets/scss/wp-content/uploads/2019/01/african-american-father-reading-a-fairy-tale-fable-story-for-kids-at-home-happy-gm969740436-264284754.png" class="dropNavImage"/>
-
-		</div>
-
-		<div class="col50">
-
-			<div class="navWidth menuLinkWrap">
-
-					<ul class="linkList3">
-
-						<li>
-
-							<a class="menuLink" href = "/about/">FAMILY AND PARENTING</a>
-
-						</li>
-
-						<li>
-
-							<a class="menuLink" href = "/services/">EARLY CHILDHOOD</a>
-
-						</li>
-
-						<li>
-
-							<a class="menuLink" href = "/projects/">COMMUNITY RESOURCES</a>
-
-						</li>
-
-					</ul>
-
-			</div>
-
-		</div>
-
-	</div>-->
 
 	<div id="content" class="site-content">

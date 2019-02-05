@@ -199,6 +199,22 @@
 			background-position: left;
     }
 	}
+	.heroHeadingContainer{
+		display: flex;
+		@include breakpoint(smallScreen){
+			align-items: flex-end;
+			position: relative;
+			bottom: 10px;
+		}
+		@include breakpoint(largeMobileScreen){
+			align-items: flex-end;
+			position: relative;
+			bottom: 20px;
+		}
+		@include breakpoint(tabletScreen){
+			align-items: center;
+		}
+	}
 .marginedHero{
 	@include breakpoint(smallScreen){
 		margin: 10px;
@@ -215,14 +231,28 @@
 		background-repeat: no-repeat;
 	  height: 40vh;
 	}
-	.mediumHero{
+.smallHeroHeadingContainer{
+	display: flex;
+	@include breakpoint(smallScreen){
+		align-items: flex-end;
 		position: relative;
-		z-index: 1;
-		width: 100%;
-		background-size: cover;
-		background-repeat: no-repeat;
-	  height: 50vh;
+		bottom: 10px;
 	}
+	@include breakpoint(largeMobileScreen){
+		align-items: flex-end;
+		position: relative;
+		bottom: 20px;
+	}
+}
+.mediumHero{
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 60vh;
+}
 .heroOverlay{
   position: absolute;
   top: 0;
@@ -280,6 +310,23 @@
 	margin: 0 auto;
 	text-align: center;
 	flex-direction: column;
+}
+.centeredImageContainer{
+	display: flex;
+	@include breakpoint(laptopScreen){
+		align-items: flex-start;
+	}
+	@include breakpoint(largeScreen){
+		align-items: center;
+	}
+}
+.marginTop{
+	@include breakpoint(laptopScreen){
+		margin-top: 50px;
+	}
+	@include breakpoint(largeScreen){
+		margin-top: 0;
+	}
 }
 .textWrap{
 	padding: 20px;
@@ -352,6 +399,9 @@
 		padding: 50px 0 50px 0;
 	}
 }
+.paddedContainer{
+	padding: 2em 0;
+}
 .smallTextBlock{
 	padding: 10px;
 }
@@ -363,14 +413,32 @@
 	display: flex;
 	color: $white;
 	list-style-type: none;
-	font-size: 1.6em;
 	padding-inline-start: 0;
 	margin-block-start: 0;
   margin-block-end: 0;
+	@include breakpoint(smallScreen){
+		flex-direction: column;
+		font-size: 1.3em;
+	}
+	@include breakpoint(largeMobileScreen){
+		flex-direction: row;
+		font-size: .8em;
+	}
+	@include breakpoint(tabletScreen){
+		flex-direction: row;
+		font-size: 1.3em;
+	}
 		li{
 			padding: 20px;
 			&:active{
 				background-color: #002c47;
 			}
 		}
+}
+.limitWidth{
+  max-width: 800px;
+  margin: 0 auto;
+}
+.defaultPadding{
+	padding: 150px 0 50px 0;
 }

@@ -163,25 +163,33 @@
 
 						<div id="closingLinks">
 
-							<a href="/privacy-policy/" class="borderRight">Privacy Policy</a> |
+							<nav role="navigation" aria-label="Sub Footer Links">
 
-							<a href="/sitemap/" class="borderRight">Sitemap</a> |
+								<a href="/privacy-policy/" class="borderRight" role="link">Privacy Policy</a> |
 
-							<a href="/contact/" class="borderRight">Contact Us</a>
+								<a href="/sitemap/" class="borderRight" role="link">Sitemap</a> |
+
+								<a href="/contact/" class="borderRight" role="link">Contact Us</a>
+
+							</nav>	
 
 						</div>
 
 					</div>
 
-					<div class="socialWrapper">
+						<div class="socialWrapper">
 
-						<a href="https://www.facebook.com/fcrnew/" target="_blank"><i class="footerSocialIcon fab fa-facebook-square"></i></a>
+							<nav role="navigation" aria-label="social navigation">
 
-						<a href="https://www.instagram.com/fcrnew/" target="_blank"><i class="footerSocialIcon fab fa-instagram"></i></a>
+								<a href="https://www.facebook.com/fcrnew/" target="_blank" role="link" aria-hidden="true"><i class="footerSocialIcon fab fa-facebook-square"></i></a>
 
-						<a href="https://twitter.com/fcrnew" target="_blank"><i class="footerSocialIcon fab fa-twitter-square"></i></a>
+								<a href="https://www.instagram.com/fcrnew/" target="_blank" role="link" aria-hidden="true"><i class="footerSocialIcon fab fa-instagram"></i></a>
 
-					</div>
+								<a href="https://twitter.com/fcrnew" target="_blank" role="link" aria-hidden="true"><i class="footerSocialIcon fab fa-twitter-square"></i></a>
+
+							</nav>
+
+						</div>
 
 				</div>
 

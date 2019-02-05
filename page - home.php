@@ -57,7 +57,7 @@ get_header();
 
 							<div id="introImage" class="col50 removeBottomMargin">
 
-								<img src="<?php the_field('what_we_do_image'); ?>" class="image">
+								<img src="<?php the_field('what_we_do_image'); ?>" class="image" role="image" alt="">
 
 							</div>
 
@@ -91,7 +91,7 @@ get_header();
 
 								<div class="col30 centerText">
 
-									<img src="<?php the_field('programs_image'); ?>" class="serviceImage">
+									<img src="<?php the_field('programs_image'); ?>" class="serviceImage" role="image" alt="">
 
 								</div>
 
@@ -101,7 +101,7 @@ get_header();
 
 									<p class="whiteText"><?php the_field('programs_copy'); ?></p>
 
-										<a href="/programs/"><button class="primaryButton"><span class="marginRight">View Our Programs </span><i class="whiteIcon fas fa-chevron-right"></i></button></a>
+										<a href="/programs/"><button class="primaryButton" role="button"><span class="marginRight">View Our Programs </span><i class="whiteIcon fas fa-chevron-right"></i></button></a>
 
 								</div>
 
@@ -119,13 +119,13 @@ get_header();
 
 									<p class="primaryText"><?php the_field('resources_copy'); ?></p>
 
-										<a href="/programs/"><button class="primaryButtonReverse"><span class="marginRight">View Our Resources </span><i class="primaryIcon fas fa-chevron-right"></i></button></a>
+										<a href="/programs/"><button class="primaryButtonReverse" role="button"><span class="marginRight">View Our Resources </span><i class="primaryIcon fas fa-chevron-right"></i></button></a>
 
 								</div>
 
 								<div class="col30 centerText">
 
-									<img src="<?php the_field('resources_image'); ?>" class="serviceImage">
+									<img src="<?php the_field('resources_image'); ?>" class="serviceImage" role="image" alt="">
 
 								</div>
 
@@ -139,7 +139,7 @@ get_header();
 
 								<div class="col30 centerText">
 
-									<img src="<?php the_field('events_image'); ?>" class="serviceImage">
+									<img src="<?php the_field('events_image'); ?>" class="serviceImage" role="image" alt="">
 
 								</div>
 
@@ -149,7 +149,7 @@ get_header();
 
 									<p class="whiteText"><?php the_field('events_copy'); ?></p>
 
-										<a href="/programs/"><button class="primaryButton"><span class="marginRight">View Our Events </span><i class="whiteIcon fas fa-chevron-right"></i></button></a>
+										<a href="/programs/"><button class="primaryButton" role="button"><span class="marginRight">View Our Events </span><i class="whiteIcon fas fa-chevron-right"></i></button></a>
 
 								</div>
 
@@ -171,7 +171,7 @@ get_header();
 
 							<div class="col50 removeBottomMargin">
 
-								<img src="<?php the_field('success_story_1_image'); ?>" class="image">
+								<img src="<?php the_field('success_story_1_image'); ?>" class="image" role="image" alt="">
 
 							</div>
 
@@ -188,7 +188,7 @@ get_header();
 										blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
 									</p>
 
-									<a href="/programs/"><button class="primaryButtonReverse"><span class="marginRight">Read The Full Story </span><i class="blueIcon fas fa-chevron-right"></i></button></a>
+									<a href="/programs/"><button class="primaryButtonReverse" role="button"><span class="marginRight">Read The Full Story </span><i class="blueIcon fas fa-chevron-right"></i></button></a>
 
 								</div>
 
@@ -211,7 +211,7 @@ get_header();
 										blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
 									</p>
 
-									<a href="/programs/"><button class="primaryButtonReverse"><span class="marginRight">Read The Full Story </span><i class="blueIcon fas fa-chevron-right"></i></button></a>
+									<a href="/programs/"><button class="primaryButtonReverse" role="button"><span class="marginRight">Read The Full Story </span><i class="blueIcon fas fa-chevron-right"></i></button></a>
 
 								</div>
 
@@ -219,7 +219,7 @@ get_header();
 
 							<div class="col50 removeBottomMargin">
 
-								<img src="<?php the_field('success_story_2_image'); ?>" class="image">
+								<img src="<?php the_field('success_story_2_image'); ?>" class="image" role="image" alt="">
 
 							</div>
 
@@ -235,7 +235,7 @@ get_header();
 
 								<div class="opaqueLogoWrap">
 
-									<img src="/wp-content/uploads/2019/02/N.E.W-Logo-cropped-white-medium.png" class="image opaqueLogo">
+									<img src="/wp-content/uploads/2019/02/N.E.W-Logo-cropped-white-medium.png" class="image opaqueLogo" role="image" alt="">
 
 								</div>
 
@@ -254,7 +254,7 @@ get_header();
 
 							<div class="col20">
 
-								<a href="/programs/"><button class="primaryButtonReverse"><span class="marginRight">Sign Up </span><i class="blueIcon fas fa-chevron-right"></i></button></a>
+								<a href="/programs/"><button class="primaryButtonReverse" role="button"><span class="marginRight">Sign Up </span><i class="blueIcon fas fa-chevron-right"></i></button></a>
 
 							</div>
 

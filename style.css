@@ -514,6 +514,22 @@ template {
       height: 90vh;
       background-position: left; } }
 
+.heroHeadingContainer {
+  display: flex; }
+  @media (max-width: 600px) {
+    .heroHeadingContainer {
+      align-items: flex-end;
+      position: relative;
+      bottom: 10px; } }
+  @media (min-width: 600px) {
+    .heroHeadingContainer {
+      align-items: flex-end;
+      position: relative;
+      bottom: 20px; } }
+  @media (min-width: 768px) {
+    .heroHeadingContainer {
+      align-items: center; } }
+
 @media (max-width: 600px) {
   .marginedHero {
     margin: 10px; } }
@@ -529,13 +545,27 @@ template {
   background-repeat: no-repeat;
   height: 40vh; }
 
+.smallHeroHeadingContainer {
+  display: flex; }
+  @media (max-width: 600px) {
+    .smallHeroHeadingContainer {
+      align-items: flex-end;
+      position: relative;
+      bottom: 10px; } }
+  @media (min-width: 600px) {
+    .smallHeroHeadingContainer {
+      align-items: flex-end;
+      position: relative;
+      bottom: 20px; } }
+
 .mediumHero {
   position: relative;
   z-index: 1;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 50vh; }
+  background-position: center;
+  height: 60vh; }
 
 .heroOverlay {
   position: absolute;
@@ -594,6 +624,22 @@ template {
   margin: 0 auto;
   text-align: center;
   flex-direction: column; }
+
+.centeredImageContainer {
+  display: flex; }
+  @media (min-width: 992px) {
+    .centeredImageContainer {
+      align-items: flex-start; } }
+  @media (min-width: 1250px) {
+    .centeredImageContainer {
+      align-items: center; } }
+
+@media (min-width: 992px) {
+  .marginTop {
+    margin-top: 50px; } }
+@media (min-width: 1250px) {
+  .marginTop {
+    margin-top: 0; } }
 
 .textWrap {
   padding: 20px; }
@@ -664,6 +710,9 @@ template {
   .smallPaddedSection {
     padding: 50px 0 50px 0; } }
 
+.paddedContainer {
+  padding: 2em 0; }
+
 .smallTextBlock {
   padding: 10px; }
 
@@ -675,14 +724,32 @@ template {
   display: flex;
   color: #FFFFFF;
   list-style-type: none;
-  font-size: 1.6em;
   padding-inline-start: 0;
   margin-block-start: 0;
   margin-block-end: 0; }
+  @media (max-width: 600px) {
+    .flexList {
+      flex-direction: column;
+      font-size: 1.3em; } }
+  @media (min-width: 600px) {
+    .flexList {
+      flex-direction: row;
+      font-size: .8em; } }
+  @media (min-width: 768px) {
+    .flexList {
+      flex-direction: row;
+      font-size: 1.3em; } }
   .flexList li {
     padding: 20px; }
     .flexList li:active {
       background-color: #002c47; }
+
+.limitWidth {
+  max-width: 800px;
+  margin: 0 auto; }
+
+.defaultPadding {
+  padding: 150px 0 50px 0; }
 
 /*4.0 Header Styling -------------------------------------------*/
 .site-header {
@@ -697,7 +764,7 @@ template {
   height: 100px;
   width: 100%;
   margin: 0 auto;
-  background: #FFFFFF;
+  background: #f6f6f6;
   display: flex;
   align-items: center;
   box-shadow: 0 0 28px 0 rgba(0, 0, 0, 0.25); }
@@ -712,30 +779,6 @@ template {
   background: #005797;
   display: flex;
   align-items: center; }
-
-.dropDown {
-  padding: 25px;
-  transition: .3s ease all; }
-
-.dropDownNav {
-  display: none;
-  background: #FFFFFF;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.25);
-  position: absolute;
-  z-index: 9998;
-  top: 130px;
-  left: 0;
-  transition: .3s ease all; }
-
-.dropDown:hover .dropDownNav {
-  display: flex !important; }
-
-.dropDownNavWrapper {
-  padding: 15px 10px 10px 10px; }
-
-.dropNavImage {
-  width: 100%;
-  height: 300px; }
 
 .menuLinkWrap {
   display: flex;
@@ -787,8 +830,6 @@ template {
 nav {
   display: flex;
   align-items: center;
-  height: 70px;
-  justify-content: space-between;
   width: 100%; }
 
 .menuText {
@@ -1345,7 +1386,7 @@ optgroup,
 textarea {
   color: #333333;
   font-family: "Open Sans", "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.6em; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -1355,27 +1396,27 @@ h1, h2, h3, h4, h5, h6 {
 
 h1, h2, h3, h4, h5, h6 {
   margin-block-start: 0;
-  margin-block-end: 1.5em; }
+  margin-block-end: 40px; }
 
 p {
   margin-block-start: 0;
   margin-block-end: 1em; }
 
 h1 {
-  font-size: 1.9em;
+  font-size: 2.2em;
   font-weight: 700; }
 
 h2 {
-  font-size: 3em; }
+  font-size: 2em; }
 
 h3 {
-  font-size: 1.6em; }
+  font-size: 1.8em; }
 
 h4 {
-  font-size: 1.4em; }
+  font-size: 1.6em; }
 
 h5 {
-  font-size: 1.3em; }
+  font-size: 1.4em; }
 
 h6 {
   font-size: .9em; }
@@ -1423,6 +1464,17 @@ h6 {
 .largeHeading {
   font-size: 4em;
   margin-bottom: 0; }
+
+.mediumHeading {
+  font-size: 2em;
+  margin-bottom: 0; }
+
+.smallHeading {
+  font-size: 1.5em;
+  margin-bottom: 0; }
+
+.uppercaseHeading {
+  text-transform: uppercase; }
 
 /* 7.0 Button Stylings ---------------------------------------*/
 .primaryLink {
@@ -1699,22 +1751,6 @@ body {
 
 #heroHeading {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); }
-
-.heroHeadingContainer {
-  display: flex; }
-  @media (max-width: 600px) {
-    .heroHeadingContainer {
-      align-items: flex-end;
-      position: relative;
-      bottom: 10px; } }
-  @media (min-width: 600px) {
-    .heroHeadingContainer {
-      align-items: flex-end;
-      position: relative;
-      bottom: 20px; } }
-  @media (min-width: 768px) {
-    .heroHeadingContainer {
-      align-items: center; } }
 
 .homeHeading {
   align-items: center;
@@ -2033,6 +2069,31 @@ body {
 
 /* 14.0 About Page stylings -------------------------------------------*/
 .aboutHero {
-  background-image: url("/wp-content/uploads/2019/02/parentReadingToChild.jpg"); }
+  background-image: url("/wp-content/uploads/2019/02/ladyHoldingBabyFlipped.jpg"); }
+
+.aboutFCR {
+  position: relative;
+  margin-bottom: 15px; }
+  .aboutFCR:after {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: #efbb50; }
+
+.imageWrapper {
+  padding: 20px; }
+
+.employeeName {
+  margin-bottom: 15px; }
+
+.jobPostWrapper {
+  margin: 10px;
+  background: #f6f6f6; }
+
+.jobPostContent {
+  padding: 20px; }
 
 /*# sourceMappingURL=style.css.map */

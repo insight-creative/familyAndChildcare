@@ -7,7 +7,7 @@ optgroup,
 textarea {
 	color: $black;
 	font-family: "Open Sans", "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 1.6em;
 }
 h1,h2,h3,h4,h5,h6{
@@ -17,27 +17,27 @@ h1,h2,h3,h4,h5,h6{
 }
 h1,h2,h3,h4,h5,h6{
 	margin-block-start: 0;
-	margin-block-end: 1.5em;
+	margin-block-end: 40px;
 }
 p{
 	margin-block-start: 0;
 	margin-block-end: 1em;
 }
 h1{
-	font-size: 1.9em;
+	font-size: 2.2em;
 	font-weight: 700;
 }
 h2{
-	font-size: 3em;
+	font-size: 2em;
 }
 h3{
-	font-size: 1.6em;
+	font-size: 1.8em;
 }
 h4{
-	font-size: 1.4em;
+	font-size: 1.6em;
 }
 h5{
-	font-size: 1.3em;
+	font-size: 1.4em;
 }
 h6{
 	font-size: .9em;
@@ -87,4 +87,15 @@ h6{
 .largeHeading{
   font-size: 4em;
 	margin-bottom: 0;
+}
+.mediumHeading{
+	font-size: 2em;
+	margin-bottom: 0;
+}
+.smallHeading{
+	font-size: 1.5em;
+	margin-bottom: 0;
+}
+.uppercaseHeading{
+	text-transform: uppercase;
 }
