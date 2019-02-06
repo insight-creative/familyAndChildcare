@@ -721,8 +721,10 @@ template {
   justify-content: center; }
 
 .flexList {
+  font-family: 'Oswald', "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
   display: flex;
   color: #FFFFFF;
+  font-weight: 700;
   list-style-type: none;
   padding-inline-start: 0;
   margin-block-start: 0;
@@ -735,13 +737,15 @@ template {
     .flexList {
       flex-direction: row;
       font-size: .8em; } }
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     .flexList {
       flex-direction: row;
-      font-size: 1.3em; } }
+      font-size: 1em; } }
   .flexList li {
     padding: 20px; }
     .flexList li:active {
+      background-color: #002c47; }
+    .flexList li:hover {
       background-color: #002c47; }
 
 .limitWidth {
@@ -750,6 +754,13 @@ template {
 
 .defaultPadding {
   padding: 150px 0 50px 0; }
+
+.stickyNav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 130px;
+  box-shadow: 0 0 28px 0 rgba(0, 0, 0, 0.25);
+  z-index: 9999; }
 
 /*4.0 Header Styling -------------------------------------------*/
 .site-header {
@@ -1451,7 +1462,7 @@ h6 {
   .underlinedHeading:after {
     position: absolute;
     content: "";
-    bottom: 0;
+    bottom: -10px;
     left: 0;
     width: 100%;
     height: 10px;
@@ -1680,7 +1691,7 @@ body {
       position: absolute;
       height: 2px;
       width: 100%;
-      background: #005797;
+      background: #6997a9;
       content: "";
       bottom: 0;
       left: 0;
@@ -1690,7 +1701,7 @@ body {
     position: absolute;
     height: 2px;
     width: 100%;
-    background: #005797;
+    background: #6997a9;
     content: "";
     bottom: 25%;
     left: 0;
@@ -2067,7 +2078,7 @@ body {
 #fld_7683514_1 {
   height: 100px; }
 
-/* 14.0 About Page stylings -------------------------------------------*/
+/* 14.0 About Pages stylings -------------------------------------------*/
 .aboutHero {
   background-image: url("/wp-content/uploads/2019/02/ladyHoldingBabyFlipped.jpg"); }
 
@@ -2095,5 +2106,9 @@ body {
 
 .jobPostContent {
   padding: 20px; }
+
+/* 15.0 Programs Pages stylings -------------------------------------------*/
+.programHero {
+  background-image: url("/wp-content/uploads/2019/02/triplePPresentationCropped.jpg"); }
 
 /*# sourceMappingURL=style.css.map */

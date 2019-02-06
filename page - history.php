@@ -51,7 +51,7 @@ get_header();
 
 				</section>
 
-				<section class="sectionNav">
+				<section class="sectionNav stickyNav">
 
 					<div class="fullWidth blueBlock">
 

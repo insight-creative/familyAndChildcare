@@ -410,8 +410,10 @@
 	justify-content: center;
 }
 .flexList{
+	font-family: 'Oswald', "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
 	display: flex;
 	color: $white;
+	font-weight: 700;
 	list-style-type: none;
 	padding-inline-start: 0;
 	margin-block-start: 0;
@@ -424,13 +426,16 @@
 		flex-direction: row;
 		font-size: .8em;
 	}
-	@include breakpoint(tabletScreen){
+	@include breakpoint(laptopScreen){
 		flex-direction: row;
-		font-size: 1.3em;
+		font-size: 1em;
 	}
 		li{
 			padding: 20px;
 			&:active{
+				background-color: #002c47;
+			}
+			&:hover{
 				background-color: #002c47;
 			}
 		}
@@ -441,4 +446,11 @@
 }
 .defaultPadding{
 	padding: 150px 0 50px 0;
+}
+.stickyNav{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 130px;
+	box-shadow: 0 0 28px 0 rgba(0,0,0,.25);
+	z-index: 9999;
 }

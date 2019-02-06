@@ -68,25 +68,25 @@
 
 					<li>
 
-						<a class="menuLink" href = "/services/" role="link">OUR PROGRAMS</a><i class="fas fa-chevron-right"></i>
+						<a class="menuLink" href = "/programs/" role="link">OUR PROGRAMS</a><i class="fas fa-chevron-right"></i>
 
 					</li>
 
 					<li>
 
-						<a class="menuLink" href = "/projects/" role="link">RESOURCES</a><i class="fas fa-chevron-right"></i>
+						<a class="menuLink" href = "/resources/" role="link">RESOURCES</a><i class="fas fa-chevron-right"></i>
 
 					</li>
 
 					<li>
 
-						<a class="menuLink" href = "/blog/" role="link">EVENTS</a><i class="fas fa-chevron-right"></i>
+						<a class="menuLink" href = "/events/" role="link">EVENTS</a><i class="fas fa-chevron-right"></i>
 
 					</li>
 
 					<li>
 
-						<a class="menuLink" href = "/blog/" role="link">SUPPORT CHILDREN</a><i class="fas fa-chevron-right"></i>
+						<a class="menuLink" href = "/support-children/" role="link">SUPPORT CHILDREN</a><i class="fas fa-chevron-right"></i>
 
 					</li>
 
@@ -158,19 +158,19 @@
 
 							<li>
 
-								<a class="menuLink" href="/about/" role="link">OUR PROGRAMS</a>
+								<a class="menuLink" href="/programs/" role="link">OUR PROGRAMS</a>
 
 							</li>
 
 							<li>
 
-								<a class="menuLink" href="/about/" role="link">RESOURCES</a>
+								<a class="menuLink" href="/resources/" role="link">RESOURCES</a>
 
 							</li>
 
 							<li>
 
-								<a class="menuLink" href="/about/" role="link">SUPPORT CHILDREN</a>
+								<a class="menuLink" href="/support-children/" role="link">SUPPORT CHILDREN</a>
 
 							</li>
 
