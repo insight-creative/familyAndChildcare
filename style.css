@@ -1682,8 +1682,7 @@ body {
   text-decoration: none;
   color: #005797 !important;
   transition: .3s ease all;
-  position: relative;
-  transition: .3s ease all; }
+  position: relative; }
   .plainLink:hover {
     color: #6997a9;
     transition: .3s ease all; }
