@@ -51,33 +51,7 @@ get_header();
 
 				</section>
 
-				<section class="sectionNav stickyNav">
-
-					<div class="fullWidth blueBlock">
-
-						<div class="pageWidth">
-
-							<nav class="flexListWrapper" role="navigation" aria-label="About Sub Navigation">
-
-								<ul class="flexList">
-
-									<li><a href="/about/history/" class="flexListLink" role="link">History</a></li>
-
-									<li><a href="/about/staff/" class="flexListLink" role="link">Staff</a></li>
-
-									<li><a href="/about/board-of-directors/" class="flexListLink" role="link">Board of Directors</a></li>
-
-									<li><a href="/about/employment/" class="flexListLink" role="link">Employment</a></li>
-
-								</ul>
-
-							</nav>
-
-						</div>
-
-					</div>
-
-				</section>
+				<?php get_template_part('Includes/about-sub-nav'); ?>
 
 					<section id="pageContent">
 
@@ -113,7 +87,7 @@ get_header();
 
 						</section>
 
-						<section id="FCRvalue" class="smallPaddedSection marginContainer">
+						<section id="FCRvalue" class="marginContainer">
 
 							<div class="fullWidth centerText">
 
@@ -121,11 +95,11 @@ get_header();
 
 							</div>
 
-							<div class="fullWidth flex-container-reverse centeredImageContainer greyBlock">
+							<div class="fullWidth flex-container-reverse centerAlignedContainer greyBlock">
 
 								<div class="col50 removeBottomMargin">
 
-									<img src="/wp-content/uploads/2019/02/familyPlayTime.jpg" class="image marginTop">
+									<img src="/wp-content/uploads/2019/02/familyPlayTime.jpg" class="image">
 
 								</div>
 
@@ -159,40 +133,7 @@ get_header();
 
 						</section>
 
-						<section id="newsletterSignup" class="marginContainer yellowBlock smallPaddedSection">
-
-							<div class="pageWidth flex-container centerAlignedContainer">
-
-								<div class="col30">
-
-									<div class="opaqueLogoWrap">
-
-										<img src="/wp-content/uploads/2019/02/N.E.W-Logo-cropped-white-medium.png" class="image opaqueLogo">
-
-									</div>
-
-								</div>
-
-								<div class="col50 newsletterContent">
-
-									<h4>FAMILY & CHILDCARE RESOURCES OF N.E.W. NEWSLETTER</h4>
-
-									<p>
-									Interested in learning more about our programs and services? Join our email list to stay up to date on the latest child care provider trainings,
-									family services and programs as well as volunteer opportunities.
-									</p>
-
-								</div>
-
-								<div class="col20">
-
-									<a href="/programs/" role="link"><button class="primaryButtonReverse" role="button"><span class="marginRight">Sign Up </span><i class="blueIcon fas fa-chevron-right"></i></button></a>
-
-								</div>
-
-							</div>
-
-						</section>
+						<?php get_template_part('Includes/newsletter-signup'); ?>
 
 					</section>
 

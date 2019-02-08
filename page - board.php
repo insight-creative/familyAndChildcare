@@ -51,33 +51,7 @@ get_header();
 
 				</section>
 
-				<section class="sectionNav stickyNav">
-
-					<div class="fullWidth blueBlock">
-
-						<div class="pageWidth">
-
-							<nav class="flexListWrapper" role="navigation" aria-label="About Sub Navigation">
-
-								<ul class="flexList">
-
-									<li><a href="/about/history/" class="flexListLink" role="link">History</a></li>
-
-									<li><a href="/about/staff/" class="flexListLink" role="link">Staff</a></li>
-
-									<li><a href="/about/board-of-directors/" class="flexListLink" role="link">Board of Directors</a></li>
-
-									<li><a href="/about/employment/" class="flexListLink" role="link">Employment</a></li>
-
-								</ul>
-
-							</nav>
-
-						</div>
-
-					</div>
-
-				</section>
+				<?php get_template_part('Includes/about-sub-nav'); ?>
 
 					<section id="pageContent">
 

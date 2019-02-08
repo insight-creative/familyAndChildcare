@@ -322,10 +322,7 @@
 }
 .marginTop{
 	@include breakpoint(laptopScreen){
-		margin-top: 50px;
-	}
-	@include breakpoint(largeScreen){
-		margin-top: 0;
+		margin-top: 35px;
 	}
 }
 .textWrap{
@@ -405,6 +402,14 @@
 .smallTextBlock{
 	padding: 10px;
 }
+.mediumTextBlock{
+	padding: 20px;
+	background-color: $lightGrey;
+	margin-bottom: 25px;
+		li{
+			margin-bottom: 15px;
+		}
+}
 .flexListWrapper{
 	display: flex;
 	justify-content: center;
@@ -446,11 +451,4 @@
 }
 .defaultPadding{
 	padding: 150px 0 50px 0;
-}
-.stickyNav{
-	position: -webkit-sticky;
-	position: sticky;
-	top: 130px;
-	box-shadow: 0 0 28px 0 rgba(0,0,0,.25);
-	z-index: 9999;
 }

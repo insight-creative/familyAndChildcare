@@ -51,33 +51,7 @@ get_header();
 
 				</section>
 
-				<section class="sectionNav stickyNav">
-
-					<div class="fullWidth blueBlock">
-
-						<div class="pageWidth">
-
-							<nav class="flexListWrapper" role="navigation" aria-label="About Sub Navigation">
-
-								<ul class="flexList">
-
-									<li><a href="/about/history/" class="flexListLink" role="link">History</a></li>
-
-									<li><a href="/about/staff/" class="flexListLink" role="link">Staff</a></li>
-
-									<li><a href="/about/board-of-directors/" class="flexListLink" role="link">Board of Directors</a></li>
-
-									<li><a href="/about/employment/" class="flexListLink" role="link">Employment</a></li>
-
-								</ul>
-
-							</nav>
-
-						</div>
-
-					</div>
-
-				</section>
+				<?php get_template_part('Includes/about-sub-nav'); ?>
 
 					<section id="pageContent">
 
@@ -97,13 +71,17 @@ get_header();
 
 										<div class="jobPostWrapper">
 
-											<div class="jobPostContent">
+											<a href="/about/employment/parent-educator-2-positions-one-ft-one-pt-posted-12-12-18/">
 
-												<p>Full time exempt/Half time</p>
+												<div class="jobPostContent">
 
-												<h4>Parent Educator</h4>
+													<p>Full time exempt/Half time</p>
 
-											</div>
+													<h4 class="removeHeaderMargin">Parent Educator</h4>
+
+												</div>
+
+											</a>
 
 										</div>
 
@@ -113,13 +91,17 @@ get_header();
 
 										<div class="jobPostWrapper">
 
-											<div class="jobPostContent">
+											<a href="/about/employment/event-coordinator-intern-unpaid-internship-for-credit/">
 
-												<p>Unpaid Internship</p>
+												<div class="jobPostContent">
 
-												<h4>Event Coordinator Intern</h4>
+													<p>Unpaid Internship</p>
 
-											</div>
+													<h4 class="removeHeaderMargin">Event Coordinator Intern</h4>
+
+												</div>
+
+											</a>
 
 										</div>
 
@@ -133,13 +115,17 @@ get_header();
 
 										<div class="jobPostWrapper">
 
-											<div class="jobPostContent">
+											<a href="/about/employment/childcare-provider/">
 
-												<p>Hourly/Part-time</p>
+												<div class="jobPostContent">
 
-												<h4>Childcare Provider</h4>
+													<p>Hourly/Part-time</p>
 
-											</div>
+													<h4 class="removeHeaderMargin">Childcare Provider</h4>
+
+												</div>
+
+											</a>
 
 										</div>
 
@@ -155,7 +141,7 @@ get_header();
 
 						</section>
 
-						<section id="FCRvalue" class="smallPaddedSection marginContainer">
+						<section id="FCRvalue" class="marginContainer">
 
 							<div class="fullWidth centerText">
 
@@ -163,11 +149,11 @@ get_header();
 
 							</div>
 
-							<div class="fullWidth flex-container-reverse centeredImageContainer greyBlock">
+							<div class="fullWidth flex-container-reverse centerAlignedContainer greyBlock">
 
 								<div class="col50 removeBottomMargin">
 
-									<img src="/wp-content/uploads/2019/02/familyPlayTime.jpg" class="image marginTop">
+									<img src="/wp-content/uploads/2019/02/familyPlayTime.jpg" class="image">
 
 								</div>
 
@@ -201,40 +187,7 @@ get_header();
 
 						</section>
 
-						<section id="newsletterSignup" class="marginContainer yellowBlock smallPaddedSection">
-
-							<div class="pageWidth flex-container centerAlignedContainer">
-
-								<div class="col30">
-
-									<div class="opaqueLogoWrap">
-
-										<img src="/wp-content/uploads/2019/02/N.E.W-Logo-cropped-white-medium.png" class="image opaqueLogo">
-
-									</div>
-
-								</div>
-
-								<div class="col50 newsletterContent">
-
-									<h4>FAMILY & CHILDCARE RESOURCES OF N.E.W. NEWSLETTER</h4>
-
-									<p>
-									Interested in learning more about our programs and services? Join our email list to stay up to date on the latest child care provider trainings,
-									family services and programs as well as volunteer opportunities.
-									</p>
-
-								</div>
-
-								<div class="col20">
-
-									<a href="/programs/" role="link"><button class="primaryButtonReverse" role="button"><span class="marginRight">Sign Up </span><i class="blueIcon fas fa-chevron-right"></i></button></a>
-
-								</div>
-
-							</div>
-
-						</section>
+						<?php get_template_part('Includes/newsletter-signup'); ?>
 
 					</section>
 

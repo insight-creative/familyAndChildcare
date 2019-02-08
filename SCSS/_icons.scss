@@ -16,10 +16,12 @@
 	flex-direction: column;
 }
 .footerSocialIcon{
-	color: $secondaryYellow;
-	margin: 10px;
+	stroke: $secondaryYellow;
+  fill: $secondaryYellow;
+	margin: -5px;
 	transition: .3s ease all;
-	font-size: 30px;
+	height: 30px;
+	width: 30px;
 		&:hover{
 			color: $primaryYellow;
 			transition: .3s ease all;
@@ -28,4 +30,34 @@
 .arrowIcon{
 	margin-left: 20px;
 	transition: .2s ease all;
+}
+.smallIcon{
+	position: absolute;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+}
+.icon{
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  stroke-width: 0;
+  stroke: $white;
+  fill: $white;
+}
+.blueIcon{
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  stroke-width: 0;
+  stroke: $primaryBlue;
+  fill: $primaryBlue;
+}
+.mediumIcon{
+	display: inline-block;
+  width: 16px;
+  height: 16px;
+  stroke-width: 0;
+  stroke: $white;
+  fill: $white;
 }

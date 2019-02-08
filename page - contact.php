@@ -26,23 +26,23 @@ get_header();
 
 					<div class="mediumHero contactHero">
 
-							<div class="heroHeadingWrap fullWidth">
+						<div class="navWidth smallHeroHeadingContainer">
 
-								<div class="col50">
+							<div class="homeHeading flex-container">
 
-									<div class="homeHeading">
+								<div>
 
-										<div>
+									<div class="heroHeading">
 
-											<h1 class="whiteText largeHeading">Contact Us</h1>
-
-										</div>
+										<h1 class="largeHeading">Contact Us</h1>
 
 									</div>
 
 								</div>
 
 							</div>
+
+						</div>
 
 					</div>
 

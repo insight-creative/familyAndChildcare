@@ -636,10 +636,7 @@ template {
 
 @media (min-width: 992px) {
   .marginTop {
-    margin-top: 50px; } }
-@media (min-width: 1250px) {
-  .marginTop {
-    margin-top: 0; } }
+    margin-top: 35px; } }
 
 .textWrap {
   padding: 20px; }
@@ -716,6 +713,13 @@ template {
 .smallTextBlock {
   padding: 10px; }
 
+.mediumTextBlock {
+  padding: 20px;
+  background-color: #f6f6f6;
+  margin-bottom: 25px; }
+  .mediumTextBlock li {
+    margin-bottom: 15px; }
+
 .flexListWrapper {
   display: flex;
   justify-content: center; }
@@ -754,13 +758,6 @@ template {
 
 .defaultPadding {
   padding: 150px 0 50px 0; }
-
-.stickyNav {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 130px;
-  box-shadow: 0 0 28px 0 rgba(0, 0, 0, 0.25);
-  z-index: 9999; }
 
 /*4.0 Header Styling -------------------------------------------*/
 .site-header {
@@ -1026,13 +1023,7 @@ nav {
   @media (min-width: 992px) {
     .linkList2 {
       display: flex;
-      font-size: 14px; } }
-  @media (min-width: 1250px) {
-    .linkList2 {
-      font-size: 16px; } }
-  @media (min-width: 1600px) {
-    .linkList2 {
-      font-size: 18px; } }
+      font-size: 20px; } }
   .linkList2 a {
     color: #333333;
     font-weight: 700;
@@ -1141,6 +1132,23 @@ nav {
   @media (min-width: 992px) {
     .mobileHeroNav {
       display: none; } }
+
+.stickyNav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 130px;
+  box-shadow: 0 0 28px 0 rgba(0, 0, 0, 0.25);
+  z-index: 9998; }
+  @media (max-width: 600px) {
+    .stickyNav {
+      top: 0;
+      position: relative; } }
+  @media (min-width: 600px) {
+    .stickyNav {
+      top: 130px; } }
+
+.subNav {
+  height: 70px; }
 
 /* 5.0 Footer Stylings -------------------------------------------*/
 .site-info {
@@ -1411,7 +1419,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-block-start: 0;
-  margin-block-end: 1em; }
+  margin-block-end: 1em !important; }
 
 h1 {
   font-size: 2.2em;
@@ -1473,8 +1481,19 @@ h6 {
     transition: .3s ease all; }
 
 .largeHeading {
-  font-size: 4em;
   margin-bottom: 0; }
+  @media (max-width: 600px) {
+    .largeHeading {
+      font-size: 2.5em; } }
+  @media (max-width: 320px) {
+    .largeHeading {
+      font-size: 2em; } }
+  @media (min-width: 600px) {
+    .largeHeading {
+      font-size: 2.5em; } }
+  @media (min-width: 1250px) {
+    .largeHeading {
+      font-size: 4em; } }
 
 .mediumHeading {
   font-size: 2em;
@@ -1487,6 +1506,12 @@ h6 {
 .uppercaseHeading {
   text-transform: uppercase; }
 
+.removeHeaderMargin {
+  margin-block-end: 0; }
+
+.smallMarginHeader {
+  margin-block-end: 10px; }
+
 /* 7.0 Button Stylings ---------------------------------------*/
 .primaryLink {
   color: #efbb50 !important;
@@ -1496,10 +1521,19 @@ h6 {
     transition: .3s ease all;
     color: #e5b12b !important; }
 
+.plainBlackLink a {
+  color: #333333;
+  transition: .3s ease all; }
+  .plainBlackLink a:hover {
+    color: #005797;
+    transition: .3s ease all; }
+
 .primaryButton {
   position: relative;
   z-index: 1;
   background: rgba(0, 0, 0, 0);
+  text-decoration: none;
+  width: fit-content;
   color: #FFFFFF !important;
   margin-bottom: 10px;
   transition: .1s ease all;
@@ -1560,6 +1594,8 @@ h6 {
   z-index: 1;
   background: rgba(0, 0, 0, 0);
   color: #005797 !important;
+  text-decoration: none;
+  width: fit-content;
   margin-bottom: 10px;
   transition: .1s ease all;
   border-width: 0;
@@ -1567,6 +1603,9 @@ h6 {
   border-top: 2px solid rgba(0, 0, 0, 0);
   padding: 10px 20px 10px 20px;
   cursor: pointer; }
+  .primaryButtonReverse a {
+    text-decoration: none;
+    color: #005797 !important; }
   .primaryButtonReverse:after {
     position: absolute;
     z-index: 2;
@@ -1735,10 +1774,12 @@ body {
   flex-direction: column; }
 
 .footerSocialIcon {
-  color: #efbb50;
-  margin: 10px;
+  stroke: #efbb50;
+  fill: #efbb50;
+  margin: -5px;
   transition: .3s ease all;
-  font-size: 30px; }
+  height: 30px;
+  width: 30px; }
   .footerSocialIcon:hover {
     color: #e5b12b;
     transition: .3s ease all; }
@@ -1746,6 +1787,36 @@ body {
 .arrowIcon {
   margin-left: 20px;
   transition: .2s ease all; }
+
+.smallIcon {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden; }
+
+.icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  stroke-width: 0;
+  stroke: #FFFFFF;
+  fill: #FFFFFF; }
+
+.blueIcon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  stroke-width: 0;
+  stroke: #005797;
+  fill: #005797; }
+
+.mediumIcon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  stroke-width: 0;
+  stroke: #FFFFFF;
+  fill: #FFFFFF; }
 
 /* 10.0 Homepage stylings -------------------------------------------*/
 .heroHeadingWrap {
@@ -2101,7 +2172,18 @@ body {
 
 .jobPostWrapper {
   margin: 10px;
-  background: #f6f6f6; }
+  background: #f6f6f6;
+  transition: .3s ease all; }
+  .jobPostWrapper a {
+    color: #333333;
+    text-decoration: none;
+    transition: .3s ease all; }
+    .jobPostWrapper a:hover {
+      color: #005797;
+      transition: .3s ease all; }
+  .jobPostWrapper:hover {
+    transform: scale(0.95);
+    transition: .3s ease all; }
 
 .jobPostContent {
   padding: 20px; }
