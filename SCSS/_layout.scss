@@ -199,22 +199,60 @@
 			background-position: left;
     }
 	}
+	.heroHeadingContainer{
+		display: flex;
+		@include breakpoint(smallScreen){
+			align-items: flex-end;
+			position: relative;
+			bottom: 10px;
+		}
+		@include breakpoint(largeMobileScreen){
+			align-items: flex-end;
+			position: relative;
+			bottom: 20px;
+		}
+		@include breakpoint(tabletScreen){
+			align-items: center;
+		}
+	}
+.marginedHero{
+	@include breakpoint(smallScreen){
+		margin: 10px;
+	}
+	@include breakpoint(largeMobileScreen){
+		margin: 20px;
+	}
+}
 	.smallHero{
 		position: relative;
 		z-index: 1;
 		width: 100%;
 		background-size: cover;
 		background-repeat: no-repeat;
-	  height: 30vh;
+	  height: 40vh;
 	}
-	.mediumHero{
+.smallHeroHeadingContainer{
+	display: flex;
+	@include breakpoint(smallScreen){
+		align-items: flex-end;
 		position: relative;
-		z-index: 1;
-		width: 100%;
-		background-size: cover;
-		background-repeat: no-repeat;
-	  height: 50vh;  
+		bottom: 10px;
 	}
+	@include breakpoint(largeMobileScreen){
+		align-items: flex-end;
+		position: relative;
+		bottom: 20px;
+	}
+}
+.mediumHero{
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 60vh;
+}
 .heroOverlay{
   position: absolute;
   top: 0;
@@ -272,6 +310,20 @@
 	margin: 0 auto;
 	text-align: center;
 	flex-direction: column;
+}
+.centeredImageContainer{
+	display: flex;
+	@include breakpoint(laptopScreen){
+		align-items: flex-start;
+	}
+	@include breakpoint(largeScreen){
+		align-items: center;
+	}
+}
+.marginTop{
+	@include breakpoint(laptopScreen){
+		margin-top: 35px;
+	}
 }
 .textWrap{
 	padding: 20px;
@@ -344,6 +396,59 @@
 		padding: 50px 0 50px 0;
 	}
 }
+.paddedContainer{
+	padding: 2em 0;
+}
 .smallTextBlock{
 	padding: 10px;
+}
+.mediumTextBlock{
+	padding: 20px;
+	background-color: $lightGrey;
+	margin-bottom: 25px;
+		li{
+			margin-bottom: 15px;
+		}
+}
+.flexListWrapper{
+	display: flex;
+	justify-content: center;
+}
+.flexList{
+	font-family: 'Oswald', "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
+	display: flex;
+	color: $white;
+	font-weight: 700;
+	list-style-type: none;
+	padding-inline-start: 0;
+	margin-block-start: 0;
+  margin-block-end: 0;
+	@include breakpoint(smallScreen){
+		flex-direction: column;
+		font-size: 1.3em;
+	}
+	@include breakpoint(largeMobileScreen){
+		flex-direction: row;
+		font-size: .8em;
+	}
+	@include breakpoint(laptopScreen){
+		flex-direction: row;
+		font-size: 1em;
+	}
+		li{
+			padding: 20px;
+			&:active{
+				background-color: #002c47;
+			}
+			&:hover{
+				background-color: #002c47;
+			}
+		}
+}
+.limitWidth{
+  max-width: 800px;
+  margin: 0 auto;
+}
+.defaultPadding{
+	padding: 150px 0 50px 0;
 }

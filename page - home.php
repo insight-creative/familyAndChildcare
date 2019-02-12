@@ -23,7 +23,7 @@ get_header();
 
 			<main id="main" class="site-main">
 
-				<section id="hero" class="">
+				<section id="hero" class="marginedHero">
 
 					<div class="hero homeHero">
 
@@ -35,7 +35,7 @@ get_header();
 
 									<div class="heroHeading">
 
-										<h1 id="mainHeader">Early Childhood Experiences Matter</h1>
+										<h1 id="mainHeader"><?php the_field('homepage_hero_heading'); ?></h1>
 
 									</div>
 
@@ -51,254 +51,291 @@ get_header();
 
 				<section id="pageContent">
 
-				<div>
+					<section id ="familyAndChildcareIntro" class="marginContainer">
 
-				<section id ="familyAndChildcareIntro" class="marginContainer">
+						<div class="fullWidth flex-container-reverse centerAlignedContainer">
 
-					<div class="fullWidth flex-container-reverse centerAlignedContainer">
+							<div id="introImage" class="col50 removeBottomMargin">
 
-						<div id="introImage" class="col50 removeBottomMargin">
+								<img src="<?php the_field('what_we_do_image'); ?>" class="image" role="image" alt="">
 
-							<img src="/assets/scss/wp-content/uploads/2019/01/043Cropped-2-1.jpg" class="image">
+							</div>
 
-						</div>
+							<div id="introCopy" class="col50">
 
-						<div id="introCopy" class="col50">
+								<div class="blockText">
 
-							<div class="blockText">
+									<h2 id="whatWeHeader"><span class="underlinedHeading"><?php the_field('what_we_do_heading'); ?></span></h2>
 
-								<h2 id="whatWeHeader"><span class="underlinedHeading">WHAT WE DO</span></h2>
+									<p><?php the_field('what_we_do_copy'); ?></p>
 
-								<p>
-									Our agency is a nonprofit that provides education, support, information referral and evidence-based home visitation programs and early
-									childhood consultation (quality improvement for early childhood providers) throughout Northeast Wisconsin. We provide services for two
-									primary segments, one is families and guardians and the second is child care providers and professionals.
-								</p>
-
-								<p>
-									On our family side, we provide in-home visitation programs as well as seminars and group training through our Triple P. Program.  Our
-									service delivery area is Brown County and Oconto County. On the child care side, we provide technical consulting to child care providers,
-									continuing education to providers and professionals as well as on-site custom training. We also pride ourselves on providing unbiased child
-									care referrals that are customized to the clients need at no cost.</p>
-								</p>
+								</div>
 
 							</div>
 
 						</div>
 
-					</div>
+					</section>
+
+					<section id="services" class="smallPaddedSection">
+
+						<div class="fullWidth centerText">
+
+							<h2 id="whatWeHeader"><span class="underlinedHeading"><?php the_field('service_heading'); ?></span></h2>
+
+						</div>
+
+						<div class="fullWidth blueBlock smallPaddedSection">
+
+							<div class="pageWidth flex-container centerAlignedContainer">
+
+								<div class="col30 centerText">
+
+									<img src="<?php the_field('programs_image'); ?>" class="serviceImage" role="image" alt="">
+
+								</div>
+
+								<div class="col70">
+
+									<h3 class="whiteText">PROGRAMS</h3>
+
+									<p class="whiteText"><?php the_field('programs_copy'); ?></p>
+
+										<a href="/programs/" class="primaryButton" role="link"><span class="marginRight">View Our Programs </span>
+
+											<svg class="footerSocialIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+												<defs>
+
+													<symbol id="icon-chevron-right" viewBox="0 0 19 28">
+
+														<title>chevron-right</title>
+
+														<path d="M17.297 13.703l-11.594 11.594c-0.391 0.391-1.016 0.391-1.406 0l-2.594-2.594c-0.391-0.391-0.391-1.016 0-1.406l8.297-8.297-8.297-8.297c-0.391-0.391-0.391-1.016 0-1.406l2.594-2.594c0.391-0.391 1.016-0.391 1.406 0l11.594 11.594c0.391 0.391 0.391 1.016 0 1.406z"></path>
+
+													</symbol>
+
+												</defs>
+
+											</svg>
+
+											<svg class="icon icon-chevron-right"><use xlink:href="#icon-chevron-right"></use></svg>
+
+										</a>
+
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="fullWidth smallPaddedSection">
+
+							<div class="pageWidth flex-container-reverse centerAlignedContainer">
+
+								<div class="col70">
+
+									<h3 class="primaryText">RESOURCES</h3>
+
+									<p class="primaryText"><?php the_field('resources_copy'); ?></p>
+
+										<a href="/programs/" class="primaryButtonReverse" role="button"><span class="marginRight">View Our Resources </span>
+
+											<svg class="footerSocialIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+												<defs>
+
+													<symbol id="icon-chevron-right" viewBox="0 0 19 28">
+
+														<title>chevron-right</title>
+
+														<path d="M17.297 13.703l-11.594 11.594c-0.391 0.391-1.016 0.391-1.406 0l-2.594-2.594c-0.391-0.391-0.391-1.016 0-1.406l8.297-8.297-8.297-8.297c-0.391-0.391-0.391-1.016 0-1.406l2.594-2.594c0.391-0.391 1.016-0.391 1.406 0l11.594 11.594c0.391 0.391 0.391 1.016 0 1.406z"></path>
+
+													</symbol>
+
+												</defs>
+
+											</svg>
+
+											<svg class="blueIcon icon-chevron-right"><use xlink:href="#icon-chevron-right"></use></svg>
+
+										</a>
+
+								</div>
+
+								<div class="col30 centerText">
+
+									<img src="<?php the_field('resources_image'); ?>" class="serviceImage" role="image" alt="">
+
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="fullWidth blueBlock smallPaddedSection">
+
+							<div class="pageWidth flex-container centerAlignedContainer">
+
+								<div class="col30 centerText">
+
+									<img src="<?php the_field('events_image'); ?>" class="serviceImage" role="image" alt="">
+
+								</div>
+
+								<div class="col70">
+
+									<h3 class="whiteText">EVENTS</h3>
+
+									<p class="whiteText"><?php the_field('events_copy'); ?></p>
+
+										<a href="/programs/" class="primaryButton" role="button"><span class="marginRight">View Our Events </span>
+
+											<svg class="footerSocialIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+												<defs>
+
+													<symbol id="icon-chevron-right" viewBox="0 0 19 28">
+
+														<title>chevron-right</title>
+
+														<path d="M17.297 13.703l-11.594 11.594c-0.391 0.391-1.016 0.391-1.406 0l-2.594-2.594c-0.391-0.391-0.391-1.016 0-1.406l8.297-8.297-8.297-8.297c-0.391-0.391-0.391-1.016 0-1.406l2.594-2.594c0.391-0.391 1.016-0.391 1.406 0l11.594 11.594c0.391 0.391 0.391 1.016 0 1.406z"></path>
+
+													</symbol>
+
+												</defs>
+
+											</svg>
+
+											<svg class="icon icon-chevron-right"><use xlink:href="#icon-chevron-right"></use></svg>
+
+										</a>
+
+								</div>
+
+							</div>
+
+						</div>
+
+					</section>
+
+					<section id="stories" class="smallPaddedSection marginContainer">
+
+						<div class="fullWidth centerText">
+
+							<h2><span class="underlinedHeading"><?php the_field('success_stories_heading'); ?></span></h2>
+
+						</div>
+
+						<div class="fullWidth flex-container-reverse centerAlignedContainer greyBlock">
+
+							<div class="col50 removeBottomMargin">
+
+								<img src="<?php the_field('success_story_1_image'); ?>" class="image" role="image" alt="">
+
+							</div>
+
+							<div class="col50">
+
+								<div class="blockText">
+
+									<h3 class="primaryText">STORY TITLE</h3>
+
+									<p>
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+										enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
+										in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+										blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+									</p>
+
+									<a href="/programs/" class="primaryButtonReverse" role="link"><span class="marginRight">Read The Full Story </span>
+
+										<svg class="footerSocialIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+											<defs>
+
+												<symbol id="icon-chevron-right" viewBox="0 0 19 28">
+
+													<title>chevron-right</title>
+
+													<path d="M17.297 13.703l-11.594 11.594c-0.391 0.391-1.016 0.391-1.406 0l-2.594-2.594c-0.391-0.391-0.391-1.016 0-1.406l8.297-8.297-8.297-8.297c-0.391-0.391-0.391-1.016 0-1.406l2.594-2.594c0.391-0.391 1.016-0.391 1.406 0l11.594 11.594c0.391 0.391 0.391 1.016 0 1.406z"></path>
+
+												</symbol>
+
+											</defs>
+
+										</svg>
+
+										<svg class="blueIcon icon-chevron-right"><use xlink:href="#icon-chevron-right"></use></svg>
+
+									</a>
+
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="fullWidth flex-container centerAlignedContainer greyBlock">
+
+							<div class="col50">
+
+								<div class="blockText">
+
+									<h3 class="primaryText">STORY TITLE</h3>
+
+									<p>
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+										enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
+										in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+										blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+									</p>
+
+									<a href="/programs/" class="primaryButtonReverse" role="button"><span class="marginRight">Read The Full Story </span>
+
+										<svg class="footerSocialIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+											<defs>
+
+												<symbol id="icon-chevron-right" viewBox="0 0 19 28">
+
+													<title>chevron-right</title>
+
+													<path d="M17.297 13.703l-11.594 11.594c-0.391 0.391-1.016 0.391-1.406 0l-2.594-2.594c-0.391-0.391-0.391-1.016 0-1.406l8.297-8.297-8.297-8.297c-0.391-0.391-0.391-1.016 0-1.406l2.594-2.594c0.391-0.391 1.016-0.391 1.406 0l11.594 11.594c0.391 0.391 0.391 1.016 0 1.406z"></path>
+
+												</symbol>
+
+											</defs>
+
+										</svg>
+
+										<svg class="blueIcon icon-chevron-right"><use xlink:href="#icon-chevron-right"></use></svg>
+
+									</a>
+
+								</div>
+
+							</div>
+
+							<div class="col50 removeBottomMargin">
+
+								<img src="<?php the_field('success_story_2_image'); ?>" class="image" role="image" alt="">
+
+							</div>
+
+						</div>
+
+					</section>
+
+					<?php get_template_part('Includes/newsletter-signup'); ?>
 
 				</section>
 
-				<section id="services" class="smallPaddedSection">
-
-					<div class="fullWidth centerText">
-
-						<h2 id="whatWeHeader"><span class="underlinedHeading">OUR SERVICES</span></h2>
-
-					</div>
-
-					<div class="fullWidth blueBlock smallPaddedSection">
-
-						<div class="pageWidth flex-container centerAlignedContainer">
-
-							<div class="col30 centerText">
-
-								<img src="/assets/scss/wp-content/uploads/2019/01/MotherColoringWithDaughter.png" class="serviceImage">
-
-							</div>
-
-							<div class="col70">
-
-								<h3 class="whiteText">PROGRAMS</h3>
-
-								<p class="whiteText">
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
-									enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
-									in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
-									blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-								</p>
-
-									<a href="/programs/"><button class="primaryButton"><span class="marginRight">View Our Programs </span><i class="whiteIcon fas fa-chevron-right"></i></button></a>
-
-							</div>
-
-						</div>
-
-					</div>
-
-					<div class="fullWidth smallPaddedSection">
-
-						<div class="pageWidth flex-container-reverse centerAlignedContainer">
-
-							<div class="col70">
-
-								<h3 class="primaryText">RESOURCES</h3>
-
-								<p class="primaryText">
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
-									enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
-									in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
-									blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-								</p>
-
-									<a href="/programs/"><button class="primaryButtonReverse"><span class="marginRight">View Our Resources </span><i class="primaryIcon fas fa-chevron-right"></i></button></a>
-
-							</div>
-
-							<div class="col30 centerText">
-
-								<img src="/assets/scss/wp-content/uploads/2019/01/dadReadingToDaughter.png" class="serviceImage">
-
-							</div>
-
-						</div>
-
-					</div>
-
-					<div class="fullWidth blueBlock smallPaddedSection">
-
-						<div class="pageWidth flex-container centerAlignedContainer">
-
-							<div class="col30 centerText">
-
-								<img src="/assets/scss/wp-content/uploads/2019/01/eventPhotoCircle.png" class="serviceImage">
-
-							</div>
-
-							<div class="col70">
-
-								<h3 class="whiteText">EVENTS</h3>
-
-								<p class="whiteText">
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
-									enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
-									in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
-									blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-								</p>
-
-									<a href="/programs/"><button class="primaryButton"><span class="marginRight">View Our Events </span><i class="whiteIcon fas fa-chevron-right"></i></button></a>
-
-							</div>
-
-						</div>
-
-					</div>
-
-				</section>
-
-				<section id="stories" class="smallPaddedSection marginContainer">
-
-					<div class="fullWidth centerText">
-
-						<h2><span class="underlinedHeading">SUCCESS STORIES</span></h2>
-
-					</div>
-
-					<div class="fullWidth flex-container-reverse centerAlignedContainer greyBlock">
-
-						<div class="col50 removeBottomMargin">
-
-							<img src="/assets/scss/wp-content/uploads/2019/01/DSC_0149.jpg" class="image">
-
-						</div>
-
-						<div class="col50">
-
-							<div class="blockText">
-
-								<h3 class="primaryText">STORY TITLE</h3>
-
-								<p>
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
-									enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
-									in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
-									blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-								</p>
-
-								<a href="/programs/"><button class="primaryButtonReverse"><span class="marginRight">Read The Full Story </span><i class="blueIcon fas fa-chevron-right"></i></button></a>
-
-							</div>
-
-						</div>
-
-					</div>
-
-					<div class="fullWidth flex-container centerAlignedContainer greyBlock">
-
-						<div class="col50">
-
-							<div class="blockText">
-
-								<h3 class="primaryText">STORY TITLE</h3>
-
-								<p>
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
-									enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
-									in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
-									blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-								</p>
-
-								<a href="/programs/"><button class="primaryButtonReverse"><span class="marginRight">Read The Full Story </span><i class="blueIcon fas fa-chevron-right"></i></button></a>
-
-							</div>
-
-						</div>
-
-						<div class="col50 removeBottomMargin">
-
-							<img src="/assets/scss/wp-content/uploads/2019/01/DAWN-042.jpg" class="image">
-
-						</div>
-
-					</div>
-
-				</section>
-
-				<section id="newsletterSignup" class="marginContainer yellowBlock smallPaddedSection">
-
-					<div class="pageWidth flex-container centerAlignedContainer">
-
-						<div class="col30">
-
-							<div class="opaqueLogoWrap">
-
-								<img src="/assets/scss/wp-content/uploads/2019/01/N.E.W-Logo-cropped-white-medium.png" class="image opaqueLogo">
-
-							</div>
-
-						</div>
-
-						<div class="col50 newsletterContent">
-
-							<h4>FAMILY & CHILDCARE RESOURCES OF N.E.W. NEWSLETTER</h4>
-
-							<p>
-							Interested in learning more about our programs and services? Join our email list to stay up to date on the latest child care provider trainings,
-							family services and programs as well as volunteer opportunities.
-							</p>
-
-						</div>
-
-						<div class="col20">
-
-							<a href="/programs/"><button class="primaryButtonReverse"><span class="marginRight">Sign Up </span><i class="blueIcon fas fa-chevron-right"></i></button></a>
-
-						</div>
-
-					</div>
-
-				</section>
-
-			</section>
+			</main>
 
 		</div>
 
-	</main>
-
-</div>
-
-</div>
+	</div>
 
 </div>
 

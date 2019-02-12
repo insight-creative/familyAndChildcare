@@ -2,15 +2,28 @@
 .primaryLink{
   color: $secondaryYellow !important;
 	transition: .3s ease all;
+  text-decoration: none;
     &:hover{
       transition: .3s ease all;
     	color: $primaryYellow !important;
     }
 }
+.plainBlackLink{
+  a{
+    color: $black;
+    transition: .3s ease all;
+      &:hover{
+        color: $primaryBlue;
+        transition: .3s ease all;
+      }
+  }
+}
 .primaryButton{
 	position: relative;
 	z-index:1;
 	background: $transparent;
+  text-decoration: none;
+  width: fit-content;
 	color: $white !important;
 	margin-bottom: 10px;
 	transition: .1s ease all;
@@ -76,6 +89,8 @@
 	z-index:1;
 	background: $transparent;
 	color: $primaryBlue !important;
+  text-decoration: none;
+  width: fit-content;
 	margin-bottom: 10px;
 	transition: .1s ease all;
   border-width: 0;
@@ -83,6 +98,10 @@
   border-top: 2px solid $transparent;
   padding: 10px 20px 10px 20px;
 	cursor: pointer;
+    a{
+      text-decoration: none;
+      color: $primaryBlue !important;
+    }
     &:after{
       position: absolute;
       z-index:2;
@@ -178,4 +197,13 @@
 	width: 100%;
 	margin: 50px auto;
 	text-align: center;
+}
+.flexListLink{
+  color: $secondaryYellow !important;
+	transition: .3s ease all;
+  text-decoration: none;
+    &:hover{
+      transition: .3s ease all;
+    	color: $primaryYellow !important;
+    }
 }
