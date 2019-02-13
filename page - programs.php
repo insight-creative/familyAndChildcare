@@ -121,21 +121,13 @@ get_header();
 
 											<h3>In need of local help?</h3>
 
-											<h5>The Triple P program is built on five principles of positive parenting:</h5>
+											<p>
 
-											<ul>
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+												incididunt ut labore et dolore magna aliqua. Est lorem ipsum dolor sit amet.
+												Aliquam nulla facilisi cras fermentum.
 
-												<li>Ensuring a safe, interesting environment</li>
-
-												<li>Creating a positive learning environment</li>
-
-												<li>Using assertive discipline</li>
-
-												<li>Having realistic expectations</li>
-
-												<li>Taking care of yourself as a parent</li>
-
-											</ul>
+											</p>
 
 											<a href="/programs/"><button class="primaryButtonReverse" role="button"><span class="marginRight">Find Local Help </span><i class="primaryIcon fas fa-chevron-right"></i></button></a>
 
@@ -169,21 +161,13 @@ get_header();
 
 											<h3>Looking for child care?</h3>
 
-											<h5>The Triple P program is built on five principles of positive parenting:</h5>
+											<p>
 
-											<ul>
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+												incididunt ut labore et dolore magna aliqua. Est lorem ipsum dolor sit amet.
+												Aliquam nulla facilisi cras fermentum.
 
-												<li>Ensuring a safe, interesting environment</li>
-
-												<li>Creating a positive learning environment</li>
-
-												<li>Using assertive discipline</li>
-
-												<li>Having realistic expectations</li>
-
-												<li>Taking care of yourself as a parent</li>
-
-											</ul>
+											</p>
 
 											<a href="/programs/"><button class="primaryButtonReverse" role="button"><span class="marginRight">Find Child Care </span><i class="primaryIcon fas fa-chevron-right"></i></button></a>
 
@@ -205,21 +189,13 @@ get_header();
 
 											<h3>Training</h3>
 
-											<h5>The Triple P program is built on five principles of positive parenting:</h5>
+											<p>
 
-											<ul>
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+												incididunt ut labore et dolore magna aliqua. Est lorem ipsum dolor sit amet.
+												Aliquam nulla facilisi cras fermentum.
 
-												<li>Ensuring a safe, interesting environment</li>
-
-												<li>Creating a positive learning environment</li>
-
-												<li>Using assertive discipline</li>
-
-												<li>Having realistic expectations</li>
-
-												<li>Taking care of yourself as a parent</li>
-
-											</ul>
+											</p>
 
 											<a href="/programs/"><button class="primaryButtonReverse" role="button"><span class="marginRight">View Training Events </span><i class="primaryIcon fas fa-chevron-right"></i></button></a>
 

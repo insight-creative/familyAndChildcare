@@ -87,14 +87,6 @@ get_header();
 											services, trainings and enhanced home-based visitation programs.
 										</p>
 
-									</div>
-
-								</div>
-
-								<div class="col50">
-
-									<div class="smallTextBlock">
-
 										<h2>2010</h2>
 
 										<p>
@@ -103,18 +95,6 @@ get_header();
 											N.E.W. has led the way in improving quality and safety for children in over 200 childcare centers and
 											family practices in Brown, Door, Kewaunee, Marinette, Menominee, Oconto and Shawano Counties.
 										</p>
-
-									</div>
-
-								</div>
-
-							</div>
-
-							<div class="pageWidth flex-container paddedContainer">
-
-								<div class="col50">
-
-									<div class="smallTextBlock">
 
 										<h2>2011</h2>
 
@@ -153,18 +133,6 @@ get_header();
 											reduce child abuse and neglect.
 										</p>
 
-									</div>
-
-								</div>
-
-							</div>
-
-							<div class="pageWidth flex-container paddedContainer">
-
-								<div class="col50">
-
-									<div class="smallTextBlock">
-
 										<h2>2013</h2>
 
 										<p>
@@ -175,10 +143,6 @@ get_header();
 										</p>
 
 									</div>
-
-								</div>
-
-								<div class="col50">
 
 								</div>
 

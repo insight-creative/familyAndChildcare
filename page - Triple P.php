@@ -177,187 +177,195 @@ get_header();
 
 												</div>
 
-										<h5>Triple P offers parenting information and tips in four main areas:</h5>
+									</div>
 
-										<div>
+								</div>
 
-											<div class="flex-container">
+							</section>
 
-												<div class="col50">
+							<section>
 
-													<div class="col20">
+								<div class="col70 limitWidth">
 
-														<h6 class="primaryText smallMarginHeader">1</h6>
+									<h5>Triple P offers parenting information and tips in four main areas:</h5>
 
-													</div>
+								<div>
 
-													<div class="col80">
+									<div class="flex-container">
 
-														<p>
+										<div class="col50">
 
-															Developing positive relationships
+											<div class="col20">
 
-														</p>
-
-													</div>
-
-												</div>
-
-												<div class="col50">
-
-													<div class="col20">
-
-														<h6 class="primaryText smallMarginHeader">2</h6>
-
-													</div>
-
-													<div class="col80">
-
-														<p>
-
-															Encouraging desirable behavior
-
-														</p>
-
-													</div>
-
-												</div>
+												<h6 class="primaryText smallMarginHeader">1</h6>
 
 											</div>
 
-											<div class="flex-container">
+											<div class="col80">
 
-												<div class="col50">
+												<p>
 
-													<div class="col20">
+													Developing positive relationships
 
-														<h6 class="primaryText smallMarginHeader">3</h6>
-
-													</div>
-
-													<div class="col80">
-
-														<p>
-
-															Teaching children new behaviors and skills
-
-														</p>
-
-													</div>
-
-												</div>
-
-												<div class="col50">
-
-													<div class="col20">
-
-														<h6 class="primaryText smallMarginHeader">4</h6>
-
-													</div>
-
-													<div class="col80">
-
-														<p>
-
-															Managing misbehavior
-
-														</p>
-
-													</div>
-
-												</div>
+												</p>
 
 											</div>
 
 										</div>
 
-										<h5>Triple P is a Positive Parenting Program</h5>
+										<div class="col50">
 
-										<ul>
+											<div class="col20">
 
-											<li>Evidence based</li>
+												<h6 class="primaryText smallMarginHeader">2</h6>
 
-											<li>Helps Build Parent and Child Bonds</li>
+											</div>
 
-											<li>Supporting Parents Helps Our Community</li>
+											<div class="col80">
 
-										</ul>
+												<p>
 
-										<p>
-											This parenting program won't tell you how to parent. It will offer simple clear ideas to help you manage
-											problem behaviors or prevent them from starting. Gain parenting confidence and see results!
-										</p>
+													Encouraging desirable behavior
 
-										<p>
-											Every family is different but we have similar obstacles. You will walk away with a
-											toolbox of strategies that will bring results for your family.
-										</p>
+												</p>
 
-								</div>
+											</div>
 
-							</div>
+										</div>
 
-						</section>
+									</div>
 
-						<section id="triplePSeminars" class="marginContainer">
+									<div class="flex-container">
 
-							<div class="fullWidth flex-container-reverse centerAlignedContainer greyBlock">
+										<div class="col50">
 
-								<div class="col50 removeBottomMargin">
+											<div class="col20">
 
-									<img src="/wp-content/uploads/2019/02/parentingToolBoxMedium.jpg" class="image">
+												<h6 class="primaryText smallMarginHeader">3</h6>
 
-								</div>
+											</div>
 
-								<div class="col50">
+											<div class="col80">
 
-									<div class="blockText">
+												<p>
 
-										<h5>Program offered in one-time seminars or more intensive multi-session groups</h5>
+													Teaching children new behaviors and skills
 
-										<h6>Various dates and times to meet your schedule</h6>
+												</p>
 
-										<p>
-											<strong>Seminars:</strong> Each seminar is 1.5 hours long and delivered in small or large groups.
-											Seminars provide an introductory orientation to parents and professionals that provide a brief
-											overview of the key concepts and strategies used in Triple P.
-										</p>
+											</div>
 
-										<p>
-											Triple P offers 3 different seminars:
-										</p>
-										<ul>
+										</div>
 
-											<li>The Power of Positive Parenting</li>
+										<div class="col50">
 
-											<li>Raising Confident, Competent Children</li>
+											<div class="col20">
 
-											<li>Raising Resilient Children, Managing Process Issues, and Getting Started</li>
+												<h6 class="primaryText smallMarginHeader">4</h6>
 
-										</ul>
+											</div>
 
-										<p>
+											<div class="col80">
 
-											<strong>Group:</strong> This 8-week class includes 5 group sessions (2 hour)
-											with 3 phone consultations for additional one-on–one support.
+												<p>
 
-										</p>
+													Managing misbehavior
 
-										<p>
+												</p>
 
-											<strong>Standard:</strong> Triple P offers one-on-one support in the home for parents
-											who may be struggling with moderate to severe behavioral problems.  Parents can receive
-											up to 10-15 individualized visits for additional parental support.
+											</div>
 
-										</p>
+										</div>
 
 									</div>
 
 								</div>
 
-							</div>
+								<h5>Triple P is a Positive Parenting Program</h5>
 
-						</section>
+								<ul>
+
+									<li>Evidence based</li>
+
+									<li>Helps Build Parent and Child Bonds</li>
+
+									<li>Supporting Parents Helps Our Community</li>
+
+								</ul>
+
+								<p>
+									This parenting program won't tell you how to parent. It will offer simple clear ideas to help you manage
+									problem behaviors or prevent them from starting. Gain parenting confidence and see results!
+								</p>
+
+								<p>
+									Every family is different but we have similar obstacles. You will walk away with a
+									toolbox of strategies that will bring results for your family.
+								</p>
+
+								</div>
+
+							</section>
+
+							<section id="triplePSeminars" class="marginContainer">
+
+								<div class="fullWidth flex-container-reverse centerAlignedContainer greyBlock">
+
+									<div class="col50 removeBottomMargin">
+
+										<img src="/wp-content/uploads/2019/02/parentingToolBoxMedium.jpg" class="image">
+
+									</div>
+
+									<div class="col50">
+
+										<div class="blockText">
+
+											<h5>Program offered in one-time seminars or more intensive multi-session groups</h5>
+
+											<h6>Various dates and times to meet your schedule</h6>
+
+											<p>
+												<strong>Seminars:</strong> Each seminar is 1.5 hours long and delivered in small or large groups.
+												Seminars provide an introductory orientation to parents and professionals that provide a brief
+												overview of the key concepts and strategies used in Triple P.
+											</p>
+
+											<p>
+												Triple P offers 3 different seminars:
+											</p>
+											<ul>
+
+												<li>The Power of Positive Parenting</li>
+
+												<li>Raising Confident, Competent Children</li>
+
+												<li>Raising Resilient Children, Managing Process Issues, and Getting Started</li>
+
+											</ul>
+
+											<p>
+
+												<strong>Group:</strong> This 8-week class includes 5 group sessions (2 hour)
+												with 3 phone consultations for additional one-on–one support.
+
+											</p>
+
+											<p>
+
+												<strong>Standard:</strong> Triple P offers one-on-one support in the home for parents
+												who may be struggling with moderate to severe behavioral problems.  Parents can receive
+												up to 10-15 individualized visits for additional parental support.
+
+											</p>
+
+										</div>
+
+									</div>
+
+								</div>
+
+							</section>
 
 						<?php get_template_part('Includes/newsletter-signup'); ?>
 

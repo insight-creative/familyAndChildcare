@@ -53,7 +53,7 @@
 	}
 }
 .site-footer{
-	position: relative;
+	/*position: relative;*/
 	z-index: 2;
 	width: 100%;
 	padding: 0 0 50px 0;
@@ -81,6 +81,12 @@
         transition: .3s ease all;
       }
   }
+	h4{
+		font-size: 1em;
+	}
+	h6{
+		font-size: .7em;
+	}
 }
 .footerLink{
 	position: relative;

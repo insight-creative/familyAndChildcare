@@ -111,47 +111,9 @@ $(function() {
     });
 });
 
+// close our sites mobile menu when a link item is clicked
 $(function() {
-  $(".menuTextWrap").click(function(e){
-    if($(".menu").hasClass("open")){
-          document.querySelector(".linkList").addEventListener("click", closeMenu);
-            $(".menu").removeClass("open");
-          }
-        });
-  });
-
-// open feedback survey
-$(function() {
-    $(".feedbackButtonWrapper").click(function(e){
-        $(".surveyWrapper").addClass("surveyOpen");
-        	e.stopPropagation();
+    $(".linkList").click(function(e){
+        	$(".menu").removeClass("open");
     });
-});
-//close feedback survey
-$(function() {
-    $(".surveyClose").click(function(e){
-        	$(".surveyWrapper").removeClass("surveyOpen");
-    });
-});
-$(function() {
-    $(".site").click(function(e){
-    	if(!$(e.target).hasClass("surveyWrapper")){
-        	$(".surveyWrapper").removeClass("surveyOpen");
-    	}
-    });
-});
-
-//smooth scroll to elements in inner services nav
-
-$(document).on('click', 'a[href^="#aluminum"]', function (event) {
-
-    event.preventDefault();
-
-
-    $('html, body').animate({
-
-      scrollTop: $($.attr(this, 'href')).offset().top
-
-     -150}, 1000);
-
 });
