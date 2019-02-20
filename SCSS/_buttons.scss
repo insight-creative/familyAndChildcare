@@ -59,6 +59,7 @@
     &:hover{
       border-top: 2px solid $white;
       transition: .1s .18s ease all;
+      text-decoration: none;
         &:after{
           position: absolute;
           z-index:2;
@@ -129,6 +130,7 @@
     &:hover{
       border-top: 2px solid $primaryBlue;
       transition: .1s .18s ease all;
+      text-decoration: none;
         &:after{
           position: absolute;
           z-index:2;

@@ -45,6 +45,14 @@
   stroke: $white;
   fill: $white;
 }
+.blackIcon{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  stroke-width: 0;
+  stroke: $black;
+  fill: $black;
+}
 .blueIcon{
   display: inline-block;
   width: 14px;

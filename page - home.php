@@ -219,7 +219,7 @@ get_header();
 
 					</section>
 
-					<section id="stories" class="smallPaddedSection marginContainer">
+					<section id="stories" class="marginContainer">
 
 						<div class="fullWidth centerText">
 

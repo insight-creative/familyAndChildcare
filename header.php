@@ -62,43 +62,169 @@
 
 					<li>
 
-						<a class="menuLink" href = "/about/" role="link">ABOUT</a><i class="fas fa-chevron-right"></i>
+						<a class="menuLink" href = "/about/" role="link">ABOUT</a>
+
+						<svg class="smallIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+		        <defs>
+
+		          <symbol id="icon-chevron-right" viewBox="0 0 19 28">
+
+		            <title>chevron-right</title>
+
+		            <path d="M17.297 13.703l-11.594 11.594c-0.391 0.391-1.016 0.391-1.406 0l-2.594-2.594c-0.391-0.391-0.391-1.016 0-1.406l8.297-8.297-8.297-8.297c-0.391-0.391-0.391-1.016 0-1.406l2.594-2.594c0.391-0.391 1.016-0.391 1.406 0l11.594 11.594c0.391 0.391 0.391 1.016 0 1.406z"></path>
+
+		          </symbol>
+
+		        </defs>
+
+		      </svg>
+
+		      <svg class="blackIcon icon icon-chevron-right"><use xlink:href="#icon-chevron-right"></use></svg>
 
 					</li>
 
 					<li>
 
-						<a class="menuLink" href = "/programs/" role="link">OUR PROGRAMS</a><i class="fas fa-chevron-right"></i>
+						<a class="menuLink" href = "/programs/" role="link">OUR PROGRAMS</a>
+
+						<svg class="smallIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+		        <defs>
+
+		          <symbol id="icon-chevron-right" viewBox="0 0 19 28">
+
+		            <title>chevron-right</title>
+
+		            <path d="M17.297 13.703l-11.594 11.594c-0.391 0.391-1.016 0.391-1.406 0l-2.594-2.594c-0.391-0.391-0.391-1.016 0-1.406l8.297-8.297-8.297-8.297c-0.391-0.391-0.391-1.016 0-1.406l2.594-2.594c0.391-0.391 1.016-0.391 1.406 0l11.594 11.594c0.391 0.391 0.391 1.016 0 1.406z"></path>
+
+		          </symbol>
+
+		        </defs>
+
+		      </svg>
+
+		      <svg class="blackIcon icon icon-chevron-right"><use xlink:href="#icon-chevron-right"></use></svg>
 
 					</li>
 
 					<li>
 
-						<a class="menuLink" href = "/resources/" role="link">RESOURCES</a><i class="fas fa-chevron-right"></i>
+						<a class="menuLink" href = "/resources/" role="link">RESOURCES</a>
+
+						<svg class="smallIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+		        <defs>
+
+		          <symbol id="icon-chevron-right" viewBox="0 0 19 28">
+
+		            <title>chevron-right</title>
+
+		            <path d="M17.297 13.703l-11.594 11.594c-0.391 0.391-1.016 0.391-1.406 0l-2.594-2.594c-0.391-0.391-0.391-1.016 0-1.406l8.297-8.297-8.297-8.297c-0.391-0.391-0.391-1.016 0-1.406l2.594-2.594c0.391-0.391 1.016-0.391 1.406 0l11.594 11.594c0.391 0.391 0.391 1.016 0 1.406z"></path>
+
+		          </symbol>
+
+		        </defs>
+
+		      </svg>
+
+		      <svg class="blackIcon icon icon-chevron-right"><use xlink:href="#icon-chevron-right"></use></svg>
 
 					</li>
 
 					<li>
 
-						<a class="menuLink" href = "/events/" role="link">EVENTS</a><i class="fas fa-chevron-right"></i>
+						<a class="menuLink" href = "/events/" role="link">EVENTS</a>
+
+						<svg class="smallIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+		        <defs>
+
+		          <symbol id="icon-chevron-right" viewBox="0 0 19 28">
+
+		            <title>chevron-right</title>
+
+		            <path d="M17.297 13.703l-11.594 11.594c-0.391 0.391-1.016 0.391-1.406 0l-2.594-2.594c-0.391-0.391-0.391-1.016 0-1.406l8.297-8.297-8.297-8.297c-0.391-0.391-0.391-1.016 0-1.406l2.594-2.594c0.391-0.391 1.016-0.391 1.406 0l11.594 11.594c0.391 0.391 0.391 1.016 0 1.406z"></path>
+
+		          </symbol>
+
+		        </defs>
+
+		      </svg>
+
+		      <svg class="blackIcon icon icon-chevron-right"><use xlink:href="#icon-chevron-right"></use></svg>
 
 					</li>
 
 					<li>
 
-						<a class="menuLink" href = "/support-children/" role="link">SUPPORT CHILDREN</a><i class="fas fa-chevron-right"></i>
+						<a class="menuLink" href = "/support-children/" role="link">SUPPORT CHILDREN</a>
+
+						<svg class="smallIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+		        <defs>
+
+		          <symbol id="icon-chevron-right" viewBox="0 0 19 28">
+
+		            <title>chevron-right</title>
+
+		            <path d="M17.297 13.703l-11.594 11.594c-0.391 0.391-1.016 0.391-1.406 0l-2.594-2.594c-0.391-0.391-0.391-1.016 0-1.406l8.297-8.297-8.297-8.297c-0.391-0.391-0.391-1.016 0-1.406l2.594-2.594c0.391-0.391 1.016-0.391 1.406 0l11.594 11.594c0.391 0.391 0.391 1.016 0 1.406z"></path>
+
+		          </symbol>
+
+		        </defs>
+
+		      </svg>
+
+		      <svg class="blackIcon icon icon-chevron-right"><use xlink:href="#icon-chevron-right"></use></svg>
 
 					</li>
 
 					<li>
 
-						<a class="menuLink" href = "/blog/" role="link">BLOG</a><i class="fas fa-chevron-right"></i>
+						<a class="menuLink" href = "/blog/" role="link">BLOG</a>
+
+						<svg class="smallIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+		        <defs>
+
+		          <symbol id="icon-chevron-right" viewBox="0 0 19 28">
+
+		            <title>chevron-right</title>
+
+		            <path d="M17.297 13.703l-11.594 11.594c-0.391 0.391-1.016 0.391-1.406 0l-2.594-2.594c-0.391-0.391-0.391-1.016 0-1.406l8.297-8.297-8.297-8.297c-0.391-0.391-0.391-1.016 0-1.406l2.594-2.594c0.391-0.391 1.016-0.391 1.406 0l11.594 11.594c0.391 0.391 0.391 1.016 0 1.406z"></path>
+
+		          </symbol>
+
+		        </defs>
+
+		      </svg>
+
+		      <svg class="blackIcon icon icon-chevron-right"><use xlink:href="#icon-chevron-right"></use></svg>
 
 					</li>
 
 					<li>
 
-						<a class="menuLink" href = "/contact/" role="link">CONTACT</a><i class="fas fa-chevron-right"></i>
+						<a class="menuLink" href = "/contact/" role="link">CONTACT</a>
+
+						<svg class="smallIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+		        <defs>
+
+		          <symbol id="icon-chevron-right" viewBox="0 0 19 28">
+
+		            <title>chevron-right</title>
+
+		            <path d="M17.297 13.703l-11.594 11.594c-0.391 0.391-1.016 0.391-1.406 0l-2.594-2.594c-0.391-0.391-0.391-1.016 0-1.406l8.297-8.297-8.297-8.297c-0.391-0.391-0.391-1.016 0-1.406l2.594-2.594c0.391-0.391 1.016-0.391 1.406 0l11.594 11.594c0.391 0.391 0.391 1.016 0 1.406z"></path>
+
+		          </symbol>
+
+		        </defs>
+
+		      </svg>
+
+		      <svg class="blackIcon icon icon-chevron-right"><use xlink:href="#icon-chevron-right"></use></svg>
 
 					</li>
 

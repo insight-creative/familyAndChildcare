@@ -715,7 +715,7 @@ template {
 
 .mediumTextBlock {
   padding: 20px;
-  background-color: #f6f6f6;
+  background-color: #FFFFFF;
   margin-bottom: 25px; }
   .mediumTextBlock li {
     margin-bottom: 15px; }
@@ -1200,7 +1200,7 @@ nav {
     transition: .3s ease all; }
 
 .site-footer {
-  position: relative;
+  /*position: relative;*/
   z-index: 2;
   width: 100%;
   padding: 0 0 50px 0;
@@ -1226,6 +1226,10 @@ nav {
     .footerContact a:hover {
       color: #333333;
       transition: .3s ease all; }
+  .footerContact h4 {
+    font-size: 1em; }
+  .footerContact h6 {
+    font-size: .7em; }
 
 .footerLink {
   position: relative;
@@ -1566,7 +1570,8 @@ h6 {
     transition: .2s ease all; }
   .primaryButton:hover {
     border-top: 2px solid #FFFFFF;
-    transition: .1s .18s ease all; }
+    transition: .1s .18s ease all;
+    text-decoration: none; }
     .primaryButton:hover:after {
       position: absolute;
       z-index: 2;
@@ -1630,7 +1635,8 @@ h6 {
     transition: .2s ease all; }
   .primaryButtonReverse:hover {
     border-top: 2px solid #005797;
-    transition: .1s .18s ease all; }
+    transition: .1s .18s ease all;
+    text-decoration: none; }
     .primaryButtonReverse:hover:after {
       position: absolute;
       z-index: 2;
@@ -1801,6 +1807,14 @@ body {
   stroke-width: 0;
   stroke: #FFFFFF;
   fill: #FFFFFF; }
+
+.blackIcon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  stroke-width: 0;
+  stroke: #333333;
+  fill: #333333; }
 
 .blueIcon {
   display: inline-block;
@@ -2191,5 +2205,8 @@ body {
 /* 15.0 Programs Pages stylings -------------------------------------------*/
 .programHero {
   background-image: url("/wp-content/uploads/2019/02/triplePPresentationCropped.jpg"); }
+
+#TriplePIntro {
+  background: #f6f6f6; }
 
 /*# sourceMappingURL=style.css.map */
