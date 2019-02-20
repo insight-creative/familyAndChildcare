@@ -27,29 +27,19 @@
 					the_content();
 					?>
 
-					<?php
-					$how_many_last_posts = intval(get_post_meta($post->ID, 'archived-posts-no', true));
 
-					/* Here, we're making sure that the number fetched is reasonable. In case it's higher than 200 or lower than 2, we're just resetting it to the default value of 15. */
-					if($how_many_last_posts > 200 || $how_many_last_posts < 2) $how_many_last_posts = 15;
-
-					$my_query = new WP_Query('post_type=post&nopaging=1');
-					if($my_query->have_posts()) {
-					  echo '<h1 class="widget-title">Lastest '.$how_many_last_posts.' Postses</h1>&nbsp;';
-					  echo '<div class="archives-latest-section"><ol>';
-					  $counter = 1;
-					  while($my_query->have_posts() && $counter <= $how_many_last_posts) {
-					    $my_query->the_post();
-					    ?>
-					    <li><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></li>
-					    <?php
-					    $counter++;
-					  }
-					  echo '</ol></div>';
-					  wp_reset_postdata();
-					}
-					?>
-
+			      <div class="card cf">
+			        <div class="col70">
+			          <?php if (has_post_thumbnail(get_the_id())) : ?>
+			            <a class="image-link" href="<?php the_permalink() ?>"><?php the_post_thumbnail('full'); ?></a>
+			          <?php endif; ?>
+			        </div>
+			        <div class="col30">
+			          <h2 class="card-title"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
+			          <?php the_excerpt(); ?>
+			        </div>
+			      </div>
+			
 
 				</div><!-- .entry-content -->
 

@@ -9,7 +9,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package ardensAutoResponsive
+ * @package familyAndChildcareResponsive
  */
 get_header();
 
@@ -46,22 +46,13 @@ get_header();
 						<h3>Pages</h3>
 
 						<ul>
-							<li><a class="plainLink" href="http://testing.ardensauto.com">Home</a></li>
-							<li><a class="plainLink" href="/auto-repair-services/">Auto Repair Services</a></li>
-							<li class="sublink"><a class="plainLink" href="/auto-repair-services/oil-changes/">Oil Changes</a></li>
-							<li class="sublink"><a class="plainLink" href="/auto-repair-services/brake-repair/">Brake Repair</a></li>
-							<li class="sublink"><a class="plainLink" href="/auto-repair-services/air-conditioning/">Air Conditioning</a></li>
-							<li class="sublink"><a class="plainLink" href="/auto-repair-services/tires/">Tires</a></li>
-							<li class="sublink"><a class="plainLink" href="/auto-repair-services/exhaust/">Exhaust</a></li>
-							<li class="sublink"><a class="plainLink" href="/auto-repair-services/preventative-maintenance/">Preventative Maintenance</a></li>
-							<li><a class="plainLink" href="/projects/">Projects</a></li>
-							<li class="sublink"><a class="plainLink" href="/projects/jeep-cherokee/">Jeep Cherokee</a></li>
-							<li class="sublink"><a class="plainLink" href="/projects/mazdaspeed3/">Mazdaspeed3</a></li>
-							<li><a class="plainLink" href="/promotions/">Promotions</a></li>
-							<li><a class="plainLink" href="/about/">About</a></li>
-							<li><a class="plainLink" href="/customer-reviews/">Leave Us a Review</a></li>
-							<li><a class="plainLink" href="/contact/">Contact</a></li>
-							<li><a class="plainLink" href="/privacy-policy/">Privacy Policy</a></li>
+							<?php wp_list_pages( 'sort_column=post_title' ); ?>
+						</ul>
+
+						<h3>Blog</h3>
+
+						<ul>
+							<?php wp_get_archives('type=alpha'); ?>
 						</ul>
 
 					</div>
