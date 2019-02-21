@@ -3,12 +3,11 @@ Theme Name: familyAndChildcareResponsiveChild
 Theme URI: https://seejustincode.com/
 Author: Justin Parsons
 Author URI: https://seejustincode.com/
-Description: Custom WP Theme for Change Catalyst Group
+Description: Custom WP Theme for Family and Childcare Resource of N.E.W.
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: familyAndChildcareResponsive
-Template: familyAndChildcareResponsive
 */
 @import '_normalize';
 @import '_variables';
@@ -25,3 +24,5 @@ Template: familyAndChildcareResponsive
 @import '_contact';
 @import '_about';
 @import '_programs';
+@import '_sitemap';
+@import '_archive';

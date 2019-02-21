@@ -3,12 +3,11 @@ Theme Name: familyAndChildcareResponsiveChild
 Theme URI: https://seejustincode.com/
 Author: Justin Parsons
 Author URI: https://seejustincode.com/
-Description: Custom WP Theme for Change Catalyst Group
+Description: Custom WP Theme for Family and Childcare Resource of N.E.W.
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: familyAndChildcareResponsive
-Template: familyAndChildcareResponsive
 */
 /*--------------------------------------------------------------
 # Normalize
@@ -756,8 +755,15 @@ template {
   max-width: 800px;
   margin: 0 auto; }
 
-.defaultPadding {
-  padding: 150px 0 50px 0; }
+@media (max-width: 600px) {
+  .defaultPadding {
+    padding: 50px 0; } }
+@media (min-width: 600px) {
+  .defaultPadding {
+    padding: 50px 0; } }
+@media (min-width: 992px) {
+  .defaultPadding {
+    padding: 150px 0; } }
 
 /*4.0 Header Styling -------------------------------------------*/
 .site-header {
@@ -1513,6 +1519,35 @@ h6 {
   margin-block-end: 10px; }
 
 /* 7.0 Button Stylings ---------------------------------------*/
+.plainLink {
+  text-decoration: none;
+  color: #005797 !important;
+  transition: .3s ease all;
+  position: relative; }
+  .plainLink:hover {
+    color: #6997a9;
+    transition: .3s ease all; }
+    .plainLink:hover:after {
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      background: #6997a9;
+      content: "";
+      bottom: 0;
+      left: 0;
+      opacity: 1;
+      transition: .3s ease all; }
+  .plainLink:after {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #6997a9;
+    content: "";
+    bottom: 25%;
+    left: 0;
+    opacity: 0;
+    transition: .3s ease all; }
+
 .primaryLink {
   color: #efbb50 !important;
   transition: .3s ease all;
@@ -1716,35 +1751,6 @@ body {
 
 ::-ms-selection {
   background: rgba(0, 87, 151, 0.5); }
-
-.plainLink {
-  text-decoration: none;
-  color: #005797 !important;
-  transition: .3s ease all;
-  position: relative; }
-  .plainLink:hover {
-    color: #6997a9;
-    transition: .3s ease all; }
-    .plainLink:hover:after {
-      position: absolute;
-      height: 2px;
-      width: 100%;
-      background: #6997a9;
-      content: "";
-      bottom: 0;
-      left: 0;
-      opacity: 1;
-      transition: .3s ease all; }
-  .plainLink:after {
-    position: absolute;
-    height: 2px;
-    width: 100%;
-    background: #6997a9;
-    content: "";
-    bottom: 25%;
-    left: 0;
-    opacity: 0;
-    transition: .3s ease all; }
 
 .removeBottomMargin {
   margin-bottom: -7px; }
@@ -2191,5 +2197,163 @@ body {
 /* 15.0 Programs Pages stylings -------------------------------------------*/
 .programHero {
   background-image: url("/wp-content/uploads/2019/02/triplePPresentationCropped.jpg"); }
+
+@media (max-width: 600px) {
+  #sitemapEntry {
+    margin-top: 75px; } }
+@media (min-width: 600px) {
+  #sitemapEntry {
+    margin-top: 75px; } }
+@media (min-width: 992px) {
+  #sitemapEntry {
+    margin-top: 150px; } }
+
+#text {
+  display: none; }
+
+.page_item a {
+  text-decoration: none;
+  color: #005797 !important;
+  transition: .3s ease all;
+  position: relative; }
+  .page_item a:hover {
+    color: #6997a9;
+    transition: .3s ease all; }
+    .page_item a:hover:after {
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      background: #6997a9;
+      content: "";
+      bottom: 0;
+      left: 0;
+      opacity: 1;
+      transition: .3s ease all; }
+  .page_item a:after {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #6997a9;
+    content: "";
+    bottom: 25%;
+    left: 0;
+    opacity: 0;
+    transition: .3s ease all; }
+
+.postWrapper {
+  margin: 25px 0; }
+
+.post {
+  background-color: #f6f6f6;
+  padding: 20px;
+  border-radius: 5px; }
+  .post h2 {
+    margin-block-end: 15px; }
+  .post p {
+    margin-top: 15px; }
+
+.screen-reader-text {
+  display: none; }
+
+.blogTitleLink {
+  text-decoration: none;
+  color: #005797;
+  transition: .3s ease all;
+  position: relative; }
+  .blogTitleLink:hover {
+    color: #6997a9;
+    transition: .3s ease all; }
+
+.updated {
+  display: none; }
+
+.posted-on a {
+  text-decoration: none;
+  color: #005797 !important;
+  transition: .3s ease all;
+  position: relative; }
+  .posted-on a:hover {
+    color: #6997a9;
+    transition: .3s ease all; }
+    .posted-on a:hover:after {
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      background: #6997a9;
+      content: "";
+      bottom: 0;
+      left: 0;
+      opacity: 1;
+      transition: .3s ease all; }
+  .posted-on a:after {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #6997a9;
+    content: "";
+    bottom: 25%;
+    left: 0;
+    opacity: 0;
+    transition: .3s ease all; }
+
+.author a {
+  text-decoration: none;
+  color: #005797 !important;
+  transition: .3s ease all;
+  position: relative; }
+  .author a:hover {
+    color: #6997a9;
+    transition: .3s ease all; }
+    .author a:hover:after {
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      background: #6997a9;
+      content: "";
+      bottom: 0;
+      left: 0;
+      opacity: 1;
+      transition: .3s ease all; }
+  .author a:after {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #6997a9;
+    content: "";
+    bottom: 25%;
+    left: 0;
+    opacity: 0;
+    transition: .3s ease all; }
+
+.nav-links {
+  display: flex;
+  width: 100%;
+  justify-content: space-between; }
+
+.nav-previous {
+  background: #005797;
+  padding: 10px;
+  transition: .3s ease all; }
+  .nav-previous a {
+    color: #FFFFFF;
+    text-decoration: none; }
+  .nav-previous:hover {
+    background: #002c47;
+    transition: .3s ease all; }
+
+.nav-next {
+  background: #005797;
+  padding: 10px;
+  transition: .3s ease all; }
+  .nav-next a {
+    color: #FFFFFF;
+    text-decoration: none; }
+  .nav-next:hover {
+    background: #002c47;
+    transition: .3s ease all; }
+
+.attachment-post-thumbnail {
+  width: 100%;
+  height: auto; }
 
 /*# sourceMappingURL=style.css.map */

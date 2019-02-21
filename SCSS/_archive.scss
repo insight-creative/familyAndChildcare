@@ -1,0 +1,133 @@
+.postWrapper{
+  margin: 25px 0;
+}
+.post{
+  background-color: $lightGrey;
+  padding: 20px;
+  border-radius: 5px;
+    h2{
+      margin-block-end: 15px;
+    }
+    p{
+      margin-top: 15px;
+    }
+}
+.screen-reader-text{
+  display: none;
+}
+.blogTitleLink{
+	text-decoration: none;
+	color: $primaryBlue;
+	transition: .3s ease all;
+	position: relative;
+    &:hover{
+    color: $secondaryBlue;
+    transition: .3s ease all;
+  }
+}
+.updated{
+  display: none;
+}
+.posted-on{
+  a{
+  	text-decoration: none;
+  	color: $primaryBlue !important;
+  	transition: .3s ease all;
+  	position: relative;
+      &:hover{
+      color: $secondaryBlue;
+      transition: .3s ease all;
+  			&:after{
+  				position: absolute;
+  				height: 2px;
+  				width: 100%;
+  				background: $secondaryBlue;
+  				content: "";
+  				bottom: 0;
+  				left: 0;
+  				opacity: 1;
+  				transition: .3s ease all;
+  			}
+      }
+  		&:after{
+  			position: absolute;
+  			height: 2px;
+  			width: 100%;
+  			background: $secondaryBlue;
+  			content: "";
+  			bottom: 25%;
+  			left: 0;
+  			opacity: 0;
+  			transition: .3s ease all;
+  		}
+  }
+}
+.author{
+  a{
+  	text-decoration: none;
+  	color: $primaryBlue !important;
+  	transition: .3s ease all;
+  	position: relative;
+      &:hover{
+      color: $secondaryBlue;
+      transition: .3s ease all;
+  			&:after{
+  				position: absolute;
+  				height: 2px;
+  				width: 100%;
+  				background: $secondaryBlue;
+  				content: "";
+  				bottom: 0;
+  				left: 0;
+  				opacity: 1;
+  				transition: .3s ease all;
+  			}
+      }
+  		&:after{
+  			position: absolute;
+  			height: 2px;
+  			width: 100%;
+  			background: $secondaryBlue;
+  			content: "";
+  			bottom: 25%;
+  			left: 0;
+  			opacity: 0;
+  			transition: .3s ease all;
+  		}
+  }
+}
+.nav-links{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.nav-previous{
+  background: $primaryBlue;
+  padding: 10px;
+  transition: .3s ease all;
+  a{
+    color: $white;
+    text-decoration: none;
+  }
+  &:hover{
+    background: $darkBlue;
+    transition: .3s ease all;
+  }
+}
+.nav-next{
+  background: $primaryBlue;
+  padding: 10px;
+  transition: .3s ease all;
+  a{
+    color: $white;
+    text-decoration: none;
+  }
+  &:hover{
+    background: $darkBlue;
+    transition: .3s ease all;
+  }
+}
+.attachment-post-thumbnail{
+  width: 100%;
+  height: auto;
+}

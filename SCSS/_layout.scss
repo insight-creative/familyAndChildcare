@@ -438,10 +438,10 @@
 		li{
 			padding: 20px;
 			&:active{
-				background-color: #002c47;
+				background-color: $darkBlue;
 			}
 			&:hover{
-				background-color: #002c47;
+				background-color: $darkBlue;
 			}
 		}
 }
@@ -450,5 +450,13 @@
   margin: 0 auto;
 }
 .defaultPadding{
-	padding: 150px 0 50px 0;
+	@include breakpoint(smallScreen){
+		padding: 50px 0;
+	}
+	@include breakpoint(largeMobileScreen){
+		padding: 50px 0;
+	}
+	@include breakpoint(laptopScreen){
+		padding: 150px 0;
+	}
 }

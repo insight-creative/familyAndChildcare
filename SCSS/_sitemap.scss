@@ -1,0 +1,48 @@
+#sitemapEntry{
+  @include breakpoint(smallScreen){
+    margin-top: 75px;
+  }
+  @include breakpoint(largeMobileScreen){
+    margin-top: 75px;
+  }
+  @include breakpoint(laptopScreen){
+    margin-top: 150px;
+  }
+}
+#text{
+  display: none;
+}
+.page_item{
+  a{
+    text-decoration: none;
+  	color: $primaryBlue !important;
+  	transition: .3s ease all;
+  	position: relative;
+      &:hover{
+      color: $secondaryBlue;
+      transition: .3s ease all;
+  			&:after{
+  				position: absolute;
+  				height: 2px;
+  				width: 100%;
+  				background: $secondaryBlue;
+  				content: "";
+  				bottom: 0;
+  				left: 0;
+  				opacity: 1;
+  				transition: .3s ease all;
+  			}
+      }
+  		&:after{
+  			position: absolute;
+  			height: 2px;
+  			width: 100%;
+  			background: $secondaryBlue;
+  			content: "";
+  			bottom: 25%;
+  			left: 0;
+  			opacity: 0;
+  			transition: .3s ease all;
+  		}
+  }
+}
