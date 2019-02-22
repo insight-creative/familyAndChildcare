@@ -32,7 +32,11 @@ get_header();
 					endif;
 
 				endwhile; // End of the loop.
+
 				?>
+
+				<div class="navigation"><p><?php posts_nav_link(' ','Go 
+Forward In Time','Go Back in Time'); ?></p></div>
 
 				</main><!-- #main -->
 

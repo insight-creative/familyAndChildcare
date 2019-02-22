@@ -9,39 +9,31 @@
 
 ?>
 
-<div id="barba-wrapper">
+<div class="postWrapper">
 
-	<div class="barba-container">
+	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+		<header class="entry-header">
+			<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 
-		<div class="pageWidth defaultPadding limitWidth">
+			<?php if ( 'post' === get_post_type() ) : ?>
+			<div class="entry-meta">
+				<?php
+				familyandchildcareresponsive_posted_on();
+				familyandchildcareresponsive_posted_by();
+				?>
+			</div><!-- .entry-meta -->
+			<?php endif; ?>
+		</header><!-- .entry-header -->
 
-			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-				<header class="entry-header">
-					<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
+		<?php familyandchildcareresponsive_post_thumbnail(); ?>
 
-					<?php if ( 'post' === get_post_type() ) : ?>
-					<div class="entry-meta">
-						<?php
-						familyandchildcareresponsive_posted_on();
-						familyandchildcareresponsive_posted_by();
-						?>
-					</div><!-- .entry-meta -->
-					<?php endif; ?>
-				</header><!-- .entry-header -->
+		<div class="entry-summary">
+			<?php the_excerpt(); ?>
+		</div><!-- .entry-summary -->
 
-				<?php familyandchildcareresponsive_post_thumbnail(); ?>
+		<footer class="entry-footer">
+			<?php familyandchildcareresponsive_entry_footer(); ?>
+		</footer><!-- .entry-footer -->
+	</article><!-- #post-<?php the_ID(); ?> -->
 
-				<div class="entry-summary">
-					<?php the_excerpt(); ?>
-				</div><!-- .entry-summary -->
-
-				<footer class="entry-footer">
-					<?php familyandchildcareresponsive_entry_footer(); ?>
-				</footer><!-- .entry-footer -->
-			</article><!-- #post-<?php the_ID(); ?> -->
-
-		</div>
-
-	</div>
-
-</div>			
+</div>	

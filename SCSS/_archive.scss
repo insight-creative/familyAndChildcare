@@ -1,3 +1,6 @@
+.blogHero{
+  background-image: url("/wp-content/uploads/2019/02/momWithChildrens.jpg");
+}
 .postWrapper{
   margin: 25px 0;
 }
@@ -130,4 +133,27 @@
 .attachment-post-thumbnail{
   width: 100%;
   height: auto;
+}
+.entry-content{
+  h2{
+    font-size: 1.5em;
+  }
+}
+.size-full{
+  width: 100%;
+  height: auto;
+}
+.search-form{
+  .search-submit{
+    background-color: $primaryYellow;
+    border: 2px solid $primaryYellow;
+    color: $black;
+    transition: .3s ease all;
+    &:hover{
+      background-color: $transparent;
+      border: 2px solid $primaryYellow;
+      color: $primaryYellow;
+      transition: .3s ease all;
+    }
+  }
 }

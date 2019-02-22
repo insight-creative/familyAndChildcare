@@ -19,6 +19,34 @@ get_header();
 
 	<div class="barba-container">
 
+		<section class="marginedHero">
+
+			<div class="mediumHero blogHero">
+
+				<div class="navWidth smallHeroHeadingContainer">
+
+					<div class="homeHeading flex-container">
+
+						<div>
+
+							<div class="heroHeading">
+
+								<h1 class="mediumHeading">Blog</h1>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<?php get_template_part('inc/blog-cat-nav'); ?>
+
 		<div class="pageWidth defaultPadding limitWidth">
 
 			<div id="primary" class="content-area">
@@ -59,7 +87,7 @@ get_header();
 				?>
 
 				</main><!-- #main -->
-				
+
 			</div><!-- #primary -->
 
 		</div>
